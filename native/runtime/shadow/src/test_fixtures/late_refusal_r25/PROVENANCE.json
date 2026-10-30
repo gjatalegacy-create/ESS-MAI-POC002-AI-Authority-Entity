@@ -1,0 +1,32 @@
+{
+  "purpose": "Storage/replay regression from immutable captured R23 data. Tests explicitly inject typed refusal; not a fresh native authority execution. Actual historical stderr reports MissingNegativeProof.",
+  "total_bytes": 41956,
+  "wal_tags": [
+    6,
+    6
+  ],
+  "files": [
+    {
+      "file": "base.wal",
+      "origin": "C:\\Users\\AG\\Desktop\\ess-mai-project\\codex_r9_security_probe\\r23_candidate_measurement\\evidence\\native_verified\\support\\shadow.svlt",
+      "bytes": 18814,
+      "sha256": "f8c36370e30f56a0b6c0bbe64130096bea41abb17004f14fe7bb93c5c3a38a5c",
+      "prefix": "0134304c56534a47"
+    },
+    {
+      "file": "attempt.pdt1",
+      "origin": "C:\\Users\\AG\\Desktop\\ess-mai-project\\codex_r9_security_probe\\r23_candidate_measurement\\evidence\\native_verified\\support\\handoff\\native_pd_intents\\cd15590d7288e3c78d8ae909b9022ac69146ee03a36cb27057caa1b47fc8191a-43328e22d185b1c3cd0f14a74a41e0fd1ec1e35fa82270eaa55ccd58115f16b0.pdt1",
+      "bytes": 15733,
+      "sha256": "552334291bdc2e82077d89005d9851618c36b10dc99e2dc5bd35cce6b76883ed",
+      "prefix": "504454310b210000"
+    },
+    {
+      "file": "proof.kie",
+      "origin": "C:\\Users\\AG\\Desktop\\ess-mai-project\\codex_r9_security_probe\\r23_candidate_measurement\\evidence\\native_verified\\support\\handoff\\selection_holds\\kie-6dd56cfac0de834f90c1b5081775e25f.kie",
+      "bytes": 7409,
+      "sha256": "826d452391e1145e57d4bcfc38ccff677257778250a9ec8193b5d627b0f9d9e8",
+      "prefix": "4b494831cd070000"
+    }
+  ],
+  "source_stderr_sha256": "45e11a1cad26235da3030c28079bd080c1f1bf1f79f62685c908204cc957a15a"
+}

@@ -1,0 +1,3 @@
+error: no example target named `pd_iz_input` in `shadow_platform` package
+help: available example in `quantum-platform` package:
+    pd_iz_input

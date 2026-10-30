@@ -1,0 +1,149 @@
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=e34b8ee96dda5b9054ab222a93db04611e3b7f62261d28979146a34b6c2bc4da pid=33812 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=1 callback=ENTER authority=0 pid=33812
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=1 callback=RETURNED_OK authority=0 pid=33812
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=9124 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=9124
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=9124
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=4b73c0ea5e52d30e046e78967a37215ab3baacb782c901ae296ed5b42ed7ccc0 pid=33812 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=2 callback=ENTER authority=0 pid=33812
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=2 callback=RETURNED_OK authority=0 pid=33812
+[0-NOI] site=SHADOW_NATIVE_LOOKUP scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=14528 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_NATIVE_LOOKUP occurrence=1 callback=ENTER authority=0 pid=14528
+[NOI_DELIVERY] site=SHADOW_NATIVE_LOOKUP occurrence=1 callback=RETURNED_OK authority=0 pid=14528
+[SHADOW/PD] kind=iz-native-lookup result=OperationalOnly verdict=None knowledge_write=0
+[BESA/0-NOI] map_begin identity=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 authority=0
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=4b73c0ea5e52d30e046e78967a37215ab3baacb782c901ae296ed5b42ed7ccc0 pid=33812 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=3 callback=ENTER authority=0 pid=33812
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=3 callback=RETURNED_OK authority=0 pid=33812
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=31128 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=1 callback=ENTER authority=0 pid=31128
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=1 callback=RETURNED_OK authority=0 pid=31128
+[SHADOW/PD] kind=iz-map result=OperationalOnly verdict=None knowledge_write=0
+[BESA/0-NOI] map_done identity=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 revision=0 authority=0
+[0-NOI] site=SHADOW_CANDIDATE_SELECTION scope=c203f012482fed680cbe314fd8ec5db166c8a6646357909a10c69864047ffd41 pid=34004 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_CANDIDATE_SELECTION occurrence=1 callback=ENTER authority=0 pid=34004
+[NOI_DELIVERY] site=SHADOW_CANDIDATE_SELECTION occurrence=1 callback=RETURNED_OK authority=0 pid=34004
+[QUANTUM_NATIVE_FAILURE_STDOUT]
+╔══ [LIGJI I LEXUAR] platforma=QUANTUM vula=90b17ec6bdaa58f1 ══╗
+║ GJATA_COLLAPSE_LAW — ligji ekzekutiv i identitetit të ESS-MAI:
+║ çdo Primitive Anchor DETYROHET të kalojë nëpër koordinim, eliminim,
+║ arsyetim dhe verifikim deri në një gjendje të vetme të qëndrueshme
+║ (D ∈ {0,1} ose XY).
+║ Zinxhiri: i0→Trace→PA→Xi‖Yi→CoordinateCollapse→LIM→(-Xi)+(-Yi)→PRO→
+║ i≈XY→APRO→MPRO→XY→PIM/NPIM→Shadow→VerificationCollapse→D∈{0,1}.
+║ LAW 0: çdo gjendje ul pasigurinë (kurrë zgjerim; shkelje = fail-closed).
+║ Muskujt: alnur_karina_athar (Light) · ultimatum_collapse_law (Quantum) ·
+║ verefied_diary_supremelaw (Shadow). ESS-MAI == gjata_collapse_law.
+║ Probabilitet FAKTIK (matje×evidencë) — kurrë probabilitet LLM.
+║ NDARJE: 'Primitive Anchor' (PA) = HYRJA (Light, vulë 500); ndryshe nga
+║ 'UNANIM_PRIMITIVE' (Shadow, ∏ᵢXᵢ=1) = dija E VERIFIKUAR. PA hyn, 
+║ UNANIM_PRIMITIVE del i verifikuar — role të ndryshme, pa përplasje.
+╠══ REGJISTRI: 10 LIGJE AKTIVE · vula 7c73fa4c86c35a6f ══╣
+╠══ 3 ROLE EKZEKUTIVE (JO AGJENTË) ══╣
+╚══ ESS-MAI == gjata_collapse_law — ligji është gjallë ══╝
+  [GCL_PRESUME] QUANTUM — KOLAPS_KOORDINIMI : sweep i gatishmërisë (16 module)
+  [GCL_PRESUME]    hpro(layer3) (SUPPORT) → DEGRADED
+  [GCL_PRESUME]    pro(pro.rs) (PRO_SELECT) → DEGRADED
+  [GCL_PRESUME]    npro(npro_lim_bridge) (NPRO_ELIMINATE) → DEGRADED
+  [GCL_PRESUME]    mpro(lim_measurer) (MPRO_MEASURE) → DEGRADED
+  [GCL_PRESUME]    apro(apro.rs) (APRO_ARGUE) → DEGRADED
+  [GCL_PRESUME]    pim(pim.rs) (PIM_PACKAGE) → DEGRADED
+  [GCL_PRESUME]    npim(npim.rs) (NPIM_PACKAGE) → DEGRADED
+  [GCL_PRESUME]    hcp_pro (SUPPORT) → DEGRADED
+  [GCL_PRESUME]    primitive_split_reader (SUPPORT) → DEGRADED
+  [GCL_PRESUME]    token_forge(burimi 2) (SUPPORT) → DEGRADED
+  [GCL_PRESUME]    srk (SUPPORT) → DEGRADED
+  [GCL_PRESUME]    ultimatum_collapse_law (SUPPORT) → READY
+  [GCL_PRESUME]    progressive_debatic (PD_I0_TO_IZ) → DEGRADED
+  [GCL_PRESUME]    hw_pre_gate(10% floor) (SUPPORT) → READY
+  [GCL_PRESUME]    thermal_guard (SUPPORT) → DEGRADED
+  [GCL_PRESUME]    nk_sync(shadow_nk) (SUPPORT) → DEGRADED
+  [GCL_PRESUME] QUANTUM — përfundim: 2/16 READY, 14 DEGRADED, 0 të domosdoshëm JO gati
+  [FIRST_GUARDIAN] QUANTUM — riti i frymës së parë (5 organe)…
+  [FIRST_GUARDIAN]   ✓ fnv_known_vector
+  [FIRST_GUARDIAN]   ✓ pa_wire_roundtrip
+  [FIRST_GUARDIAN]   ✓ token_forge_derdh
+  [FIRST_GUARDIAN]   ✓ termik_unknown_ligj
+  [FIRST_GUARDIAN]   ✓ nk_vula_dhe_celesi
+  [FIRST_GUARDIAN] QUANTUM — FRYMA E PARË ✓ (5/5) — dëshmia u vulos
+
+  ESS-MAI QUANTUM PLATFORM 
+  Rrjedha: Light → Quantum → Shadow → Light
+  Sovereign 0-copy | LIM | HW_REAL | PRO | NPRO/NPIM | SRK | PIM
+  Gjata Legacy™
+  [HW]       SENSORË REALË: hw_kernel AKTIV — matjet vijnë nga makina
+
+════════════════════════════════════════════════════════════════════════════
+  INPUT REAL (nga Light, stdin)
+════════════════════════════════════════════════════════════════════════════
+  [LIGHT→Q]  trace=T3_18d53802f33decd1_P00008414_18e35caabffcf8c4 domain=WORK→NURA text="Evaluate Earth rotation angle under the declared mathematical model only."
+             input_sha256=7fb239cf357e7a13ae1b6d8419107473c11330312c1c5cabe404369017ddd4d7 (Light→Quantum ✓)
+             carries_seal=true
+             evolve[typed]: gen=0 state=EVOLVING primitive=false
+  [SOVEREIGN] ring 0-copy → Ev.mass=0.342 (sinjal hyrës i derivuar, transport LIGJI 0)
+  [KOLAPS/2] ARSYETIMI nis: i₀=i0-18d53802f33decd1 Xi=1 Yi=6 (nga Light)
+[PD_IZ] record=8dbdfd57ce4e0f1ecab511f4df2a672260c54de8fc9a873f8d152b95d0539ded question=Operational_iZ — Rasti lgc-824d5388a12f26103c78cac6f16283ad64f17609d489d1415f51d86648676c33 ruan pyetjen fillestare «Evaluate Earth rotation angle under the declared mathematical model only.» dhe detyrimin ASHT exact positive-negative distinction. Në hyrjen reale të tanishme «Evaluate Earth rotation angle under the declared mathematical model only.», tentativa T3_18d53802f33decd1_P00008414_18e35caabffcf8c4 nuk gjeti të dy kandidatët pozitiv dhe negativ të pranuar saktësisht për Xi/Yi e saj. Për të ngushtuar detyrimin e provës, jep materialin pozitiv mbështetës; materialin negativ kundërshtues; dallimin konkret midis Xi dhe Yi; burimin e kontrollueshëm; kushtin ose provën që do ta rrëzonte dallimin. Nëse nuk e ke këtë material, thuaje; mungesa nuk plotësohet automatikisht. Referencat e mbledhura ruajnë vetëm material USER_REPORTED për të njëjtin detyrim; prania e tekstit nuk provon relevancë ose vërtetësi dhe nuk plotëson vetë Xi/Yi. Kjo pyetje kërkon provën që mungon; nuk parashikon përgjigjen e ardhshme dhe nuk është i₀ i përdoruesit. HOLD vijon; NoVerdict.
+
+[QUANTUM_NATIVE_FAILURE_STDERR]
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=24596 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=24596
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=24596
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=12132 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=1 callback=ENTER authority=0 pid=12132
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=1 callback=RETURNED_OK authority=0 pid=12132
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[D-BAB/CONDITIONS] phase=before required=3 available=unknown missing=unknown negative_condition=false authority=0
+[IZ/LGC] event=precondition attempt=T3_18d53802f33decd1_P00008414_18e35caabffcf8c4 digest=b25df746e288054f79e2e2459900265eb19998f5250781e833e776956758dd2c
+[IZ/LGC] event=action_activation digest=7297452a9ef8b1542de4d4e18c94fb3e1811710fea1517dd897420021a470761
+[0-NOI] site=SHADOW_CANDIDATE_SELECTION scope=8c8ec50c6eb123952b9784f0aa3749c482fe3d5037064967573cd6751b54912a pid=31888 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_CANDIDATE_SELECTION occurrence=1 callback=ENTER authority=0 pid=31888
+[NOI_DELIVERY] site=SHADOW_CANDIDATE_SELECTION occurrence=1 callback=RETURNED_OK authority=0 pid=31888
+[D-BAB/CONDITIONS] phase=after status=FailedMissing required=3 available=Some(0) missing=Some(3) gap_count=Some(2) condition_mass_fixed=Some(10000) negative_condition=true semantic_counterproof=false authority=0 lgc=6fd1160e69b68930146a4201a18b125c15ce13c206b98fe3eaa6abe15fc4d5eb
+[IZ/LGC] event=outcome digest=6fd1160e69b68930146a4201a18b125c15ce13c206b98fe3eaa6abe15fc4d5eb
+[IZ/LGC] event=pd_checkpoint turns=1 sha256=82ec3a3bbe640f869885689416649192bc7fd35ad95d847017057236a7440ad4
+[IZ/LGC] event=assembly_activation digest=9004505623a2157666fd0f1d809f042dd5ee8378f08f5538ce1a3e01822bed9b
+[IZ/LGC] sequence=0 site=origin digest=3db2f9c98dadbffb1bba2538be2553df55444a4d65a048773cf1b126ab7b4588
+[IZ/LGC] sequence=1 site=D-BAB/pre digest=ba26925539368aba74af57fc621d5f3c890222c7bf560fe8a65d80825e1a1061
+[IZ/LGC] sequence=2 site=0-NOI/action digest=520976f798089dfea53509af657b2159abe1889954e399828a5e6888c42de8e9
+[IZ/LGC] sequence=3 site=D-BAB/outcome digest=c1ab1a4b70d6c65b1ecf9174ba9c4782238cdb6aa29e2e7e94c18262497d8eff
+[IZ/LGC] sequence=4 site=0-NOI/assembly digest=641d92d280448dc943969f95c589e9496d31e49ebd07cc171a1018cdb1cdccb5
+[IZ/LGC] sequence=5 site=PD/Operational_iZ digest=2411da1d547e85c7f7a5c5fe432c01941176b45fd73145abaf2b6ad5acbc9b64
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=21564 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=21564
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=21564
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=21564 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=21564
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=21564
+[0-NOI] site=SHADOW_PERSIST_PD scope=8dbdfd57ce4e0f1ecab511f4df2a672260c54de8fc9a873f8d152b95d0539ded pid=21564 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PERSIST_PD occurrence=3 callback=ENTER authority=0 pid=21564
+[NOI_DELIVERY] site=SHADOW_PERSIST_PD occurrence=3 callback=RETURNED_OK authority=0 pid=21564
+[SHADOW/PD] kind=commit result=OperationalOnly verdict=None knowledge_write=0
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=41368 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=41368
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=41368
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+
+[QUANTUM] FAIL-CLOSED: 1/1 cikle dështuan.
+
+[Operational_iZ] native terminal unavailable: BridgeError("QBRIDGE:PROCESS_EXIT:status=exit code: 1; stderr=[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=24596 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0 [NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=24596 [NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=24596 [SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0 [0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01f"); resolving exact Vault operation
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=e34b8ee96dda5b9054ab222a93db04611e3b7f62261d28979146a34b6c2bc4da pid=33812 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=4 callback=ENTER authority=0 pid=33812
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=4 callback=RETURNED_OK authority=0 pid=33812
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=34872 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=34872
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=34872
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[0-NOI] site=LIGHT_IZ_DELIVERY scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=33812 occurrence=5 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_IZ_DELIVERY occurrence=5 callback=ENTER authority=0 pid=33812
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=80c8816bed589a8e52969caadf522d10135b1d7b91df4300acba7447bba670d4 pid=33812 occurrence=6 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=6 callback=ENTER authority=0 pid=33812
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=6 callback=RETURNED_OK authority=0 pid=33812
+[0-NOI] site=LIGHT_OPERATIONAL_OUTPUT scope=8dbdfd57ce4e0f1ecab511f4df2a672260c54de8fc9a873f8d152b95d0539ded pid=33812 occurrence=7 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_OPERATIONAL_OUTPUT occurrence=7 callback=ENTER authority=0 pid=33812
+[NOI_DELIVERY] site=LIGHT_OPERATIONAL_OUTPUT occurrence=7 callback=RETURNED_OK authority=0 pid=33812
+[NOI_DELIVERY] site=LIGHT_IZ_DELIVERY occurrence=5 callback=RETURNED_OK authority=0 pid=33812
+[0-NOI] site=LIGHT_RELEASE_PROCESS scope=light-runtime pid=33812 occurrence=8 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_RELEASE_PROCESS occurrence=8 callback=ENTER authority=0 pid=33812
+[NOI_DELIVERY] site=LIGHT_RELEASE_PROCESS occurrence=8 callback=RETURNED_OK authority=0 pid=33812

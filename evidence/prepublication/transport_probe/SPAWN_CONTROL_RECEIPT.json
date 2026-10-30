@@ -1,0 +1,82 @@
+{
+  "recorded_at_utc": "2026-10-30T17:18:19.643670+00:00",
+  "scope": "Diagnostic control measures Command::spawn separately, then kills at the same 750ms budget or immediately after a late spawn. No native code changes; not a replacement transport test.",
+  "commands": [
+    {
+      "name": "build-spawn-timing",
+      "command": [
+        "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\rustc.exe",
+        "--edition=2021",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\spawn_timing.rs",
+        "-o",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\spawn_timing.exe"
+      ],
+      "exit_code": 0,
+      "seconds": 0.609
+    },
+    {
+      "name": "build-spawn-c",
+      "command": [
+        "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\rustc.exe",
+        "--edition=2021",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\diagnostic_child.rs",
+        "-o",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\diagnostic_c.exe"
+      ],
+      "exit_code": 0,
+      "seconds": 0.985
+    },
+    {
+      "name": "spawn-c-first",
+      "command": [
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\spawn_timing.exe",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\diagnostic_c.exe",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\spawn-c-first.markers"
+      ],
+      "exit_code": 0,
+      "seconds": 1.422
+    },
+    {
+      "name": "spawn-c-second",
+      "command": [
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\spawn_timing.exe",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\diagnostic_c.exe",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\spawn-c-second.markers"
+      ],
+      "exit_code": 0,
+      "seconds": 0.781
+    },
+    {
+      "name": "build-spawn-d",
+      "command": [
+        "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\rustc.exe",
+        "--edition=2021",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\diagnostic_child.rs",
+        "-o",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\diagnostic_d.exe"
+      ],
+      "exit_code": 0,
+      "seconds": 0.922
+    },
+    {
+      "name": "spawn-d-first",
+      "command": [
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\spawn_timing.exe",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\diagnostic_d.exe",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\spawn-d-first.markers"
+      ],
+      "exit_code": 0,
+      "seconds": 1.157
+    },
+    {
+      "name": "spawn-d-second",
+      "command": [
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\spawn_timing.exe",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\diagnostic_d.exe",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\spawn-d-second.markers"
+      ],
+      "exit_code": 0,
+      "seconds": 0.781
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+SYNTHETIC STORAGE FIXTURE. Actual PD checkpoint/pending; synthetic selection, layer and receipt data. No native GCL admission and no accepted scientific P/N. Request SHA [7;32], transaction placeholder [9;32].

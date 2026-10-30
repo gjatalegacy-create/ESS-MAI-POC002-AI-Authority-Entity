@@ -1,0 +1,17 @@
+[package]
+name = "science-domains"
+version = "0.1.0"
+edition = "2021"
+description = "Scoped offline scientific candidates; no knowledge or constitutional authority"
+
+[lib]
+name = "science_domains"
+path = "src/lib.rs"
+
+[dependencies]
+sofars = { path = "../../vendor/sofars-0.6.1", version = "=0.6.1" }
+sha2 = "=0.10.9"
+
+# future compiler warnings fail the build; no lint suppression.
+[lints]
+workspace = true

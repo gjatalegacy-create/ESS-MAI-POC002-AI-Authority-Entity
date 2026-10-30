@@ -1,0 +1,42 @@
+[
+  {
+    "path": "quantum/src/ultimatum_collapse_law.rs",
+    "reference_identical": true,
+    "sha256": "c1a660ac6d20425ca67aa0e702019b5a5a9bd0489c4f6da827c006e82d6fbb1e"
+  },
+  {
+    "path": "quantum/src/asht_quantum.rs",
+    "reference_identical": true,
+    "sha256": "5dcfb8a4f49fb7ab3f7e973650a22de3ce55f78db760974d2b7cf6d6afe580bb"
+  },
+  {
+    "path": "quantum/src/pro.rs",
+    "reference_identical": true,
+    "sha256": "2354d33f338f9d91577cccecdb2431c483d241ec38c22e9f8989de7f61697e3e"
+  },
+  {
+    "path": "quantum/src/npro.rs",
+    "reference_identical": true,
+    "sha256": "8f40d4a25e312b69083215fa4ddc1405ed8f22dcc0443f74fbe4c7e3fd12dea9"
+  },
+  {
+    "path": "quantum/src/kie_measurement.rs",
+    "reference_identical": true,
+    "sha256": "3785bfa71c1953b58661c1c576e764d03ede5d4b1006c3d33d2dc1ce9cff5914"
+  },
+  {
+    "path": "quantum/src/main.rs",
+    "reference_identical": true,
+    "sha256": "5949736959d604e62d3c42945c53f43c98a0009dc707b2addac077caf6e3517b"
+  },
+  {
+    "path": "shadow-contracts/src/pd_memory/failure.rs",
+    "reference_identical": true,
+    "sha256": "68dad0277b3c2a6811f3d8c8f012bcd603fb30b0579b610aba4a8aa066b7d528"
+  },
+  {
+    "path": "shadow-contracts/src/model_operator_measurement.rs",
+    "reference_identical": true,
+    "sha256": "ecbb543a5e0585520793ac6a8408faad5da9fdcb43fc726b7e6cccb87b933e17"
+  }
+]

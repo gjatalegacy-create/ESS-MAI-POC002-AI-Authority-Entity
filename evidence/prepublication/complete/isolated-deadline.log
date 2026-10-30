@@ -1,0 +1,21 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.18s
+     Running tests\process_deadline_contracts.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\poc002_native_hierarchy\debug\deps\process_deadline_contracts-0bd771f37c4bc4eb.exe)
+
+running 1 test
+test blocked_stdin_obeys_deadline_and_retains_output ... FAILED
+
+failures:
+
+---- blocked_stdin_obeys_deadline_and_retains_output stdout ----
+
+thread 'blocked_stdin_obeys_deadline_and_retains_output' (39628) panicked at light\tests\process_deadline_contracts.rs:35:5:
+assertion failed: String::from_utf8_lossy(&e.stdout).contains("retained-before-wait")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    blocked_stdin_obeys_deadline_and_retains_output
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 6 filtered out; finished in 1.66s
+
+error: test failed, to rerun pass `-p light-platform --test process_deadline_contracts`

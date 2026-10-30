@@ -1,0 +1,7 @@
+CASE=original-a-first START_EPOCH_NS=1793380606829559400 TIMEOUT_MS=750 INPUT_BYTES=65536 CAPTURE_LIMIT=1024
+WALL_ELAPSED_NS=760423200
+STDOUT_LEN=21 STDERR_LEN=19
+STDOUT_BYTES=[114, 101, 116, 97, 105, 110, 101, 100, 45, 98, 101, 102, 111, 114, 101, 45, 119, 97, 105, 116, 10]
+STDERR_BYTES=[115, 116, 100, 101, 114, 114, 45, 98, 101, 102, 111, 114, 101, 45, 119, 97, 105, 116, 10]
+STDOUT_MARKER=true STDERR_MARKER=true
+FULL_FAILURE=ProcessFailure { spawn_failed: false, timed_out: true, elapsed: 760.1453ms, detail: "transport deadline exceeded; direct_child_kill=Ok(()); child_reaped=true; pending_io_workers=0; cleanup_complete=true; cleanup_error=None", stdout: [114, 101, 116, 97, 105, 110, 101, 100, 45, 98, 101, 102, 111, 114, 101, 45, 119, 97, 105, 116, 10], stderr: [115, 116, 100, 101, 114, 114, 45, 98, 101, 102, 111, 114, 101, 45, 119, 97, 105, 116, 10] }

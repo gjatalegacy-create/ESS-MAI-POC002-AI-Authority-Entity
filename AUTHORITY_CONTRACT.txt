@@ -1,0 +1,89 @@
+POC002 — Entiteti AUTORITETI AI, si propozim arkitekturor
+Autor i konceptit dhe arkitekturës: Bledar Gjata / ESS-MAI
+
+Autoriteti është kompetencë ekzekutuese brenda juridiksionit, me
+detyrë dhe ligj të zbatueshëm. Hierarkia përfshin autoritete që
+koordinojnë kompetenca të dalluara vartëse. GCL është kushtetuta
+e këtij rendi; nuk është një votues ose një autoritet shtesë.
+
+Në provë, LIGHT koordinon; QUANTUM organizon përpunimin dhe
+kompetencat ASHT/PRO/NPRO; SHADOW verifikon dhe zotëron shkrimin në
+memorie. Emrat dhe rendi janë marrë nga kodi, jo krijuar nga driver-i.
+
+FORMALIZIM I SJELLJEVE EKZISTUESE
+
+1. Tranzicioni UCL për dy kompetenca ASHT:
+
+   delta(XiYiLoaded, ScopeAsht) = AshtScoped
+   commands = {Historical(scope_H), KiE(scope_K)}
+   scope_H != scope_K
+   delta(AshtScoped, ScopeAsht) = Error
+
+Të dy komandat lëshohen në një tranzicion. Ndalimi i rilëshimit
+zbatohet në instancën UCL; nuk do të thotë që një kompetencë tjetër
+e autoritetit është ndaluar. As nuk e ndalon një cikël të ri.
+
+2. Kufiri i endpoint-it shkencor:
+
+   scope/direktivë/provë e pavlefshme -> Err
+   scope i vlefshëm, kapacitet i pamjaftueshëm -> Ok(None) / Held
+   kushte të plotësuara -> Ok(Some(matje))
+
+Matje me kandidat zero nuk është Held. Mungesa historike ASHT
+kalon në vazhdimin KiE vetëm kur riprodhohet nga request/response
+ekzakt; një gabim i arbitruar nuk jep leje për të vazhduar.
+
+3. Brenda modelit numerik të përdorur:
+
+   d = (era00(JD1, JD2) - claim).rem_euclid(TAU)
+   signed = d - TAU * [d > PI]
+   r = |signed|
+   KiS = [r < tolerance]
+   KiC = [r > tolerance]
+   unresolved = [r = tolerance]
+
+Burimi normalizon zeron dhe përdor f64; TAU/PI janë konstantet e tij.
+Këto janë predikate të modelit, jo probabilitete dhe jo observime.
+Shadow merr materialin e scoped dhe bën verifikimet e veta.
+Pranimi i një predikati nga PRO/NPRO nuk është verdikt i Shadow.
+
+4. Riprovimi i të njëjtës kërkesë në SHADOW:
+
+   stored = (identity, request_sha256, prepared_bytes, response)
+   i njëjti identity + request_sha256 + prepared_bytes -> response ekzakt
+   i njëjti identity me material tjetër -> konflikt
+
+T1 kontrollohet përpara rigjykimit; T2 merret nga T1 i ruajtur.
+Prova reale mat:
+
+   bytes(response_retry) = bytes(response_original)
+   SHA256(Vault_after) = SHA256(Vault_before)
+   length(Vault_after) = length(Vault_before)
+
+Ky kufi ruan një efekt të qëndrueshëm për atë kërkesë. Procesi mund
+të rihapë/lexojë memorien dhe të shkruajë skedarin e përgjigjes.
+Hash-i lidh bajtet; vetëm hash-i nuk krijon kompetencë ose autorësi.
+
+5. Vazhdimësia:
+
+   case(C1)=case(C2)=case(C3)=case(C4)=case(C5)
+   predecessor(native_C5)=identity(native_C3)
+
+Një operacion i ri ka detyrën/hyrjen e vet dhe respekton kreun e
+ruajtur. Riprovimi i vjetër nuk zëvendëson kreun aktual. D-BAB
+dëshmon mungesat; 0-NOI nxit thirrjen dhe nuk jep autoritet.
+
+KUFIRI I PRETENDIMIT
+
+Prova tregon një hierarki konkrete që punon, deklaron HOLD, refuzon
+konfliktin dhe kryen verifikim e persistencë. Nuk shpall risinë
+akademike të provuar, sigurinë universale ose një ndalim global të
+çdo thirrjeje të dyfishtë të funksioneve publike PRO/NPRO. Renditja
+kanonike dhe kontrolli i gjurmës nuk janë e njëjta gjë me një regjistër
+global të kompetencave të konsumuara. Një regjistër i tillë nuk është
+shtuar për të ndryshuar metodën e burimit.
+
+Formula të reja fizike nuk janë futur: kernelët C, HCP dhe kontrollet
+e burimit ekzekutohen siç janë. Logu dallon vëzhgimin Windows të
+baterisë nga vlerësimi termik matematikor. Kjo provë nuk mat kursim
+energjie, latencë të garantuar ose avantazh fizik të ri.

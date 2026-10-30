@@ -1,0 +1,45 @@
+[
+  {
+    "turn": 1,
+    "input": "Evaluate Earth rotation angle under the declared mathematical model only.",
+    "input_sha256": "7fb239cf357e7a13ae1b6d8419107473c11330312c1c5cabe404369017ddd4d7",
+    "kind": "operational",
+    "inspection": "c1.inspection.json"
+  },
+  {
+    "turn": 2,
+    "input": "The Earth rotation angle must be checked under the same declared model. I do not yet supply a numerical claim or a measured observation.",
+    "input_sha256": "26b5581d09d5db4f4e21da9768585157e11039657676d265676d8b6385762ce5",
+    "kind": "operational",
+    "inspection": "c2.inspection.json"
+  },
+  {
+    "turn": 3,
+    "input": "Evaluate the exact claim 0.40228372400281387 radian, using UT1 and tolerance 1e-12 radian. Model only.",
+    "input_sha256": "0a158c4603e5489e1907e8df5000294c36ad455e0cce2e0d3e4d62503f1a6655",
+    "kind": "native",
+    "inspection": "c3.inspection.json",
+    "verdict": [
+      1,
+      1
+    ]
+  },
+  {
+    "turn": 4,
+    "input": "For the same Earth rotation angle investigation, evaluate a new opposing numerical claim; I have not supplied that claim yet.",
+    "input_sha256": "d2e480372d0cb2da6b680f42dc8231e6321fae3f3fe48bec4e09261a1cac7fa0",
+    "kind": "operational",
+    "inspection": "c4.inspection.json"
+  },
+  {
+    "turn": 5,
+    "input": "Evaluate the exact claim 0.0 radian, using UT1 and tolerance 1e-12 radian. Model only.",
+    "input_sha256": "a63b75cbdf9da4b548e4e7ea56a523da0eff0b7bc4303d24c2326f2928c575a0",
+    "kind": "native",
+    "inspection": "c5.inspection.json",
+    "verdict": [
+      0,
+      0
+    ]
+  }
+]

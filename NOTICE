@@ -1,0 +1,25 @@
+ESS-MAI POC002 — AI Authority Entity
+Copyright 2026 Bledar Gjata
+
+This distribution contains the author-approved public native runtime source
+from AIGovern-Cyber, derived from ESS-MAI, together with experiment packaging,
+documentation and evidence. The authored code and capsule are distributed
+under the Apache License, Version 2.0; see LICENSE.
+
+AI Authority Entity and constitutional self-governance are architectural
+paradigm proposals attributed to Bledar Gjata. This attribution does not
+claim invention of the established programming, cryptographic, numerical
+or storage techniques used in the implementation.
+
+Third-party material:
+  native/vendor/sofars-0.6.1
+  Copyright 2025 Astro XAO
+  Distributed under its preserved MIT license at:
+  native/vendor/sofars-0.6.1/LICENSE
+
+Other Cargo dependencies retain their respective licenses. This NOTICE
+does not replace those licenses or imply their authors endorse ESS-MAI.
+
+Source provenance: provenance/SOURCE_MANIFEST.json
+Author identifier: https://orcid.org/0009-0003-7854-266X
+Parent project: https://github.com/gjatalegacy-create/ESS-MAI

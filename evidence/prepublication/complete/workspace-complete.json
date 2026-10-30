@@ -1,0 +1,102 @@
+{
+  "command": [
+    "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\cargo.exe",
+    "test",
+    "--offline",
+    "--locked",
+    "--workspace",
+    "--no-fail-fast",
+    "--",
+    "--test-threads=1"
+  ],
+  "exit_code": 101,
+  "seconds": 313.73,
+  "summaries": [
+    {
+      "status": "ok",
+      "passed": 2,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "status": "ok",
+      "passed": 12,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "status": "ok",
+      "passed": 237,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "status": "FAILED",
+      "passed": 6,
+      "failed": 1,
+      "ignored": 0
+    },
+    {
+      "status": "ok",
+      "passed": 698,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "status": "ok",
+      "passed": 21,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "status": "ok",
+      "passed": 28,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "status": "ok",
+      "passed": 216,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "status": "ok",
+      "passed": 597,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "status": "ok",
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "status": "ok",
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "status": "ok",
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "status": "ok",
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "status": "ok",
+      "passed": 4,
+      "failed": 0,
+      "ignored": 0
+    }
+  ],
+  "log_sha256": "22c9f3be75fc99203dad56542f7f4a68f2b97b41ef6ec2dcec68bc67dd6e2306",
+  "runtime_source_changes": 0
+}

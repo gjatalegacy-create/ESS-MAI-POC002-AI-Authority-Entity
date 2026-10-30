@@ -1,0 +1,56 @@
+[package]
+name        = "light-platform"
+version     = "1.7.8"
+edition     = "2021"
+authors     = ["Bledar Gjata <gjata@legacy.al>"]
+description = "AIGovern-Cyber Light Platform — Koordinues Sovran + APUPK/SNB/MiniEvolver + 0-copy + Layer 2 (zero if/else)"
+
+# ─────────────────────────────────────────────────────────────────────────────
+# FEATURES
+# Default = runtime real me kernelin C; kompilon offline, pa varësi rrjeti/AI.
+# Inicializimi i dështuar ndalet fail-closed. Simulimi kërkon feature eksplicit.
+# Lingua: pure-Rust SQ+EN full, e brendshme — pa asnjë crate gjuhësor të jashtëm.
+#   c_kernel    → kompilon kernelët C (light_buss, shadow_gj_legacy, buss_legacy)
+#   full        → runtime_mode + c_kernel
+# ─────────────────────────────────────────────────────────────────────────────
+[features]
+# SINTEZË: runtime_mode = ekzekutim real i deklaruar qartë (default).
+#   • runtime_mode (default) → përfshin c_kernel; pa kernel/bus → fail-closed.
+#   • dev_simulation (eksplicit) → lejon no-op fallback VETËM për testim lokal.
+#   • Të dyja s'duhet të jenë bashkë; runtime_mode ka përparësi në fail-closed.
+# PROD:  cargo build --release  (runtime_mode përfshin c_kernel)
+# TEST:  cargo test --no-default-features --features dev_simulation
+default        = ["runtime_mode"]
+runtime_mode   = ["c_kernel"]
+dev_simulation = []
+c_kernel   = []
+full       = ["runtime_mode", "c_kernel"]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# DEPENDENCIES
+#   Bërthama (sha2, hmac, serde, tracing) — gjithmonë; pa rrjet në runtime.
+# ─────────────────────────────────────────────────────────────────────────────
+[dependencies]
+# explicit offline scientific-input codec; no network provider.
+science-domains = { path = "../science-domains" }
+ess-mai-zero-noi = { path = "../zero-noi" }
+gcl_constitution = { package = "gcl-constitution", path = "../gcl-constitution" }
+# Kriptografi — KODUNIK / LGC seal
+sha2               = "0.10"
+shadow_contracts   = { path = "../shadow-contracts" }
+hmac               = "0.12"
+
+# Serializim — ess_manifest report
+serde              = { version = "1", features = ["derive"] }
+serde_json         = { version = "1", features = ["raw_value"] }
+
+# Logging
+tracing            = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt"] }
+
+[build-dependencies]
+cc = "1"
+
+# future compiler warnings fail the build; no lint suppression.
+[lints]
+workspace = true

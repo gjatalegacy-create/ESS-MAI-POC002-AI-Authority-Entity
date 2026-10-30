@@ -1,0 +1,17 @@
+{
+  "classification": "Exact immutable historical native02 data for Shadow storage/map regression only. Does not execute fresh ASHT/GCL admission or prove current inquiry success. Original files remain read-only.",
+  "files": [
+    {
+      "file": "base.wal",
+      "origin": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_05\\state\\native_iz_kie_r5_02\\vault\\shadow.svlt",
+      "bytes": 82165,
+      "sha256": "b7788f9d8c0b73e0a813a4bb547e4e72bf4f0bc0509f67be77964c2047370cb0"
+    },
+    {
+      "file": "support.bundle",
+      "origin": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_05\\evidence\\native_iz_kie_r5_02\\support-native.bundle",
+      "bytes": 8949,
+      "sha256": "0a03377ca18dcbb4e2852b5b663a0bd45318b9c3baa70303d364fffdb5b51411"
+    }
+  ]
+}

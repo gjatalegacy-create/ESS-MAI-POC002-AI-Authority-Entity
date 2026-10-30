@@ -1,0 +1,7 @@
+{
+  "light-platform.exe": "7f8c5894db66a09f6c890466bde407eb1ce38d9e411f4cef6649b4d670563346",
+  "quantum-platform.exe": "2efde3d797214f31102122849dbdc6597ef11f6eb2e1f4a3df3aaf1c016ecafc",
+  "shadow_platform.exe": "1254edb13240df927e4b0ad1fda45627c7fef4fde125fef2348e29fe80054e64",
+  "examples/pd_iz_input.exe": "48b91941d48b7039997c992175224848beb4f5f33f0e982a79f73386dd3673e5",
+  "examples/pd_recovery_inspect.exe": "d7f6aa86cf117dc3828b2827b3f3f81e0593362ed8f2ac83a8286677f9340369"
+}

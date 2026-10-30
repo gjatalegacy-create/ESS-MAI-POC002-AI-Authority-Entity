@@ -1,0 +1,70 @@
+{
+  "cwd": "C:\\Users\\AG\\Desktop\\ess-mai-project\\poc\\poc-002-ai-authority-entity\\native\\runtime",
+  "environment": {
+    "CC": "C:/msys64/mingw64/bin/gcc.exe",
+    "AR": "C:/msys64/mingw64/bin/ar.exe",
+    "RUSTC": "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\rustc.exe",
+    "RUSTDOC": "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\rustdoc.exe",
+    "CARGO_TARGET_DIR": "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy",
+    "CARGO_BUILD_JOBS": "2",
+    "TEMP": "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\verified\\test-temp"
+  },
+  "results": [
+    {
+      "step": "toolchain",
+      "command": "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\rustc.exe --version --verbose",
+      "exit_code": 0,
+      "seconds": 0.05,
+      "passed": 0,
+      "log_sha256": "7da7a231f6da285af31227bd8500ec901066365cf40b12c014e944437758e5a2"
+    },
+    {
+      "step": "hierarchy",
+      "command": "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\cargo.exe test --offline --locked -p quantum-platform --lib ultimatum_collapse_law:: -- --test-threads=1",
+      "exit_code": 0,
+      "seconds": 84.35,
+      "passed": 5,
+      "log_sha256": "e96e0005169eac350f279f639653ecff5b7cfdaed63c37d927dd624e1bd57e76"
+    },
+    {
+      "step": "routes",
+      "command": "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\cargo.exe test --offline --locked -p quantum-platform --lib r28_real_model_endpoints -- --test-threads=1",
+      "exit_code": 0,
+      "seconds": 0.33,
+      "passed": 3,
+      "log_sha256": "af5916d692addc0cadadc2918d485a4336d59fb2a3e70a3960016b4567b12f80"
+    },
+    {
+      "step": "asht",
+      "command": "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\cargo.exe test --offline --locked -p quantum-platform --bin quantum-platform r26_kie_history_input_tests:: -- --test-threads=1",
+      "exit_code": 0,
+      "seconds": 28.5,
+      "passed": 6,
+      "log_sha256": "dc3bbdedced3e7b4320be0748f3b2e633cbc1db5e26ea5e646667b8402b5d786"
+    },
+    {
+      "step": "order",
+      "command": "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\cargo.exe test --offline --locked -p quantum-platform --lib convergence_retains_canonical_order_uniqueness_and_replay_binding -- --test-threads=1",
+      "exit_code": 0,
+      "seconds": 0.19,
+      "passed": 1,
+      "log_sha256": "b3dfe514790413e4f543252adc5b2f5be7e33f2656dcba62e14eff3197841fd0"
+    },
+    {
+      "step": "missing",
+      "command": "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\cargo.exe test --offline --locked -p shadow_contracts --lib exact_missing_negative_is_eligible_but_complete_pair_is_not -- --test-threads=1",
+      "exit_code": 0,
+      "seconds": 35.67,
+      "passed": 1,
+      "log_sha256": "f12c8de99a0070e6f16956ae18d61a12a9e0b38909a01d958ad8db69786f9748"
+    },
+    {
+      "step": "release",
+      "command": "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\cargo.exe build --offline --locked --release -p quantum-platform",
+      "exit_code": 0,
+      "seconds": 120.82,
+      "passed": 0,
+      "log_sha256": "78013dbd6cad83edb78140c2296a705c60e694232fde53bd6f64d0aee4631464"
+    }
+  ]
+}

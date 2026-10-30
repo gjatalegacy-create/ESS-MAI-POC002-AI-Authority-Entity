@@ -1,0 +1,159 @@
+{
+  "author": "CODEX — GPT-6",
+  "scope": "SYNTHETIC STORAGE/FORMULA FIXTURE; actual PD checkpoint, synthetic selection/layers/receipt, not native GCL admission",
+  "generator": "quantum::pd_prepared::iz_v5_tests::v5_common_t2_formula_and_real_pd_finalizer_agree_for_both_synthetic_receipts",
+  "generation_receipt": "codex_zvn/round_04/evidence/v5_fixture_generation_01/RESULT.json",
+  "generation_source_manifest_sha256": "ed592902a79a7d0a847c3eb495678e0b6f3709e8f995e342e4cef7eaec02fdef",
+  "fixtures": [
+    {
+      "file": "initial-negative/child.continuation.bin",
+      "bytes": 647,
+      "sha256": "c8180cd236b280279d62832ceb94d7fe9eb213138a2d1836abcbc0cc120296c0"
+    },
+    {
+      "file": "initial-negative/child.prepared.bin",
+      "bytes": 2615,
+      "sha256": "81f50cf4971d7461607d2ba122083e3d9accddd86f589972fb2ea4ae1b0faac3"
+    },
+    {
+      "file": "initial-negative/child.response.wire",
+      "bytes": 613,
+      "sha256": "f6a1f74b0d660d6ac96c21d21f0c488e9f320063785ef361482de65bcb279090"
+    },
+    {
+      "file": "initial-negative/continuation.bin",
+      "bytes": 638,
+      "sha256": "0acd1b705b47cfa0a37b68dabb3cc9db4cb8e10d9f2a341cb05726b5ea1cd98c"
+    },
+    {
+      "file": "initial-negative/NOTICE.txt",
+      "bytes": 210,
+      "sha256": "92110ca786d7f24a56f28942d830dc9e7d6eedacf12c106397784d0a7eebff32"
+    },
+    {
+      "file": "initial-negative/prepared.bin",
+      "bytes": 4230,
+      "sha256": "897345aee2a390e341bbd0f635773e6ddf21fdabd648ed3d5a5694990128a9c7"
+    },
+    {
+      "file": "initial-negative/response.wire",
+      "bytes": 595,
+      "sha256": "99f89629d492d8a8641ffe41669837760f53e0fee688d27468fafc3dd439fe84"
+    },
+    {
+      "file": "initial-positive/child.continuation.bin",
+      "bytes": 582,
+      "sha256": "93c05a7b32b9915610b4366aa127f61b49c0c7e1f1ebfc06731a95fee047a478"
+    },
+    {
+      "file": "initial-positive/child.prepared.bin",
+      "bytes": 2615,
+      "sha256": "c874f1a4d0d3d0c91f0274f1251a9e500294effdf866af757af3534904178d6f"
+    },
+    {
+      "file": "initial-positive/child.response.wire",
+      "bytes": 613,
+      "sha256": "efa22b8e8ee0682023ad48ea6b296b6b50dd570899aa6d4a1909c7e0d658db84"
+    },
+    {
+      "file": "initial-positive/continuation.bin",
+      "bytes": 573,
+      "sha256": "a7b624ee29e0ef6a45fa79d3508e29aad0df11420c04b7c74d0e952c620dbc59"
+    },
+    {
+      "file": "initial-positive/NOTICE.txt",
+      "bytes": 210,
+      "sha256": "92110ca786d7f24a56f28942d830dc9e7d6eedacf12c106397784d0a7eebff32"
+    },
+    {
+      "file": "initial-positive/prepared.bin",
+      "bytes": 4230,
+      "sha256": "897345aee2a390e341bbd0f635773e6ddf21fdabd648ed3d5a5694990128a9c7"
+    },
+    {
+      "file": "initial-positive/response.wire",
+      "bytes": 595,
+      "sha256": "d84118abc0c218a0c1f4c3f02b269251b358fe839d94f029117f2021c49ecc00"
+    },
+    {
+      "file": "parent-negative/child.continuation.bin",
+      "bytes": 647,
+      "sha256": "a41e9b65a3e90dd78e99dfbc10bcec00a7a1aba19492722769804686b4d87359"
+    },
+    {
+      "file": "parent-negative/child.prepared.bin",
+      "bytes": 3259,
+      "sha256": "553e360a89098f705a1498992d5cba5ff1865086393cb9b428fb6015c0381fb1"
+    },
+    {
+      "file": "parent-negative/child.response.wire",
+      "bytes": 613,
+      "sha256": "56a59c758d3350d059d7df7767b4735790d2150c2c2f84a8257cc9a92e675f09"
+    },
+    {
+      "file": "parent-negative/continuation.bin",
+      "bytes": 638,
+      "sha256": "bd2de4b6e6fb039e0fa6dbb84f47cd03c8267b532c4469f2244dbf7e16d29a69"
+    },
+    {
+      "file": "parent-negative/NOTICE.txt",
+      "bytes": 210,
+      "sha256": "92110ca786d7f24a56f28942d830dc9e7d6eedacf12c106397784d0a7eebff32"
+    },
+    {
+      "file": "parent-negative/parent.record",
+      "bytes": 7157,
+      "sha256": "cfb93dfbd7662675d64b1aeb5907cdd57d0f22377c85a1623895bcd0d5c6f567"
+    },
+    {
+      "file": "parent-negative/prepared.bin",
+      "bytes": 5215,
+      "sha256": "bb25c86fe48a600c6d87cb18dad3f27b1bdf4117d51e03e9d9035e2d9b67ab92"
+    },
+    {
+      "file": "parent-negative/response.wire",
+      "bytes": 595,
+      "sha256": "eb3e5f25c7479d5ae673ef5422bb7f73d4e08563b56cf48ec140261c39a29651"
+    },
+    {
+      "file": "parent-positive/child.continuation.bin",
+      "bytes": 582,
+      "sha256": "1d64b5eba7be9b5bfefdfbecf68ebc55e44a2e8e63139324c6e86f89c8b841fd"
+    },
+    {
+      "file": "parent-positive/child.prepared.bin",
+      "bytes": 3259,
+      "sha256": "2eef0e84b3deb97c2e18dcd380cf85117563271eb6decef06253395318e0819b"
+    },
+    {
+      "file": "parent-positive/child.response.wire",
+      "bytes": 613,
+      "sha256": "d252a1b8ca6e52e6a8ded713bad92c27120c05f98b5af2d9e8a81f61541cad48"
+    },
+    {
+      "file": "parent-positive/continuation.bin",
+      "bytes": 573,
+      "sha256": "173ee95185dbef5b6a071fbf1b65ad5465991c24b048c65c53ceb8a23ffbae72"
+    },
+    {
+      "file": "parent-positive/NOTICE.txt",
+      "bytes": 210,
+      "sha256": "92110ca786d7f24a56f28942d830dc9e7d6eedacf12c106397784d0a7eebff32"
+    },
+    {
+      "file": "parent-positive/parent.record",
+      "bytes": 7157,
+      "sha256": "cfb93dfbd7662675d64b1aeb5907cdd57d0f22377c85a1623895bcd0d5c6f567"
+    },
+    {
+      "file": "parent-positive/prepared.bin",
+      "bytes": 5215,
+      "sha256": "bb25c86fe48a600c6d87cb18dad3f27b1bdf4117d51e03e9d9035e2d9b67ab92"
+    },
+    {
+      "file": "parent-positive/response.wire",
+      "bytes": 595,
+      "sha256": "06c5786c92ff99a4f86c08c1ec0f8a88f7560fc83c0bd1f9435e89c174016dd9"
+    }
+  ]
+}

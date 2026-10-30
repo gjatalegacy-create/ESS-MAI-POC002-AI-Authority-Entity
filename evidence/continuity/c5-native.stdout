@@ -1,0 +1,122 @@
+╔══ [LIGJI I LEXUAR] platforma=LIGHT vula=90b17ec6bdaa58f1 ══╗
+║ GJATA_COLLAPSE_LAW — ligji ekzekutiv i identitetit të ESS-MAI:
+║ çdo Primitive Anchor DETYROHET të kalojë nëpër koordinim, eliminim,
+║ arsyetim dhe verifikim deri në një gjendje të vetme të qëndrueshme
+║ (D ∈ {0,1} ose XY).
+║ Zinxhiri: i0→Trace→PA→Xi‖Yi→CoordinateCollapse→LIM→(-Xi)+(-Yi)→PRO→
+║ i≈XY→APRO→MPRO→XY→PIM/NPIM→Shadow→VerificationCollapse→D∈{0,1}.
+║ LAW 0: çdo gjendje ul pasigurinë (kurrë zgjerim; shkelje = fail-closed).
+║ Muskujt: alnur_karina_athar (Light) · ultimatum_collapse_law (Quantum) ·
+║ verefied_diary_supremelaw (Shadow). ESS-MAI == gjata_collapse_law.
+║ Probabilitet FAKTIK (matje×evidencë) — kurrë probabilitet LLM.
+║ NDARJE: 'Primitive Anchor' (PA) = HYRJA (Light, vulë 500); ndryshe nga
+║ 'UNANIM_PRIMITIVE' (Shadow, ∏ᵢXᵢ=1) = dija E VERIFIKUAR. PA hyn, 
+║ UNANIM_PRIMITIVE del i verifikuar — role të ndryshme, pa përplasje.
+╠══ REGJISTRI: 10 LIGJE AKTIVE · vula 7c73fa4c86c35a6f ══╣
+╠══ 3 ROLE EKZEKUTIVE (JO AGJENTË) ══╣
+╚══ ESS-MAI == gjata_collapse_law — ligji është gjallë ══╝
+  [FIRST_GUARDIAN] LIGHT — riti i frymës së parë (4 organe)…
+  [FIRST_GUARDIAN]   ✓ fnv_known_vector
+  [FIRST_GUARDIAN]   ✓ pa_wire_roundtrip
+  [FIRST_GUARDIAN]   ✓ handoff_env
+  [FIRST_GUARDIAN]   ✓ lingua_i0
+  [FIRST_GUARDIAN] LIGHT — FRYMA E PARË ✓ (4/4) — dëshmia u vulos
+  [GCL_PRESUME] LIGHT — KOLAPS_KOORDINIMI : sweep i gatishmërisë (16 module)
+  [GCL_PRESUME]   †lingua_i0 (I0_CAPTURE) → READY
+  [GCL_PRESUME]   †primitive_split (SPLIT_XI_YI) → READY
+  [GCL_PRESUME]   †pa_export(pa_wire) (ANCHOR_EXPORT) → READY
+  [GCL_PRESUME]    pd_light_surface (SUPPORT) → READY
+  [GCL_PRESUME]    light_coordinator (SUPPORT) → READY
+  [GCL_PRESUME]    runtime_evidence_spine (SUPPORT) → READY
+  [GCL_PRESUME]    lgc_algorithm (SUPPORT) → READY
+  [GCL_PRESUME]    software_contract (SUPPORT) → READY
+  [GCL_PRESUME]    living_trust_contract (SUPPORT) → READY
+  [GCL_PRESUME]    gcl_project_contract (SUPPORT) → READY
+  [GCL_PRESUME]    quantum_bridge (SUPPORT) → READY
+  [GCL_PRESUME]    shadow_selection_bridge (SUPPORT) → READY
+  [GCL_PRESUME]    shadow_seal_bridge (SUPPORT) → DEGRADED
+  [GCL_PRESUME]    nura_core (SUPPORT) → READY
+  [GCL_PRESUME]    trl_input(lingua) (SUPPORT) → READY
+  [GCL_PRESUME]    fryma_e_pare (SUPPORT) → READY
+  [GCL_PRESUME] LIGHT — përfundim: 15/16 READY, 1 DEGRADED, 0 të domosdoshëm JO gati
+2026-10-30T16:49:43.600786Z  INFO ==========================================================
+2026-10-30T16:49:43.600815Z  INFO   NURA LEGACY —  BOOT (Light→Quantum→Shadow main)
+2026-10-30T16:49:43.600822Z  INFO ==========================================================
+2026-10-30T16:49:43.600841Z  INFO BOOT VERIFIED constitution
+2026-10-30T16:49:43.600853Z  INFO BOOT INFO moral — etiketë domeni
+2026-10-30T16:49:43.600860Z  INFO LGC_BRIDGE: C kernel AKTIV — libnura_kernel.so
+2026-10-30T16:49:43.600899Z  INFO BOOT VERIFIED lgc_kernel — backend=C_KERNEL; sealed=PASS; stripped=BLOCK; freeze=BLOCK; recovery=PASS
+2026-10-30T16:49:43.600915Z  INFO BOOT INFO buss — 3 stacione: LIGHT/SHADOW/QUANTUM
+2026-10-30T16:49:43.601066Z  INFO ESS MANIFEST: 13 module regjistruar | root_sha=5dbffb7589349ade...
+2026-10-30T16:49:43.601086Z  INFO BOOT VERIFIED ess_manifest — 13 module
+2026-10-30T16:49:43.601096Z  INFO BOOT INFO nura/alisah/ammy — domenet e NURA — routing real në nura_core
+2026-10-30T16:49:43.601149Z  INFO BOOT VERIFIED kodunik_pipeline (KDS:412840D9-000001-)
+2026-10-30T16:49:43.601232Z  INFO BOOT VERIFIED quantum_buss — Light stdin/stdout → Quantum process
+2026-10-30T16:49:43.602164Z  INFO BOOT VERIFIED local_c_buss (compatibility queue initialized)
+2026-10-30T16:49:43.602199Z  INFO BOOT VERIFIED sovereign (0-copy: CapHandle single-use + vula 500)
+2026-10-30T16:49:43.602211Z  INFO BOOT VERIFIED  (APUPK + SNB + Mini Evolver — integruar)
+2026-10-30T16:49:43.602318Z  INFO BOOT VERIFIED urat sovrane (APUPK→Shadow, SNB→Shadow, Mini→Quantum)
+2026-10-30T16:49:43.602361Z  INFO BOOT VERIFIED light_hardening (health=1.0000 sovereign=true no_decision=true route=MINI_ALGORITHM→ALGORITHM→PD_I0_TO_IZ)
+
+==========================================================
+  NURA LEGACY — BOOT REPORT  (1ms)
+==========================================================
+  VER  constitution                            
+  INFO moral                                     [etiketë domeni]
+  VER  lgc_kernel                                [backend=C_KERNEL; sealed=PASS; stripped=BLOCK; freeze=BLOCK; recovery=PASS]
+  INFO buss                                      [3 stacione: LIGHT/SHADOW/QUANTUM]
+  VER  ess_manifest                              [13 module]
+  INFO nura/alisah/ammy                          [domenet e NURA — routing real në nura_core]
+  VER  kodunik_pipeline (KDS:412840D9-000001-) 
+  VER  quantum_buss                              [Light stdin/stdout → Quantum process]
+  VER  local_c_buss (compatibility queue initialized)
+  VER  sovereign (0-copy: CapHandle single-use + vula 500)
+  VER   (APUPK + SNB + Mini Evolver — integruar)
+  VER  urat sovrane (APUPK→Shadow, SNB→Shadow, Mini→Quantum)
+  VER  light_hardening (health=1.0000 sovereign=true no_decision=true route=MINI_ALGORITHM→ALGORITHM→PD_I0_TO_IZ)
+==========================================================
+  SISTEM AKTIV — Light→Quantum→Shadow main→Quantum→Light
+==========================================================
+  [GCL_PRESUME] LIGHT — KOLAPS_KOORDINIMI : sweep i gatishmërisë (16 module)
+  [GCL_PRESUME]   †lingua_i0 (I0_CAPTURE) → READY
+  [GCL_PRESUME]   †primitive_split (SPLIT_XI_YI) → READY
+  [GCL_PRESUME]   †pa_export(pa_wire) (ANCHOR_EXPORT) → READY
+  [GCL_PRESUME]    pd_light_surface (SUPPORT) → READY
+  [GCL_PRESUME]    light_coordinator (SUPPORT) → READY
+  [GCL_PRESUME]    runtime_evidence_spine (SUPPORT) → READY
+  [GCL_PRESUME]    lgc_algorithm (SUPPORT) → READY
+  [GCL_PRESUME]    software_contract (SUPPORT) → READY
+  [GCL_PRESUME]    living_trust_contract (SUPPORT) → READY
+  [GCL_PRESUME]    gcl_project_contract (SUPPORT) → READY
+  [GCL_PRESUME]    quantum_bridge (SUPPORT) → READY
+  [GCL_PRESUME]    shadow_selection_bridge (SUPPORT) → READY
+  [GCL_PRESUME]    shadow_seal_bridge (SUPPORT) → DEGRADED
+  [GCL_PRESUME]    nura_core (SUPPORT) → READY
+  [GCL_PRESUME]    trl_input(lingua) (SUPPORT) → READY
+  [GCL_PRESUME]    fryma_e_pare (SUPPORT) → READY
+  [GCL_PRESUME] LIGHT — përfundim: 15/16 READY, 1 DEGRADED, 0 të domosdoshëm JO gati
+
+NURA LEGACY —  aktiv. Shkruaj pyetjen (CTRL+C per dalje):
+──────────────────────────────────────────────────────────
+[TRACE] T3_0c93ece9bd12ff97_P0000386c_18e35caf112104f8 | domain=WORK→NURA | contract=KDS:37DEE5A6-000...
+  [KOLAPS/1] KOORDINIMI: Xi=1 Yi=19 — hapësirat primitive lindën
+  [LAW0]     before=400 after=19 receipt=1a014dd4c05a0c79...
+[QUANTUM] Duke dërguar... 
+  [LIGHT_EMOTIONAL_SPINE]   besim=0.000 prioritet_i_butë=0.000 udhëzim=UNKNOWN evidencë=0 hardened=false (Light interpreton, s'vendos)
+
+  [SHADOW_RECEIPT] id=57b556c852d64591... i₀/PA/verdict/Trust=fiksuar
+
+  [RUNTIME_EVIDENCE] route=d13f209d43cc6ed8 route_sha256=d13f209d43cc6ed863c4318cfded09fc7f57582a243093885a729d4645f0e2f1 ref=b73ac6ac58ed577e evidence_sha256=b73ac6ac58ed577e54b9088a761c219d512da101891591e187f2315479f1fe7a survived=false retained=1
+[PD_TOPIC_REFERENCE] 5044524cd74bbb469c99654c8edd8c25d2d929c0b454c653351fbd1a52c62e4b2605030365d2295ec5b22f5c882f426e95dcc74a7d4f74ebae88877294e432042084d471
+SHADOW_VERIFY
+[SFX] NEGKNG
+[SEAL] flags=0x0000 strength=0.242
+[SHADOW_GJ_LEGACY] 0:VERIFIABLE_NOT_PRIMITIVE
+
+──────────────────────────────────────────────────────────
+Preliminary output pending full verification: reasoning i përfunduar.
+Nura: PD output=pdo-3b0ae63a8b06386f + iZ=iZ-c32a773cc3be9c52 → next i₀=i0-ccb17ec2af63ff20; vazhdimi determinist (VERIFIED_NEGATIVE_REBUILD): iZ — D-BAB deshmon kushtin aktual: KIE_MODEL_COUNTERPROOF: the pinned model computed residual > tolerance for the exact conditional proposition. Frontiera iZ: M=2, C=1, U=0; Q=M∪C∪U. Pohimi ekzakt: [MODEL_CONDITIONAL KiE IAU2000 era00 UT1 rad f64hex jd1=41424f8040000000 jd2=40ea8e8000000000 claim=0000000000000000 tol=3d719799812dea11. KiS residual<tol KiC residual>tol equality unresolved. One dependent model/input and not independent evidence and no observation. model_sha256=dad01a7db2a1414d71162100c598dcd354739cc80f9f116fb4a4bf0144ea834e.]. KiC kundershton pohimin kushtor nen modelin e deklaruar. scope_sha256=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 proof_sha256=f7ddf6e88ed4a48d62fabf77dd70fb1a904a5250506d611a3c9daa7336d70803 query_sha256=411dda1204528e96b506815691b2678f76e88b6abc705238bdfefa888c33fea7 candidate_sha256=71f44d9924da822ca4e14daa15d4e930c94ebb570a82730a2498a0b05e3f3da2. Historiku i klasifikuar: P=0, N=0, prejardhje_e_pazgjidhur=0; keto numerime nuk jane besueshmeri probabilistike dhe mungesa e P/N historike nuk eshte kusht i ri pranimi per KiE. MODEL_RESULT MODEL_COMPUTED: ERA=4.02283724002813869e-1 rad; pretendimi=0.00000000000000000e0 rad; residual_rad=4.02283724002813869e-1; toleranca=9.99999999999999980e-13 rad. KiS=0 KiC=1 U=0. positive_margin_rad=0.00000000000000000e0; counter_margin_rad=4.02283724001813892e-1. F64hex ERA=3fd9bf043b938800 pretendimi=0000000000000000 r=3fd9bf043b938800 toleranca=3d719799812dea11 positive_margin=0000000000000000 counter_margin=3fd9bf043b9341a2. Keto jane largesi numerike nga kufiri i deklaruar, jo confidence, mase historike ose prova te pavarura. Mbështetja ose kundërshtimi vlen vetëm nën modelin dhe hyrjet e deklaruara. model_sha256=dad01a7db2a1414d71162100c598dcd354739cc80f9f116fb4a4bf0144ea834e; result_sha256=c1413de1874aa3428158bba07f1a4ed261ab8eadde268e172d49a5c4b3102b4d. ESS_MAI_ORIGINAL: matjet e meposhtme jane te kandidateve/kushteve origjinale; ato nuk bashkohen me radianet e KiE. Matja e procesit aktual: positive_count=0 positive_sum=0 positive_mean=undefined negative_condition_count=4 negative_condition_sum=30145 negative_condition_mean=7536 family_mask=0; input_sha256=554802ef03a0c4f0a59d7047bae6162ad775a181b9709c1e2cdf234c79ab47e3 ledger_sha256=206a2a334b6282af61b300b5c425dd93135097667b1c176f3ca48ddf45ce0d8c current_request_sha256=65d2295ec5b22f5c882f426e95dcc74a7d4f74ebae88877294e432042084d471. Matjet e kushteve negative nuk jane kunderprova semantike; mungesa e kandidatit nuk eshte eliminim. Kushti origjinal i tentatives: KIE_MODEL_COUNTERPROOF original_refusal_sha256=b95547221fd32e6b8e4e220057be39286101a4d40c2541b76940e1014997f9a2. KIE_MODEL_KIS_TO_PRO: predicate_tested=true outcome=Absent candidate_count=0 sum_rad=0.00000000000000000e0 mean_rad=undefined; KIE_MODEL_KIC_TO_NPRO: predicate_tested=true outcome=Admitted candidate_count=1 sum_rad=4.02283724001813892e-1 mean_rad=4.02283724001813892e-1; KIE_MODEL_UNRESOLVED=false; HCP_MODEL_RESOURCE bytes=3338035815 parallel=3 active=1. Keto jane matje shkencore te ciklit aktual; testi me zero nuk shpik kandidat semantik, dhe leja e ekzekutimit nuk jep verdikt. [BRANCH:authority=ASHT route=ESS_MAI outcome=MISSING_EXACT_POSITIVE] selection_request_sha256=8cd8cc5e91f1664a7b037cea882dd42b5e3c4a745148fb92d257cde7893760fb selection_response_sha256=4f5d80dd4ed809428f8893c1b9b9bfc267745ab62a64085e9b91b83e28171a4e. Ky eshte rezultati i perzgjedhjes historike; nuk rishkruan KiS/KiC, nuk transferon autoritet dhe nuk jep verdikt. [M:PRO_POSITIVE_MEASUREMENT_MISSING] PRO nuk regjistroi kandidat pozitiv te matur ne kete cikel (n+=0, mesatarja e papercaktuar). Cila evidence me burim ose dallim i kontrollueshem mund te matet per kete pohim, dhe cili kusht i ekzekutimit duhet plotesuar per ta matur? Kjo mungese nuk eshte kunderprove dhe nuk provon gabim te perdoruesit. [M:ASHT_POSITIVE_EVIDENCE_MISSING] ASHT nuk gjeti kandidatin pozitiv ekzakt per kete kerkese ne rrjedhen ESS_MAI. Cila evidence me burim dhe dallim Xi/Yi ploteson kete mungese ne kontekstin e pohimit? KiS/KiC ruajne rezultatet e tyre te pavarura; mungesa nuk eshte kunderprove dhe nuk bllokon vetvetiu rrjedhen shkencore. [C:KiC:f7ddf6e88ed4a48d62fabf77dd70fb1a904a5250506d611a3c9daa7336d70803] counter=CURRENT_KIC Cilin input, kusht zbatueshmerie ose prove te kontrollueshme sqaron per kete kundershtim te pohimit ekzakt? Mund ta pranosh kundershtimin, te rishikosh pohimin ose te japesh prove per ta testuar; nuk kerkohet mbrojtje e detyruar. refusal_sha256=b95547221fd32e6b8e4e220057be39286101a4d40c2541b76940e1014997f9a2. D-BAB deshmon; frontiera nuk jep veto ose verdikt. Pyetjet ngushtojne provat e kerkuara, nuk parashikojne i0. LGC=c88616b7ce930e046855f04325853553218631676577d7e85ce812519df9ead2 request_sha256=65d2295ec5b22f5c882f426e95dcc74a7d4f74ebae88877294e432042084d471. Pyetja nuk parashikon i0 dhe nuk jep autoritet apo (1,1).
+──────────────────────────────────────────────────────────
+
+{"kind":"KiENativeCycleReference","light_decides":false,"native_identity":"d74bbb469c99654c8edd8c25d2d929c0b454c653351fbd1a52c62e4b26050303","output_reference":"C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c5.lookup","request_sha256":"65d2295ec5b22f5c882f426e95dcc74a7d4f74ebae88877294e432042084d471","scope":"MODEL_CONDITIONAL","source_record_id":"c1a1c61399957ff22d4683d4f4fca3c8492732c2d2faaba9d9cdda4bf874e752"}
+2026-10-30T16:49:52.684998Z  INFO Sistema mbyllur — quantum_buss destroyed.

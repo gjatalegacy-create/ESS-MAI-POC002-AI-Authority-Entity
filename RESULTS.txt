@@ -1,0 +1,123 @@
+POC002 — Entiteti AUTORITETI AI: prova e plotësuar lokale
+30 tetor 2026
+
+REZULTATI
+
+VERIFIKIM I PLOTË PARA PUBLIKIMIT: 1821 kaluar, 1 dështuar, 0 injoruar.
+1821 përfshin 4 doctests; exit 101. Nuk është workspace plotësisht green.
+Dështimi: light/tests/process_deadline_contracts.rs:35 (stdout retention).
+Timeout-i, spawn_failed=false dhe cleanup_complete=true kaluan.
+Diagnoza e veçantë riprodhoi spawn të ftohtë >1 s kundrejt 750 ms,
+pa hyrje në main; nisjet e ngrohta ruajtën stdout/stderr. Shkaku i
+vonesës së hostit nuk është provuar. Burimi dhe pragjet mbeten identike.
+Logjet/receipts/diagnoza: evidence/prepublication.
+
+TESTET E ZGJEDHURA DHE DEMONSTRIMI
+
+20 teste të zgjedhura native kaluan; 0 dështuan; 0 u injoruan.
+16 janë nga faza fillestare e hierarkisë, 4 nga plotësimi i protokollit.
+Cargo build --release --workspace: exit 0, kernelët C default.
+Dy shembujt native për inspektim/reference: build release exit 0.
+Logjet përfundimtare të build/test nuk kanë warning. Këto nuk janë
+të gjitha testet e produktit dhe nuk janë provë e sigurisë universale.
+
+GRUPI                                           TESTE
+UCL: hierarkia/rendi/scope                       5
+KiS/KiC: degët/kapaciteti/scope                  3
+ASHT: historia dhe KiE                          6
+Rendi/uniciteti/gjurma                           1
+Mungesa e riprodhuar                             1
+SHADOW: replay/konflikt/T2/paraardhës             4
+
+PESË HYRJE, NJË ÇËSHTJE, VAULT REAL I IZOLUAR
+
+1. Pyetja për këndin e rrotullimit të Tokës:
+   ASHT nuk gjen kandidatët; D-BAB dëshmon Both missing.
+   HOLD / OperationalNoVerdict; knowledge_write=0; pyetje iZ.
+2. Përgjigjja pa pretendimin numerik/provën:
+   HOLD / OperationalNoVerdict; knowledge_write=0; konteksti ruhet.
+3. Pretendimi 0.40228372400281387 rad, UT1, JD=2400000.5+54388.0,
+   toleranca 1e-12 rad, vetëm brenda modelit era00:
+   KiS=1, KiC=0; KiS pranohet për matje te PRO.
+   Rrjedha historike ende ka MISSING_EXACT_POSITIVE.
+   SHADOW: (1,1), T1 dhe T2 të ruajtura; mungesat mbeten në iZ.
+4. Pyetje pas mbylljes native për kundërpretendimin ende të papërcaktuar:
+   HOLD / OperationalNoVerdict; lidhet me T2 të hyrjes 3.
+5. Pretendimi 0.0 rad mbi të njëjtat hyrje/tolerancë të modelit:
+   KiS=0, KiC=1; kundërshtim shkencor, jo thjesht mungesë evidence.
+   SHADOW: (0,0), T1/T2 të ruajtura dhe pyetje me kundërprovën.
+
+Numërimi është pesë hyrje përdoruesi, tri rezultate operacionale dhe
+dy cikle përfundimtare native. Checkpoint-i ka shtatë hyrje sepse
+dy paraqitjet kanonike KiE të modelit janë regjistruar gjithashtu.
+Nuk i quajmë pesë gjykime të plota apo shtatë hyrje përdoruesi.
+
+Sesioni i përbashkët:
+559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8
+Paraardhësi native i hyrjes 5 është identiteti i hyrjes 3:
+bf3485d403a475e92208c6a92cc2a1968e8f4dd386869d24d1650183473cbaef
+
+Kernel-i LGC u konfirmua në logun real:
+backend=C_KERNEL; sealed=PASS; stripped=BLOCK; freeze=BLOCK; recovery=PASS
+HCP përdori gjendjen aktuale të laptopit; pragjet/veçoritë nuk u ndryshuan.
+Logu dallon baterinë e raportuar nga Windows prej termikës matematikore.
+
+RIPROVIMI DHE KONFLIKTI
+
+Për të dy kërkesat native të ruajtura:
+- T1 ekzakt u ridërgua pasi hyrja 5 ishte përfunduar.
+- T2 ekzakt u kërkua dy herë.
+- Përgjigjet ishin bajt-për-bajt identike me përgjigjet e ruajtura.
+- Vault-i mbeti 123245 bajte me SHA-256 të pandryshuar:
+  bd8f1169dedc33b2d1542669754f05877714c91d36431abbabf0da5b893c3147
+- Në një kopje të lookup-it PDL2 u ndryshua vetëm një bit i SHA-së
+  së kërkesës, duke ruajtur identitetin.
+- Të dy kërkesat u refuzuan me exit 70 dhe:
+  [SHADOW MAIN] FAIL-CLOSED: SHADOW_ERR: Vault write — PD_T1_REQUEST_CONFLICT
+- Asnjë output konflikti nuk u krijua; Vault-i mbeti identik.
+
+Kjo provon kufirin e kërkesës dhe efektit të qëndrueshëm. Riprovimi
+mund të shkruajë skedarin e përgjigjes/eksportin; nuk shton vendim
+ose transaksion të dytë në Vault. Nuk pretendon se PRO/NPRO të
+thirrura arbitrarisht jashtë protokollit kanë regjistër global
+kundër rillogaritjes. Ky kufi mbetet i dokumentuar, jo i maskuar.
+
+EVIDENCA DHE RIPRODHIMI
+
+evidence/EXECUTION.json dhe logjet: 16 testet fillestare.
+evidence/protocol_tests/EXECUTION.json: 4 testet native shtesë.
+Këto teste storage përdorin fixture të deklaruara; ato nuk janë
+origjina e kandidatëve ose receipt-eve të demonstrimit real.
+evidence/complete_build/: build-i i gjithë workspace-it.
+evidence/continuity/: inputet ekzakte, komandat me argv, stdout/stderr,
+LGC, përgjigjet, lookup-et, hash-et para/pas dhe vetë Vault-i i provës.
+evidence/CONTINUITY_VERIFICATION.json: kontrollet e evidencës së ruajtur.
+
+Komanda e driver-it:
+python run_continuity.py --build PATH_TO_RELEASE --output NEW_ISOLATED_DIR
+Kontroll vetëm lexim i evidencës së paketuar:
+python verify_evidence.py
+Kontroll vetëm lexim i skedarëve native:
+python verify_sources.py
+
+INTEGRITETI I SHKËPUTJES
+
+719 skedarë native, përfshirë workspace-in dhe Cargo.lock, janë
+identikë me Desktop/aig-c/codex_zvn. Asnjë ndryshim në ligje,
+autoritete, pragje, teste ose rrjedha. SHA-256 individuale ruhen në
+provenance/SOURCE_MANIFEST.json. Tetë skedarët qendrorë të hierarkisë
+janë gjithashtu identikë me referencën Gati/aigovern_cyber.
+
+Shtesat janë vetëm paketim, dokumentim, driver dhe kontroll evidence.
+Fillimisht driver-i i build-it kërkoi dy shembuj te paketa Shadow;
+Cargo e refuzoi sepse ndodhen te Quantum. Komanda u korrigjua te
+paketa reale; kodi native nuk ndryshoi. Tentativa dhe korrigjimi
+janë ruajtur në evidence/complete_build/.
+
+STATUSI
+
+POC002 është plotësuar si demonstrim lokal i hierarkisë ekzistuese,
+me kufijtë e mësipërm. GCL mbetet kushtetuta; autoritetet ruajnë
+kompetencat e tyre. Modeli numerik mbështet vetëm pohimet e kufizuara
+të këtij eksperimenti, jo gjithë paradigmën ose çdo temë shkencore.
+Kompilimi nuk provon risinë akademike. Nuk është publikuar.

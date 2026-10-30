@@ -1,0 +1,139 @@
+{
+  "status": "OperationalNoVerdict",
+  "record": {
+    "source_kind": "PIZ2",
+    "context_version": 2,
+    "revision": 2,
+    "record_id": "f1ac1e61eeafddf83a198c8d14170662ca54645946c9e3167a7902b7b3cbcc78",
+    "previous_record": "8dbdfd57ce4e0f1ecab511f4df2a672260c54de8fc9a873f8d152b95d0539ded",
+    "state_digest": "8d576e6c18a7c2ef1855d013be95033b757a17165f7b36213edd5c5a64859ddb",
+    "identity_key": "559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8",
+    "operation_id": "poc002-c2",
+    "case_id": "lgc-824d5388a12f26103c78cac6f16283ad64f17609d489d1415f51d86648676c33",
+    "scope": "WORK→NURA",
+    "obligation": "ASHT exact positive-negative distinction",
+    "origin_i0": "Evaluate Earth rotation angle under the declared mathematical model only.",
+    "actual_user_text": "The Earth rotation angle must be checked under the same declared model. I do not yet supply a numerical claim or a measured observation.",
+    "actual_light_i0": "The Earth rotation angle must be checked under the same declared model. I do not yet supply a numerical claim or a measured observation.",
+    "parent_question_sha256": "8e82e74cce0a15e38d5a981e28bbd08ff8fa1aeb89dad80f275f8dc493687f04",
+    "answer_spans": [],
+    "question": "Operational_iZ — Rasti lgc-824d5388a12f26103c78cac6f16283ad64f17609d489d1415f51d86648676c33 ruan pyetjen fillestare «Evaluate Earth rotation angle under the declared mathematical model only.» dhe detyrimin ASHT exact positive-negative distinction. Në hyrjen reale të tanishme «The Earth rotation angle must be checked under the same declared model. I do not yet supply a numerical claim or a measured observation.», tentativa T3_30ce9bb738f442eb_P00000fe0_18e35cab38f0cbd4 nuk gjeti të dy kandidatët pozitiv dhe negativ të pranuar saktësisht për Xi/Yi e saj. Për të ngushtuar detyrimin e provës, jep materialin pozitiv mbështetës; materialin negativ kundërshtues; dallimin konkret midis Xi dhe Yi; burimin e kontrollueshëm; kushtin ose provën që do ta rrëzonte dallimin. Nëse nuk e ke këtë material, thuaje; mungesa nuk plotësohet automatikisht. Referencat e mbledhura ruajnë vetëm material USER_REPORTED për të njëjtin detyrim; prania e tekstit nuk provon relevancë ose vërtetësi dhe nuk plotëson vetë Xi/Yi. Kjo pyetje kërkon provën që mungon; nuk parashikon përgjigjen e ardhshme dhe nuk është i₀ i përdoruesit. HOLD vijon; NoVerdict.",
+    "question_sha256": "c372ee4522f43471d780cb8fd7ad8b03fe06e91b3cf39a487f4824e7c93aa6cd",
+    "missing": "Both",
+    "hold": true,
+    "status": "OperationalNoVerdict",
+    "authority_transferred": false,
+    "knowledge_verdict": null,
+    "knowledge_write": 0,
+    "session_turn_count": 2,
+    "session_started_at": 1793378966380,
+    "session_last_activity_at": 1793378968086,
+    "mapped_parent": true,
+    "native_anchor": null,
+    "checkpoint_base": null,
+    "native_attempt": "T3_30ce9bb738f442eb_P00000fe0_18e35cab38f0cbd4",
+    "hold_id": "h-3460bd5190edccc59ca934fc11087bd2",
+    "requested_fields": [
+      "Positive",
+      "Negative",
+      "Distinction",
+      "SourceReference",
+      "Verification"
+    ],
+    "supplied_fields": [],
+    "frontier": [],
+    "events": [
+      {
+        "kind": "Origin",
+        "sequence": 0,
+        "authority": 0,
+        "attempt": "T3_30ce9bb738f442eb_P00000fe0_18e35cab38f0cbd4",
+        "digest": "2b091fd87d693bc045510547a02983146b0ac6d4dccb9d26b9bd50249aa1c33f"
+      },
+      {
+        "kind": "Precondition",
+        "sequence": 1,
+        "authority": 0,
+        "attempt": "T3_30ce9bb738f442eb_P00000fe0_18e35cab38f0cbd4",
+        "digest": "3642dac416980962d86a86b13481a4dcc53fd655900f46f839785e25f2a6f607"
+      },
+      {
+        "kind": "ActionActivation",
+        "sequence": 2,
+        "authority": 0,
+        "attempt": "T3_30ce9bb738f442eb_P00000fe0_18e35cab38f0cbd4",
+        "digest": "b76fe79cd471063d24a0f611febd5f3a23e52cae8a1168e7767f4e407c71e4a4"
+      },
+      {
+        "kind": "Outcome",
+        "sequence": 3,
+        "authority": 0,
+        "attempt": "T3_30ce9bb738f442eb_P00000fe0_18e35cab38f0cbd4",
+        "digest": "059be04aa0849c55ba9e8c72a8a72d4105cabbcf3bb6719df4b796fd171ae3f4"
+      },
+      {
+        "kind": "AssemblyActivation",
+        "sequence": 4,
+        "authority": 0,
+        "attempt": "T3_30ce9bb738f442eb_P00000fe0_18e35cab38f0cbd4",
+        "digest": "76ca7554efb546da0dc5a68339a239a86b16908e1cc581c6b54f5f999026ca65"
+      },
+      {
+        "kind": "Assembly",
+        "sequence": 5,
+        "authority": 0,
+        "attempt": "T3_30ce9bb738f442eb_P00000fe0_18e35cab38f0cbd4",
+        "digest": "47029635c197d22ffd1ca0dd3e73997ad2b7a0e92da4b4c79d57cefbddcdd91e"
+      }
+    ],
+    "trace_user_texts": [
+      "Evaluate Earth rotation angle under the declared mathematical model only.",
+      "The Earth rotation angle must be checked under the same declared model. I do not yet supply a numerical claim or a measured observation."
+    ],
+    "selection_positive_count": 0,
+    "selection_negative_count": 0,
+    "selection_negative_debug": "[]",
+    "selection_xi": [
+      "angle"
+    ],
+    "selection_yi": [
+      "checked",
+      "claim",
+      "declared",
+      "earth",
+      "measured",
+      "model.",
+      "must",
+      "numerical",
+      "observation.",
+      "rotation",
+      "supply",
+      "yet"
+    ],
+    "selection_parent_i0": "26b5581d09d5db4f4e21da9768585157e11039657676d265676d8b6385762ce5",
+    "dbab_before_status": "Awaiting",
+    "dbab_before_negative_condition": false,
+    "dbab_before_available_mask": null,
+    "dbab_status": "FailedMissing",
+    "dbab_required_mask": 3,
+    "dbab_available_mask": 0,
+    "dbab_missing_mask": 3,
+    "dbab_gap_count": 2,
+    "dbab_condition_mass_fixed": 10000,
+    "dbab_negative_condition_knowledge": true,
+    "dbab_semantic_counterproof": false,
+    "lgc_tip": "d69eb81fd19c2b1bf8bc922d3d9cb3e8f619cafb321040bc78b41e50c6cd87e1",
+    "lgc_step_count": 6
+  },
+  "reference": {
+    "identity_key": "559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8",
+    "record_id": "f1ac1e61eeafddf83a198c8d14170662ca54645946c9e3167a7902b7b3cbcc78",
+    "revision": 2,
+    "state_digest": "8d576e6c18a7c2ef1855d013be95033b757a17165f7b36213edd5c5a64859ddb",
+    "question_sha256": "c372ee4522f43471d780cb8fd7ad8b03fe06e91b3cf39a487f4824e7c93aa6cd",
+    "lgc_tip": "d69eb81fd19c2b1bf8bc922d3d9cb3e8f619cafb321040bc78b41e50c6cd87e1",
+    "input_sha256": "26b5581d09d5db4f4e21da9768585157e11039657676d265676d8b6385762ce5",
+    "question_binding": "2acfc7c7473afafc86006fb6badbdff38a8ac605dcb4df99f1431a8d8f360e7a"
+  },
+  "native": null
+}

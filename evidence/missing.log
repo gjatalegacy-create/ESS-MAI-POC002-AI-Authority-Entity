@@ -1,0 +1,9 @@
+   Compiling shadow_contracts v1.7.8 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\shadow-contracts)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 31.22s
+     Running unittests src\lib.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\poc002_native_hierarchy\debug\deps\shadow_contracts-22eea77ad0ae742f.exe)
+
+running 1 test
+test pd_memory::failure::tests::exact_missing_negative_is_eligible_but_complete_pair_is_not ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 215 filtered out; finished in 0.00s
+

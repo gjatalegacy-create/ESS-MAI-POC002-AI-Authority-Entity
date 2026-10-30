@@ -1,0 +1,1 @@
+The Earth rotation angle must be checked under the same declared model. I do not yet supply a numerical claim or a measured observation.

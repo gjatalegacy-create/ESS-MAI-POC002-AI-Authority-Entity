@@ -1,0 +1,46 @@
+warning: constant `DEFAULT_TIMEOUT` is never used
+ --> C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\light\src\process_deadline.rs:9:18
+  |
+9 | pub(crate) const DEFAULT_TIMEOUT: Duration = Duration::from_secs(90);
+  |                  ^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: fields `status`, `stdout`, and `stderr` are never read
+  --> C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\light\src\process_deadline.rs:16:9
+   |
+15 | pub(crate) struct ProcessOutput {
+   |                   ------------- fields in this struct
+16 |     pub status: ExitStatus,
+   |         ^^^^^^
+17 |     pub stdout: Vec<u8>,
+   |         ^^^^^^
+18 |     pub stderr: Vec<u8>,
+   |         ^^^^^^
+   |
+   = note: `ProcessOutput` has a derived impl for the trait `Debug`, but this is intentionally ignored during dead code analysis
+
+warning: fields `spawn_failed`, `timed_out`, `elapsed`, and `detail` are never read
+  --> C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\light\src\process_deadline.rs:23:9
+   |
+22 | pub(crate) struct ProcessFailure {
+   |                   -------------- fields in this struct
+23 |     pub spawn_failed: bool,
+   |         ^^^^^^^^^^^^
+24 |     pub timed_out: bool,
+   |         ^^^^^^^^^
+25 |     pub elapsed: Duration,
+   |         ^^^^^^^
+26 |     pub detail: String,
+   |         ^^^^^^
+   |
+   = note: `ProcessFailure` has a derived impl for the trait `Debug`, but this is intentionally ignored during dead code analysis
+
+warning: function `run_status` is never used
+   --> C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\light\src\process_deadline.rs:223:15
+    |
+223 | pub(crate) fn run_status(command: &mut Command, timeout: Duration) -> Result<ExitStatus, ProcessFailure> {
+    |               ^^^^^^^^^^
+
+warning: 4 warnings emitted
+

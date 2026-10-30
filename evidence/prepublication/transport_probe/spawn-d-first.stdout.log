@@ -1,0 +1,7 @@
+START_EPOCH_NS=1793380697720860800 SPAWN_ELAPSED_NS=1148789500
+BEFORE_KILL_ELAPSED_NS=1148848000
+MARKERS_BEFORE_KILL=Err(Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." })
+KILL_RESULT=Ok(())
+WAIT_RESULT=Ok(ExitStatus(ExitStatus(1)))
+STDOUT_BYTES=[] STDERR_BYTES=[]
+MARKERS_AFTER_REAP=Err(Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." })

@@ -1,0 +1,132 @@
+ESS-MAI POC002 — AI Authority Entity
+Review protocol for the published native hierarchy and recorded experiment
+
+PURPOSE
+
+Assess a concrete implementation and its bounded observations. The proposed
+paradigm defines authority as independent executive competence fulfilling a
+duty under law within jurisdiction and constitutional hierarchy. It includes
+positive work, not just permission or refusal. The review should distinguish
+that proposal from what particular source contracts and executions establish.
+
+All 719 native source files and their copied dependency closure are disclosed.
+This is not a security certification, a completed proof of the entire paradigm
+or evidence that every native path has reached a successful final result.
+
+PRIORITY QUESTIONS
+
+1. Competence and hierarchy
+   Follow LIGHT, UCL, ASHT, PRO/NPRO and SHADOW through the recorded commands.
+   Identify the duty, input object, jurisdiction, applicable check and result
+   of each operation. Distinguish distinct competences within one cycle from
+   repeating the same competent work. UCL rejects repeated commissioning on
+   the same instance; do not generalise this to arbitrary new instances or
+   direct public API calls without evidence.
+
+2. Independent evidence routes
+   Inspect Historical and KiE scopes and the exact reproduced-missing guard.
+   Does the model evidence remain scoped? The historical route still reports
+   MISSING_EXACT_POSITIVE. Check that this gap stays explicit, and that an
+   arbitrary error is not treated as permission to bypass an obligation.
+
+3. Missing evidence versus counterevidence
+   Verify the three OperationalNoVerdict records and zero knowledge writes.
+   Contrast them with turn 5's measured era00 counterexample. Check that
+   invalid input, absent evidence, insufficient capacity and admitted zero
+   measurements remain distinct. Neither a HOLD nor a negative scientific
+   result should be relabelled simply to make a successful demonstration.
+
+4. Native judgment and continuity
+   Confirm the paired SHADOW results (1,1) and (0,0), the shared case identity,
+   turn 5's predecessor binding to turn 3 and the two durable T1/T2 closures.
+   There are five user turns, three operational HOLDs and two native terminal
+   cycles. Two additional checkpoint entries are canonical KiE renderings,
+   not extra user turns or extra successful cycles.
+
+5. Retry and conflict boundaries
+   Follow exact T1 replay and T2 retrieval in the active protocol, then the
+   changed-request-hash lookup with the same identity. Confirm identical
+   stored responses and unchanged Vault bytes; the conflict must be rejected
+   for PD_T1_REQUEST_CONFLICT, not an unrelated execution failure. A response
+   export may be written. The claim concerns no additional durable Vault
+   transaction in these tested retries, not zero filesystem activity or a
+   universal exactly-once execution guarantee.
+
+6. Integrity and limitations
+   Verify the native source manifest and the saved command/input/output
+   evidence. Hashes are not authority or source authentication. The unchanged
+   native LGC algorithm contains a source-embedded HMAC key; do not assume
+   secret-key authenticity against a source holder. External trusted rollback
+   protection, hostile-host security, external-agent interoperability and
+   general scientific correctness are not established by this experiment.
+
+REPRODUCTION
+
+From the package root:
+
+  python verify_sources.py
+  python verify_evidence.py
+
+The first checks the copied native files against their source manifest; it
+does not require access to private originals. The second checks the packaged
+experiment records. Neither command executes the native runtime.
+
+For native execution, follow README.md's Windows GNU/MinGW build instructions
+using the recorded Rust/Cargo 1.98.0 environment and locked dependencies.
+Build default native features, including the C kernels. The isolated driver:
+
+  python run_continuity.py --build PATH_TO_RELEASE --output NEW_DIRECTORY
+  python verify_evidence.py --evidence NEW_DIRECTORY
+
+NEW_DIRECTORY must not exist. Do not use a private product Vault. Keep native
+rules and hardware constraints intact; a different physical state can produce
+a legitimate HOLD. Preserve a divergent result and its cause instead of
+weakening a guard. The current driver names Windows executables; cross-platform
+execution requires its own documented review and is not a recorded result.
+
+SELECTED TESTS AND FIXTURES
+
+RESULTS.txt and the two execution JSON files document 20 selected native tests.
+Storage fixtures in those tests are not the source of the real demonstration's
+candidates or receipts. Native unit tests, a complete default release build and
+the five-turn experiment provide different evidence; report them separately.
+Do not infer an unreported full-suite outcome from the selected test count.
+
+A broader native run also exposed a reproducible failure of the stdout-retention
+assertion at light/tests/process_deadline_contracts.rs:35, in
+blocked_stdin_obeys_deadline_and_retains_output. Earlier timeout, spawn and
+cleanup checks passed in that run; the following stderr check was not reached.
+Record this separately from the passing selected checks. Its root cause is not
+established, and the native code has not been altered to obtain a green result.
+
+REPORT TEMPLATE
+
+Repository revision or archive identifier:
+Native/source manifest identifier and verification output:
+Operating system, Rust/Cargo, C compiler and relevant hardware state:
+Exact command, arguments and changed files, if any:
+Claim or contract under examination and source location:
+Expected result and its basis:
+Observed result, exit code and minimal reproducer:
+Evidence files and SHA-256 values:
+Fixture, recorded-evidence check or fresh native execution:
+Impact within the declared scope:
+Remaining uncertainty:
+Contributor name/identifier and requested attribution:
+AI-assisted analysis, if used, and what the contributor checked personally:
+
+SHARING FINDINGS
+
+Use a concrete issue or discussion in:
+https://github.com/gjatalegacy-create/ESS-MAI-POC002-AI-Authority-Entity
+
+Students, researchers, engineers, practitioners and other critical readers are
+welcome, including reviewers who use AI and explain how they checked its work.
+Submit technical counterexamples, not private credentials or product data.
+Evidence-supported corrections receive attribution appropriate to the actual
+contribution. A justified counterexample may narrow or invalidate a claim;
+recording an unresolved gap is also useful. Independent review is not implied
+by the author's own tests or AI-assisted implementation and documentation.
+
+Review is voluntary. The software license does not require praise, criticism,
+registration or a contribution before downloading or using the public code.

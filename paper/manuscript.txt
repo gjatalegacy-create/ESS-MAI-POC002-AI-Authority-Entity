@@ -1,0 +1,90 @@
+ESS-MAI POC002: Evidence-Bound Executive Authority in an Unchanged Native Hierarchy
+
+Bledar Gjata
+ORCID: https://orcid.org/0009-0003-7854-266X
+Research preprint | 30 October 2026 | version 0.1.0 | Apache-2.0
+Preprint DOI: https://doi.org/10.5281/zenodo.23813625
+Software DOI: https://doi.org/10.5281/zenodo.23813496
+
+Abstract
+
+POC002 examines the proposed AI Authority paradigm through a native hierarchy extracted from AIGovern-Cyber, a materialization derived from ESS-MAI. Authority denotes an executive competence with a defined duty, jurisdiction and applicable law, rather than a permission token alone. The capsule preserves 719 native files without changing source logic, tests, thresholds or dependency versions. An isolated execution follows one case through five user turns: three operational HOLD outcomes and two terminal SHADOW cycles, retaining native paired verdicts (1,1) and (0,0). Historical candidate absence remains explicit while an independently scoped scientific route evaluates two claims within the era00 model. Exact request replay returns stored responses without changing the Vault; a changed request hash under the same identity is refused. These observations support specific coordination, evidence and persistence properties. They do not establish general novelty, universal safety, external authentication, or completion of the full architecture.
+
+1. Question and contribution
+
+ESS-MAI proposes governance as an organizing property of computation [1]. In the author's terminology, an authority executes its own duty under law within jurisdiction; it may coordinate, process, investigate or verify. Refusal is one possible consequence, not its definition. GCL is the constitutional framework. The architectural vocabulary describes software organization, not legal power over people.
+
+POC002 asks whether an existing implementation demonstrates this account through actual subordinate computation and bounded continuity. Its contribution is an inspectable extraction and experiment, not a new framework designed to make the demonstration succeed. The proposed paradigm belongs to Bledar Gjata; state machines, hashes, consuming types, FFI and replay checking are established techniques. Their use does not by itself establish a new paradigm's academic priority or superiority. POC011 is related work with a different, bounded scalar-verification experiment [2]; its results are not substituted for the native paired verdicts here.
+
+2. Source and hierarchy
+
+The capsule includes the existing LIGHT, QUANTUM and SHADOW runtime dependency closure. Individual SHA-256 values, sizes and provenance are recorded in provenance/SOURCE_MANIFEST.json. SOURCE_MAP.txt identifies exact source ranges. The native workspace and Cargo.lock are retained byte-for-byte; the 719 files are the selected build closure, not a claim that every AIGovern-Cyber product asset is published [3].
+
+LIGHT coordinates entry and continuation. QUANTUM's UCL establishes the order and scope of subordinate work. ASHT performs historical and KiE-related duties; PRO and NPRO execute their respective processing and measurement competences. QUANTUM's caller invokes PRO/NPRO: describing ASHT as directly invoking them would misstate the implementation. SHADOW performs subsequent verification and owns persistent writes.
+
+UCL's command_asht_routes emits Historical and KiE commands in one transition from XiYiLoaded to AshtScoped. Their scopes differ. Repeating that transition on the same UCL instance returns an error. Two subordinate competences within one coordinated exercise are therefore not automatically repeated execution of the same duty. This instance-level guard does not establish a global registry forbidding arbitrary repeated calls to all public functions.
+
+3. Evidence and branch boundaries
+
+The historical branch's missing-candidate response is not a universal exception handler. Its caller permits the separate KiE path to continue only when the claimed absence is reproduced from the exact request/response and matches the recognized reason. Transport failure, corrupted scope or an arbitrary error is not equivalent to candidate absence [3].
+
+The scientific endpoint distinguishes invalid proof/scope/directive, insufficient capacity and completed measurement. These respectively produce an error, no measurement, or a measurement; summaries retain Held, Absent and Admitted distinctions. A completed predicate producing zero is not an unperformed measurement. Likewise, missing evidence is not scientific counterevidence. Each branch remains subject to its own conditions rather than acquiring competence from another branch's failure.
+
+4. Method
+
+run_continuity.py supplies five explicit inputs through unchanged native CLIs and records commands, return codes, output and file hashes. It starts with a fresh isolated Vault and handoff directory. It does not seed the runtime memory with test fixtures, construct a candidate or manufacture SHADOW's verdict. Separate storage unit tests do use declared fixtures; those are not the demonstration's evidence source.
+
+The numerical question uses era00 with UT1, Julian-date components 2400000.5 and 54388.0, radians, and tolerance 10^-12. Let d=(era00(JD1,JD2)-claim) rem_euclid(2*pi), s=d-2*pi*[d>pi], and r=|s|. The native endpoint predicates are KiS=[r<tolerance] and KiC=[r>tolerance]; equality is unresolved. The source uses f64 and its existing constants. These are declared-model predicates, not confidence scores or physical observations. Subsequent SHADOW verification is still required; a PRO/NPRO predicate is not a final verdict.
+
+5. Five turns and two native closures
+
+Turn 1 asks about Earth rotation without available historical candidates. D-BAB witnesses the missing material; the operational result is HOLD/OperationalNoVerdict with knowledge_write=0 and an iZ question. Turn 2 retains the question but does not provide the missing numerical claim or evidence; it remains operational HOLD.
+
+Turn 3 supplies claim 0.40228372400281387 radians under the stated model. The measured predicates are KiS=1 and KiC=0. SHADOW returns native (1,1), and T1/T2 are persisted. Crucially, the historical path still reports MISSING_EXACT_POSITIVE. Its failure is not erased, relabelled as success or used as substitute evidence. The independently admissible model route supplies its own material.
+
+Turn 4 introduces a new opposing claim without yet specifying it and links the inquiry to turn 3's durable continuation. It returns operational HOLD. Turn 5 supplies 0.0 radians with the same model inputs and tolerance. KiS=0 and KiC=1 now reflect computed counterevidence; SHADOW returns (0,0), with T1/T2 persisted. This negative scientific result is not invalidated merely because it is negative.
+
+The experiment therefore has five user turns, three operational HOLD results and two terminal native cycles. Seven checkpoint entries include two canonical model renderings. Calling them seven human turns or five completed native judgments would be incorrect. The second native closure names the first as predecessor and preserves the same cognitive case [4].
+
+6. Replay, conflict and persisted effects
+
+After turn 5, the driver resubmits both original native T1 requests and retrieves each T2 twice. Returned response bytes match the stored response hashes. The Vault remains 123245 bytes, with SHA-256 bd8f1169dedc33b2d1542669754f05877714c91d36431abbabf0da5b893c3147 unchanged across replay.
+
+For each identity, flipping one bit of the request hash in a copied finalize lookup triggers exit 70 and PD_T1_REQUEST_CONFLICT. No conflict output is created and the Vault remains unchanged. This tests request binding and persistent effects. It does not establish that no instruction is re-executed: the process may reopen memory and write an exported response file. Nor does it demonstrate global exactly-once behavior across arbitrary callers, external side effects or hostile replacement of valid history [4].
+
+7. Evidence status and limits
+
+The recorded local evidence supports 20 selected native tests: 16 hierarchy/route tests and four additional storage/protocol tests. The completed workspace release build and required inspection examples returned exit 0. These selected tests are not described as the full product suite. The full prepublication Cargo test command, with --no-fail-fast, returned exit 101: 1,821 tests passed (including four doctests), one failed, and none were ignored. The failing test was light::process_deadline_contracts::blocked_stdin_obeys_deadline_and_retains_output at assertion line 35: expected stdout was not retained. The isolated rerun also failed. Earlier timeout, spawn and cleanup assertions passed. These broader results are disclosed separately from the successful focused checks.
+
+A separate diagnostic probe reproduced a cold-start timing mechanism without changing native code: fresh executable spawn calls took 1,049 ms and 1,149 ms, exceeding the test's 750 ms budget before a main-entry marker was recorded. Warm starts of the same binaries took 11.5 ms and 9.4 ms and retained the 21 stdout and 19 stderr bytes. This supports startup latency as a reproduced mechanism, not an attribution to antivirus or proof of the exact chronology of the original failed run. The failing regression remains reported; no timeout, test or runtime rule was relaxed.
+
+The live log reports the C LGC backend with sealed=PASS, stripped=BLOCK, freeze=BLOCK and recovery=PASS. Existing hardware checks ran without threshold changes. Windows battery reporting and mathematical thermal estimation are different evidence classes. No new physical law, measured energy saving or guaranteed hardware speedup is claimed.
+
+The implementation contains a source-constant HMAC construction. Its presence is not independently provisioned external authentication against a party possessing the source. SHA-256 binds bytes; it does not confer authority, establish authorship or authenticate a trustworthy host. The experiment does not prove resistance to all tampering, solve general scientific questions or close every historical route. Missing material remains missing even when another scoped route completes successfully.
+
+8. Reproduction and review
+
+The documented environment is Windows GNU Rust/Cargo 1.98.0 with matching MinGW gcc, ar and linker. Configure these as specified in README.txt. From the capsule root:
+
+  python verify_sources.py
+  cd native/runtime
+  cargo +1.98.0-x86_64-pc-windows-gnu build --locked --release --workspace
+  cargo +1.98.0-x86_64-pc-windows-gnu build --locked --release -p quantum-platform --example pd_iz_input --example pd_recovery_inspect
+  cd ../..
+  python run_continuity.py --build native/runtime/target/release --output experiment-new
+  python verify_evidence.py --evidence experiment-new
+
+The output directory must not already exist. Cargo may download locked dependencies on a new machine; --offline requires a populated cache. Live hardware may produce a legitimate HOLD and must not be bypassed to recover the recorded result. The packaged record can be checked separately with python verify_evidence.py. Independent reviewers are invited to report the exact revision, command, actual result and violated invariant, especially around continuation and scope. This manuscript was drafted with AI assistance for the author's review; local tests are not independent peer review.
+
+References
+
+[1] ESS-MAI project archive. https://doi.org/10.5281/zenodo.22750188 ; source: https://github.com/gjatalegacy-create/ESS-MAI . Background source, not validation of this capsule.
+[2] Gjata, B. ESS-MAI POC011: Authority, Evidence and Durable Continuity, software. https://doi.org/10.5281/zenodo.23809527 . Separate experiment and claim boundary.
+[3] POC002 native source and provenance. SOURCE_MAP.txt; provenance/SOURCE_MANIFEST.json. Within native/runtime/: quantum/src/ultimatum_collapse_law.rs:183-276; quantum/src/asht_quantum.rs:241-607; quantum/src/main.rs:399-439,969-990,1060-1087; shadow-contracts/src/pd_memory/failure.rs:346-364; quantum/src/kie_measurement.rs:22-61; shadow-contracts/src/model_operator_measurement.rs:59-76; light/src/lgc_algorithm.rs:154-176.
+[4] POC002 execution record. evidence/CONTINUITY_VERIFICATION.json; evidence/continuity/RESULT.json, commands.json, turns.json and c1-c5 inspections; evidence/EXECUTION.json; evidence/protocol_tests/EXECUTION.json; evidence/complete_build/EXECUTION.json. Replay implementation: native/runtime/shadow/src/process_bridge.rs:574-605; shadow_gateway.rs:997-1005; knowledge_vault.rs:1230-1244,1356-1409.
+
+
+Public code and evidence: https://github.com/gjatalegacy-create/ESS-MAI-POC002-AI-Authority-Entity
+Mirror: https://huggingface.co/datasets/gjata-legacy/ess-mai-poc-002-ai-authority-entity
+Author: https://www.linkedin.com/in/bledar-gjata-1a527030b/
+OpenAIRE discovery (indexing unconfirmed): https://explore.openaire.eu/search/result?pid=10.5281%2Fzenodo.23813496

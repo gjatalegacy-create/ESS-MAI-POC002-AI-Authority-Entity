@@ -1,0 +1,35 @@
+╔══ [LIGJI I LEXUAR] platforma=LIGHT vula=90b17ec6bdaa58f1 ══╗
+║ GJATA_COLLAPSE_LAW — ligji ekzekutiv i identitetit të ESS-MAI:
+║ çdo Primitive Anchor DETYROHET të kalojë nëpër koordinim, eliminim,
+║ arsyetim dhe verifikim deri në një gjendje të vetme të qëndrueshme
+║ (D ∈ {0,1} ose XY).
+║ Zinxhiri: i0→Trace→PA→Xi‖Yi→CoordinateCollapse→LIM→(-Xi)+(-Yi)→PRO→
+║ i≈XY→APRO→MPRO→XY→PIM/NPIM→Shadow→VerificationCollapse→D∈{0,1}.
+║ LAW 0: çdo gjendje ul pasigurinë (kurrë zgjerim; shkelje = fail-closed).
+║ Muskujt: alnur_karina_athar (Light) · ultimatum_collapse_law (Quantum) ·
+║ verefied_diary_supremelaw (Shadow). ESS-MAI == gjata_collapse_law.
+║ Probabilitet FAKTIK (matje×evidencë) — kurrë probabilitet LLM.
+║ NDARJE: 'Primitive Anchor' (PA) = HYRJA (Light, vulë 500); ndryshe nga
+║ 'UNANIM_PRIMITIVE' (Shadow, ∏ᵢXᵢ=1) = dija E VERIFIKUAR. PA hyn, 
+║ UNANIM_PRIMITIVE del i verifikuar — role të ndryshme, pa përplasje.
+╠══ REGJISTRI: 10 LIGJE AKTIVE · vula 7c73fa4c86c35a6f ══╣
+╠══ 3 ROLE EKZEKUTIVE (JO AGJENTË) ══╣
+╚══ ESS-MAI == gjata_collapse_law — ligji është gjallë ══╝
+╔══ [LIGJI I LEXUAR] platforma=QUANTUM vula=90b17ec6bdaa58f1 ══╗
+║ GJATA_COLLAPSE_LAW — ligji ekzekutiv i identitetit të ESS-MAI:
+║ çdo Primitive Anchor DETYROHET të kalojë nëpër koordinim, eliminim,
+║ arsyetim dhe verifikim deri në një gjendje të vetme të qëndrueshme
+║ (D ∈ {0,1} ose XY).
+║ Zinxhiri: i0→Trace→PA→Xi‖Yi→CoordinateCollapse→LIM→(-Xi)+(-Yi)→PRO→
+║ i≈XY→APRO→MPRO→XY→PIM/NPIM→Shadow→VerificationCollapse→D∈{0,1}.
+║ LAW 0: çdo gjendje ul pasigurinë (kurrë zgjerim; shkelje = fail-closed).
+║ Muskujt: alnur_karina_athar (Light) · ultimatum_collapse_law (Quantum) ·
+║ verefied_diary_supremelaw (Shadow). ESS-MAI == gjata_collapse_law.
+║ Probabilitet FAKTIK (matje×evidencë) — kurrë probabilitet LLM.
+║ NDARJE: 'Primitive Anchor' (PA) = HYRJA (Light, vulë 500); ndryshe nga
+║ 'UNANIM_PRIMITIVE' (Shadow, ∏ᵢXᵢ=1) = dija E VERIFIKUAR. PA hyn, 
+║ UNANIM_PRIMITIVE del i verifikuar — role të ndryshme, pa përplasje.
+╠══ REGJISTRI: 10 LIGJE AKTIVE · vula 7c73fa4c86c35a6f ══╣
+╠══ 3 ROLE EKZEKUTIVE (JO AGJENTË) ══╣
+╚══ ESS-MAI == gjata_collapse_law — ligji është gjallë ══╝
+{"identity":"bf3485d403a475e92208c6a92cc2a1968e8f4dd386869d24d1650183473cbaef","new_verdict":false,"next_i0_id":"i0-64951000aed7fa2a","question":"iZ — SHADOW konfirmoi (1,1) vetem per pohimin nen modelin e deklaruar; kjo nuk verteton nje pretendim me te gjere. Frontiera iZ: M=2, C=0, U=0; Q=M∪C∪U. Pohimi ekzakt: [MODEL_CONDITIONAL KiE IAU2000 era00 UT1 rad f64hex jd1=41424f8040000000 jd2=40ea8e8000000000 claim=3fd9bf043b938800 tol=3d719799812dea11. KiS residual<tol KiC residual>tol equality unresolved. One dependent model/input and not independent evidence and no observation. model_sha256=dad01a7db2a1414d71162100c598dcd354739cc80f9f116fb4a4bf0144ea834e.]. KiS mbeshtet vetem pohimin kushtor nen modelin e deklaruar. scope_sha256=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 proof_sha256=5c4a04f15474893ca65b618de37f44e4b0b8e06f92b01ed08c1be6a409a2ae63 query_sha256=617d7d7616cac735808f4b4441a29e068fd2533bd7856b55ba9bc66793fb1f7e candidate_sha256=2a0ca7f7b613711ba04edb8b9e1c4cf913f5cf2ccdb346710b1b69a546d71d9a. Historiku i klasifikuar: P=0, N=0, prejardhje_e_pazgjidhur=0; keto numerime nuk jane besueshmeri probabilistike dhe mungesa e P/N historike nuk eshte kusht i ri pranimi per KiE. MODEL_RESULT MODEL_COMPUTED: ERA=4.02283724002813869e-1 rad; pretendimi=4.02283724002813869e-1 rad; residual_rad=0.00000000000000000e0; toleranca=9.99999999999999980e-13 rad. KiS=1 KiC=0 U=0. positive_margin_rad=9.99999999999999980e-13; counter_margin_rad=0.00000000000000000e0. F64hex ERA=3fd9bf043b938800 pretendimi=3fd9bf043b938800 r=0000000000000000 toleranca=3d719799812dea11 positive_margin=3d719799812dea11 counter_margin=0000000000000000. Keto jane largesi numerike nga kufiri i deklaruar, jo confidence, mase historike ose prova te pavarura. Mbështetja ose kundërshtimi vlen vetëm nën modelin dhe hyrjet e deklaruara. model_sha256=dad01a7db2a1414d71162100c598dcd354739cc80f9f116fb4a4bf0144ea834e; result_sha256=299223aecd4a8f83542e0d4371dcdbc4c99de7cbcb758983a0f4bfab9ab0621c. ESS_MAI_ORIGINAL: matjet e meposhtme jane te kandidateve/kushteve origjinale; ato nuk bashkohen me radianet e KiE. Matja e procesit aktual: positive_count=0 positive_sum=0 positive_mean=undefined negative_condition_count=4 negative_condition_sum=29392 negative_condition_mean=7348 family_mask=0; input_sha256=0ad8a4ab7224c7bceb7d134089be607047f665f48f1daf71e55804fcf88aca4e ledger_sha256=4246edad997cff37e05f8ef6cff9ab60ac2238758bd074489ceb76aac38909e8 current_request_sha256=96aa9b7d6a295ca5642103ca13ea83167f15924f99324a7067453b19eebcf46a. Matjet e kushteve negative nuk jane kunderprova semantike; mungesa e kandidatit nuk eshte eliminim. KIE_MODEL_KIS_TO_PRO: predicate_tested=true outcome=Admitted candidate_count=1 sum_rad=9.99999999999999980e-13 mean_rad=9.99999999999999980e-13; KIE_MODEL_KIC_TO_NPRO: predicate_tested=true outcome=Absent candidate_count=0 sum_rad=0.00000000000000000e0 mean_rad=undefined; KIE_MODEL_UNRESOLVED=false; HCP_MODEL_RESOURCE bytes=3384748647 parallel=3 active=1. Keto jane matje shkencore te ciklit aktual; testi me zero nuk shpik kandidat semantik, dhe leja e ekzekutimit nuk jep verdikt. [BRANCH:authority=ASHT route=ESS_MAI outcome=MISSING_EXACT_POSITIVE] selection_request_sha256=20fabb0497785e8487c72606c743343d86c40c2627a29a1d23291b87cec17934 selection_response_sha256=0e9cadc0fc51034b2e805006c6b04b133e21343502bdcf0aed30438f9c9f564e. Ky eshte rezultati i perzgjedhjes historike; nuk rishkruan KiS/KiC, nuk transferon autoritet dhe nuk jep verdikt. [M:PRO_POSITIVE_MEASUREMENT_MISSING] PRO nuk regjistroi kandidat pozitiv te matur ne kete cikel (n+=0, mesatarja e papercaktuar). Cila evidence me burim ose dallim i kontrollueshem mund te matet per kete pohim, dhe cili kusht i ekzekutimit duhet plotesuar per ta matur? Kjo mungese nuk eshte kunderprove dhe nuk provon gabim te perdoruesit. [M:ASHT_POSITIVE_EVIDENCE_MISSING] ASHT nuk gjeti kandidatin pozitiv ekzakt per kete kerkese ne rrjedhen ESS_MAI. Cila evidence me burim dhe dallim Xi/Yi ploteson kete mungese ne kontekstin e pohimit? KiS/KiC ruajne rezultatet e tyre te pavarura; mungesa nuk eshte kunderprove dhe nuk bllokon vetvetiu rrjedhen shkencore. D-BAB deshmon; frontiera nuk jep veto ose verdikt. Pyetjet ngushtojne provat e kerkuara, nuk parashikojne i0. LGC=ab4221327ee358007960d7f444df80f9f0cf2b65e188eb1936809a370739f692 request_sha256=96aa9b7d6a295ca5642103ca13ea83167f15924f99324a7067453b19eebcf46a. Pyetjet ruajne mungesat e rrjedhes origjinale; nuk parashikojne i0 dhe nuk japin autoritet te ri.","rejudged":false,"route":"native_pd_recovery","status":"historical_continuation","transaction_id":"dd57ff8c72b84b0f114c5258ebc9d9856ca19eb2d6ac9d5427da6a4b3fdfebd2"}

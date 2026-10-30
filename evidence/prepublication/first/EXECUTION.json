@@ -1,0 +1,42 @@
+{
+  "command": [
+    "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\cargo.exe",
+    "test",
+    "--offline",
+    "--locked",
+    "--workspace",
+    "--",
+    "--test-threads=1"
+  ],
+  "cwd": "C:\\Users\\AG\\Desktop\\ess-mai-project\\poc\\poc-002-ai-authority-entity\\native\\runtime",
+  "exit_code": 101,
+  "seconds": 248.06,
+  "summaries": [
+    {
+      "status": "ok",
+      "passed": 2,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "status": "ok",
+      "passed": 12,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "status": "ok",
+      "passed": 237,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "status": "FAILED",
+      "passed": 6,
+      "failed": 1,
+      "ignored": 0
+    }
+  ],
+  "log_sha256": "569a9db8406519e1c4b938f5646bc48b9e98ff5343e20fc838aa712167a55ff5",
+  "source_changes": 0
+}

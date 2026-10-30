@@ -1,0 +1,9 @@
+{
+  "ESSMAI_VAULT": "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\shadow.svlt",
+  "ESSMAI_HANDOFF_DIR": "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\handoff",
+  "ESSMAI_QUANTUM_BIN": "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\quantum-platform.exe",
+  "ESSMAI_SHADOW_BIN": "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\shadow_platform.exe",
+  "TEMP": "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\tmp",
+  "TMP": "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\tmp",
+  "TMPDIR": "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\tmp"
+}

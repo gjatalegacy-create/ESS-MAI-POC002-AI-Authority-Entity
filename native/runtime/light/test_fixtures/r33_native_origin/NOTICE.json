@@ -1,0 +1,18 @@
+{
+  "classification": "CAPTURED_R33_RUNTIME_TRANSPORT_DATA_NOT_AUTHORITY",
+  "purpose": "Tests use immutable actual bytes to validate exact native inquiry ancestry and read-only transport contracts. They do not grant a live Shadow receipt or prove current runtime acceptance. Fresh-process R34 evidence is required separately.",
+  "files": [
+    {
+      "path": "support-02.bundle",
+      "source": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_33_model_judgment\\evidence\\native_complete\\support\\support-02.bundle",
+      "bytes": 20504,
+      "sha256": "8ef9725807fbca4542992494562b1238e36121dd52093cf811173d876d18b5e7"
+    },
+    {
+      "path": "support-02.pds",
+      "source": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_33_model_judgment\\evidence\\native_complete\\support\\support-02.pds",
+      "bytes": 16663,
+      "sha256": "b69485522b8425651593362f80310a8ae0b17a185d3d260333795fff26843ae8"
+    }
+  ]
+}

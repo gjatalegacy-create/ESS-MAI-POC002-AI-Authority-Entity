@@ -1,0 +1,108 @@
+╔══ [LIGJI I LEXUAR] platforma=LIGHT vula=90b17ec6bdaa58f1 ══╗
+║ GJATA_COLLAPSE_LAW — ligji ekzekutiv i identitetit të ESS-MAI:
+║ çdo Primitive Anchor DETYROHET të kalojë nëpër koordinim, eliminim,
+║ arsyetim dhe verifikim deri në një gjendje të vetme të qëndrueshme
+║ (D ∈ {0,1} ose XY).
+║ Zinxhiri: i0→Trace→PA→Xi‖Yi→CoordinateCollapse→LIM→(-Xi)+(-Yi)→PRO→
+║ i≈XY→APRO→MPRO→XY→PIM/NPIM→Shadow→VerificationCollapse→D∈{0,1}.
+║ LAW 0: çdo gjendje ul pasigurinë (kurrë zgjerim; shkelje = fail-closed).
+║ Muskujt: alnur_karina_athar (Light) · ultimatum_collapse_law (Quantum) ·
+║ verefied_diary_supremelaw (Shadow). ESS-MAI == gjata_collapse_law.
+║ Probabilitet FAKTIK (matje×evidencë) — kurrë probabilitet LLM.
+║ NDARJE: 'Primitive Anchor' (PA) = HYRJA (Light, vulë 500); ndryshe nga
+║ 'UNANIM_PRIMITIVE' (Shadow, ∏ᵢXᵢ=1) = dija E VERIFIKUAR. PA hyn, 
+║ UNANIM_PRIMITIVE del i verifikuar — role të ndryshme, pa përplasje.
+╠══ REGJISTRI: 10 LIGJE AKTIVE · vula 7c73fa4c86c35a6f ══╣
+╠══ 3 ROLE EKZEKUTIVE (JO AGJENTË) ══╣
+╚══ ESS-MAI == gjata_collapse_law — ligji është gjallë ══╝
+  [FIRST_GUARDIAN] LIGHT — riti i frymës së parë (4 organe)…
+  [FIRST_GUARDIAN]   ✓ fnv_known_vector
+  [FIRST_GUARDIAN]   ✓ pa_wire_roundtrip
+  [FIRST_GUARDIAN]   ✓ handoff_env
+  [FIRST_GUARDIAN]   ✓ lingua_i0
+  [FIRST_GUARDIAN] LIGHT — FRYMA E PARË ✓ (4/4) — dëshmia u vulos
+  [GCL_PRESUME] LIGHT — KOLAPS_KOORDINIMI : sweep i gatishmërisë (16 module)
+  [GCL_PRESUME]   †lingua_i0 (I0_CAPTURE) → READY
+  [GCL_PRESUME]   †primitive_split (SPLIT_XI_YI) → READY
+  [GCL_PRESUME]   †pa_export(pa_wire) (ANCHOR_EXPORT) → READY
+  [GCL_PRESUME]    pd_light_surface (SUPPORT) → READY
+  [GCL_PRESUME]    light_coordinator (SUPPORT) → READY
+  [GCL_PRESUME]    runtime_evidence_spine (SUPPORT) → READY
+  [GCL_PRESUME]    lgc_algorithm (SUPPORT) → READY
+  [GCL_PRESUME]    software_contract (SUPPORT) → READY
+  [GCL_PRESUME]    living_trust_contract (SUPPORT) → READY
+  [GCL_PRESUME]    gcl_project_contract (SUPPORT) → READY
+  [GCL_PRESUME]    quantum_bridge (SUPPORT) → READY
+  [GCL_PRESUME]    shadow_selection_bridge (SUPPORT) → READY
+  [GCL_PRESUME]    shadow_seal_bridge (SUPPORT) → DEGRADED
+  [GCL_PRESUME]    nura_core (SUPPORT) → READY
+  [GCL_PRESUME]    trl_input(lingua) (SUPPORT) → READY
+  [GCL_PRESUME]    fryma_e_pare (SUPPORT) → READY
+  [GCL_PRESUME] LIGHT — përfundim: 15/16 READY, 1 DEGRADED, 0 të domosdoshëm JO gati
+2026-10-30T16:49:33.839014Z  INFO ==========================================================
+2026-10-30T16:49:33.839063Z  INFO   NURA LEGACY —  BOOT (Light→Quantum→Shadow main)
+2026-10-30T16:49:33.839069Z  INFO ==========================================================
+2026-10-30T16:49:33.839083Z  INFO BOOT VERIFIED constitution
+2026-10-30T16:49:33.839092Z  INFO BOOT INFO moral — etiketë domeni
+2026-10-30T16:49:33.839097Z  INFO LGC_BRIDGE: C kernel AKTIV — libnura_kernel.so
+2026-10-30T16:49:33.839130Z  INFO BOOT VERIFIED lgc_kernel — backend=C_KERNEL; sealed=PASS; stripped=BLOCK; freeze=BLOCK; recovery=PASS
+2026-10-30T16:49:33.839138Z  INFO BOOT INFO buss — 3 stacione: LIGHT/SHADOW/QUANTUM
+2026-10-30T16:49:33.839272Z  INFO ESS MANIFEST: 13 module regjistruar | root_sha=5dbffb7589349ade...
+2026-10-30T16:49:33.839295Z  INFO BOOT VERIFIED ess_manifest — 13 module
+2026-10-30T16:49:33.839301Z  INFO BOOT INFO nura/alisah/ammy — domenet e NURA — routing real në nura_core
+2026-10-30T16:49:33.839320Z  INFO BOOT VERIFIED kodunik_pipeline (KDS:412840D9-000001-)
+2026-10-30T16:49:33.839368Z  INFO BOOT VERIFIED quantum_buss — Light stdin/stdout → Quantum process
+2026-10-30T16:49:33.839919Z  INFO BOOT VERIFIED local_c_buss (compatibility queue initialized)
+2026-10-30T16:49:33.839930Z  INFO BOOT VERIFIED sovereign (0-copy: CapHandle single-use + vula 500)
+2026-10-30T16:49:33.839936Z  INFO BOOT VERIFIED  (APUPK + SNB + Mini Evolver — integruar)
+2026-10-30T16:49:33.839993Z  INFO BOOT VERIFIED urat sovrane (APUPK→Shadow, SNB→Shadow, Mini→Quantum)
+2026-10-30T16:49:33.840015Z  INFO BOOT VERIFIED light_hardening (health=1.0000 sovereign=true no_decision=true route=MINI_ALGORITHM→ALGORITHM→PD_I0_TO_IZ)
+
+==========================================================
+  NURA LEGACY — BOOT REPORT  (0ms)
+==========================================================
+  VER  constitution                            
+  INFO moral                                     [etiketë domeni]
+  VER  lgc_kernel                                [backend=C_KERNEL; sealed=PASS; stripped=BLOCK; freeze=BLOCK; recovery=PASS]
+  INFO buss                                      [3 stacione: LIGHT/SHADOW/QUANTUM]
+  VER  ess_manifest                              [13 module]
+  INFO nura/alisah/ammy                          [domenet e NURA — routing real në nura_core]
+  VER  kodunik_pipeline (KDS:412840D9-000001-) 
+  VER  quantum_buss                              [Light stdin/stdout → Quantum process]
+  VER  local_c_buss (compatibility queue initialized)
+  VER  sovereign (0-copy: CapHandle single-use + vula 500)
+  VER   (APUPK + SNB + Mini Evolver — integruar)
+  VER  urat sovrane (APUPK→Shadow, SNB→Shadow, Mini→Quantum)
+  VER  light_hardening (health=1.0000 sovereign=true no_decision=true route=MINI_ALGORITHM→ALGORITHM→PD_I0_TO_IZ)
+==========================================================
+  SISTEM AKTIV — Light→Quantum→Shadow main→Quantum→Light
+==========================================================
+  [GCL_PRESUME] LIGHT — KOLAPS_KOORDINIMI : sweep i gatishmërisë (16 module)
+  [GCL_PRESUME]   †lingua_i0 (I0_CAPTURE) → READY
+  [GCL_PRESUME]   †primitive_split (SPLIT_XI_YI) → READY
+  [GCL_PRESUME]   †pa_export(pa_wire) (ANCHOR_EXPORT) → READY
+  [GCL_PRESUME]    pd_light_surface (SUPPORT) → READY
+  [GCL_PRESUME]    light_coordinator (SUPPORT) → READY
+  [GCL_PRESUME]    runtime_evidence_spine (SUPPORT) → READY
+  [GCL_PRESUME]    lgc_algorithm (SUPPORT) → READY
+  [GCL_PRESUME]    software_contract (SUPPORT) → READY
+  [GCL_PRESUME]    living_trust_contract (SUPPORT) → READY
+  [GCL_PRESUME]    gcl_project_contract (SUPPORT) → READY
+  [GCL_PRESUME]    quantum_bridge (SUPPORT) → READY
+  [GCL_PRESUME]    shadow_selection_bridge (SUPPORT) → READY
+  [GCL_PRESUME]    shadow_seal_bridge (SUPPORT) → DEGRADED
+  [GCL_PRESUME]    nura_core (SUPPORT) → READY
+  [GCL_PRESUME]    trl_input(lingua) (SUPPORT) → READY
+  [GCL_PRESUME]    fryma_e_pare (SUPPORT) → READY
+  [GCL_PRESUME] LIGHT — përfundim: 15/16 READY, 1 DEGRADED, 0 të domosdoshëm JO gati
+
+NURA LEGACY —  aktiv. Shkruaj pyetjen (CTRL+C per dalje):
+──────────────────────────────────────────────────────────
+[TRACE] T3_df9c6cd079809f43_P00009efc_18e35caccb473b0c | domain=WORK→NURA | contract=KDS:177AB5C5-000...
+  [KOLAPS/1] KOORDINIMI: Xi=1 Yi=11 — hapësirat primitive lindën
+  [LAW0]     before=144 after=11 receipt=a41fd494d9627fb6...
+[QUANTUM] Duke dërguar... 
+  [LIGHT_EMOTIONAL_SPINE]   besim=0.000 prioritet_i_butë=0.000 udhëzim=UNKNOWN evidencë=0 hardened=false (Light interpreton, s'vendos)
+Operational_iZ — Rasti lgc-824d5388a12f26103c78cac6f16283ad64f17609d489d1415f51d86648676c33 ruan pyetjen fillestare «Evaluate Earth rotation angle under the declared mathematical model only.» dhe detyrimin ASHT exact positive-negative distinction. Në hyrjen reale të tanishme «For the same Earth rotation angle investigation, evaluate a new opposing numerical claim; I have not supplied that claim yet.», tentativa T3_df9c6cd079809f43_P00009efc_18e35caccb473b0c nuk gjeti të dy kandidatët pozitiv dhe negativ të pranuar saktësisht për Xi/Yi e saj. Për të ngushtuar detyrimin e provës, jep materialin pozitiv mbështetës; materialin negativ kundërshtues; dallimin konkret midis Xi dhe Yi; burimin e kontrollueshëm; kushtin ose provën që do ta rrëzonte dallimin. Nëse nuk e ke këtë material, thuaje; mungesa nuk plotësohet automatikisht. Referencat e mbledhura ruajnë vetëm material USER_REPORTED për të njëjtin detyrim; prania e tekstit nuk provon relevancë ose vërtetësi dhe nuk plotëson vetë Xi/Yi. Kjo pyetje kërkon provën që mungon; nuk parashikon përgjigjen e ardhshme dhe nuk është i₀ i përdoruesit. HOLD vijon; NoVerdict.
+{"authority_transferred":false,"candidate_status":"user_reported_material_pending_admission","identity_key":"559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8","kind":"OperationalNoVerdict","knowledge_verdict":null,"light_role":"transmitter","next_user_i0":null,"operation_id":"poc002-c4","question":"Operational_iZ — Rasti lgc-824d5388a12f26103c78cac6f16283ad64f17609d489d1415f51d86648676c33 ruan pyetjen fillestare «Evaluate Earth rotation angle under the declared mathematical model only.» dhe detyrimin ASHT exact positive-negative distinction. Në hyrjen reale të tanishme «For the same Earth rotation angle investigation, evaluate a new opposing numerical claim; I have not supplied that claim yet.», tentativa T3_df9c6cd079809f43_P00009efc_18e35caccb473b0c nuk gjeti të dy kandidatët pozitiv dhe negativ të pranuar saktësisht për Xi/Yi e saj. Për të ngushtuar detyrimin e provës, jep materialin pozitiv mbështetës; materialin negativ kundërshtues; dallimin konkret midis Xi dhe Yi; burimin e kontrollueshëm; kushtin ose provën që do ta rrëzonte dallimin. Nëse nuk e ke këtë material, thuaje; mungesa nuk plotësohet automatikisht. Referencat e mbledhura ruajnë vetëm material USER_REPORTED për të njëjtin detyrim; prania e tekstit nuk provon relevancë ose vërtetësi dhe nuk plotëson vetë Xi/Yi. Kjo pyetje kërkon provën që mungon; nuk parashikon përgjigjen e ardhshme dhe nuk është i₀ i përdoruesit. HOLD vijon; NoVerdict.","question_binding":"946664bafabc0fc233fa3003e784bd02bc2895a6a53b8d1993f21240441aff55","record_id":"bfc6a69f52847bae942e84a64104a6c6a35828ef2f9466c16569c03af4c991d0","revision":4,"spine9_verified":false,"state_digest":"e5d130831c8387b7a192655a1a74320f7df217d0ffcc76049996f9172511789d"}
+2026-10-30T16:49:39.378893Z  INFO Sistema mbyllur — quantum_buss destroyed.

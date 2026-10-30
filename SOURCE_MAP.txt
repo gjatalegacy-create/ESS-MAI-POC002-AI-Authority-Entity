@@ -1,0 +1,91 @@
+POC002 — harta e hierarkisë, referenca 1-based në skedarët e shkëputur
+Rrënja relative: native/runtime/
+
+GCL si kontratë kushtetuese, jo agjent ose autoritet i ri:
+  gcl-constitution/src/constitution.rs:375-395
+
+QUANTUM / UCL — komisionimi dhe rendi i kompetencave:
+  quantum/src/ultimatum_collapse_law.rs:183-221
+  command_asht_routes:250-276
+  testi batch_is_one_upper_transition_with_two_distinct_subordinate_scopes:339
+  Caller-i që konsumon dy komandat: quantum/src/main.rs:355-365,399-439
+
+ASHT — autoriteti vartës kryen përzgjedhje dhe përpunim real:
+  quantum/src/asht_quantum.rs:241-296 — commission dhe request historik
+  :301-313 — witness_material i vëzhguar para attestation
+  :315-427 — projection, renditje, masa, direktivë e kufizuar
+  :457-487 — kërkesa KiE me komandën e vet
+  :490-607 — attest KiE, rillogaritje, lidhje origjinash, output
+
+Kushti që një mungesë historike të mbetet lokale:
+  quantum/src/main.rs:415-438
+  shadow-contracts/src/pd_memory/failure.rs:346-364
+  Nuk kapet çdo Err për ta kthyer në leje. Kërkohet mungesa e riprodhuar.
+
+PRO dhe NPRO — kompetenca ekzekutive të dalluara:
+  quantum/src/pro.rs:63-70 — KiS
+  :77-276 — operatorët origjinalë PRO
+  quantum/src/npro.rs:83-90 — KiC
+  :95-155 — aktivizimi i drejtuar; :460-507 — dega KiE
+  quantum/src/main.rs:969-990,1060-1087 — thirrjet reale të ndara
+
+Kufiri i endpoint-it shkencor:
+  quantum/src/kie_measurement.rs:22-61
+  Proof/scope/direktivë e pavlefshme -> Err.
+  Kapacitet/lease i munguar -> Ok(None).
+  Matje e kryer -> Ok(Some(matja)).
+  shadow-contracts/src/model_operator_measurement.rs:59-76
+  Held / Absent / Admitted ruhen të dalluara.
+
+Provat ekzistuese:
+  quantum/src/npro.rs:743-809 — KiS/KiC me operatorët origjinalë të
+  ndaluar; shtatë raste kapaciteti; scope/direktivë e ndryshuar edhe
+  pas rillogaritjes së hash-it.
+  quantum/src/asht_quantum.rs:780-844 — histori e munguar, ruajtje
+  e kontekstit, deduplikim i origjinës dhe HOLD pa kandidatë fiktivë.
+  Këto janë teste unitare me të dhëna kontrolli të deklaruara;
+  modeli numerik është i ekzekutuar, hold-et nuk janë Vault real.
+
+Mos-përsëritja — kufiri që duhet deklaruar:
+  UCL ndalon rilëshimin dhe tranzicionin e përsëritur në të njëjtën
+  instancë; ASHT përdor self konsumues. Regjistrimi i veprimeve dhe
+  kontrolli final mbeten native. Nuk janë ledger global kundër
+  ri-thirrjes arbitrare të funksioneve. Nuk pretendohet që mungesa
+  e një rrjedhe e bën automatikisht të vlefshme rrjedhën tjetër.
+
+Përkufizimi konceptual u lexua nga dokumentet e autorit te
+Desktop/Entiteti Autoriteti AI. Korrigjimi i autorit në bisedë ka
+përparësi: autoriteti mund të ushtrojë kompetenca të ndryshme; nuk
+duhet ngatërruar kjo me përsëritjen e së njëjtës punë në të njëjtin
+cikël. Dokumentet konceptuale nuk janë përdorur si provë ekzekutimi.
+
+PLOTËSIMI NATIVE — LIGHT / SHADOW / VAULT
+
+LIGHT, një çështje dhe paraardhësi i saj:
+  light/src/pd_lgc_frontend.rs:21-32 — hyrjet CLI
+  :124-162 — lidhja/riprovimi i operacionit pas T2 native
+  light/src/pd_iz_science_frontend.rs:22-42,61-81 — ruan identitetin;
+  përpunimi kalon te Quantum; memoria te Shadow.
+  light/src/kie_frontend.rs:63-76,113-126 — paraardhësi nga konteksti.
+
+SHADOW — kontrolli para rigjykimit:
+  shadow/src/process_bridge.rs:574-605 — decode/bind/replay përpara PA
+  dhe gjykimit; përgjigjja ekzakte publikohet nga memoria ekzistuese.
+  shadow/src/shadow_gateway.rs:997-1005 — identitet/hash/prepared ekzakt
+  ose NATIVE_REQUEST_CONFLICT; hash-i vetëm nuk krijon autoritet.
+
+VAULT — efektet e qëndrueshme dhe vazhdimësia:
+  shadow/src/knowledge_vault.rs:1356-1409 — commit_lock, identiteti,
+  AlreadyCommitted përpara append-it, refuzimi i konfliktit.
+  :1230-1244 — T2 i njëjtë rikthehet pa append të dytë.
+  :1019-1030,1067-1075 — kreu aktual dhe operacioni iZ.
+  shadow/src/native_continuation.rs:17 — PD_T1_REQUEST_CONFLICT.
+
+Protokollet e inspektimit:
+  shadow-contracts/src/pd_cycle.rs:52-58 — PDL2 finalize lookup.
+  quantum/src/pd_native_bridge.rs:89-128 — outbox ekzakt PDT1/lookup.
+  quantum/examples/pd_recovery_inspect.rs — inspektim i bundle-it,
+  nuk jep verdikt ose kompetencë.
+
+Testet dhe demonstrimi real janë të ndara në RESULTS.txt. Prova
+native e plotësuar nuk përdor fixture-t si kandidatë në Vault.

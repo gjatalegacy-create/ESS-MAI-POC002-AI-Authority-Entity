@@ -1,0 +1,96 @@
+{
+  "classification": "SYNTHETIC_FORMULA_STORAGE_ONLY_NOT_NATIVE_KNOWLEDGE",
+  "production_included": false,
+  "files": [
+    {
+      "path": "test_support/prepared/positive/prepared.bin",
+      "bytes": 1581,
+      "sha256": "7dfa3af86eeb5a9e3f60ce6f1fb9e3e5124128c56543d250e4774b08e1ca1e41",
+      "source": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_33_model_judgment\\state\\ten_output\\prepared\\positive\\prepared.bin"
+    },
+    {
+      "path": "test_support/prepared/positive/response.wire",
+      "bytes": 581,
+      "sha256": "6233bd144994d758a30ac4b8b2a833a9a8c91397c93b481f0f1e55f0b41b3a12",
+      "source": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_33_model_judgment\\state\\ten_output\\prepared\\positive\\response.wire"
+    },
+    {
+      "path": "test_support/prepared/positive/continuation.bin",
+      "bytes": 566,
+      "sha256": "8ff4be682d7a83ede903802996b283f6766c949777037de2f928589573b20eec",
+      "source": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_33_model_judgment\\state\\ten_output\\prepared\\positive\\continuation.bin"
+    },
+    {
+      "path": "test_support/prepared/negative/prepared.bin",
+      "bytes": 1581,
+      "sha256": "7dfa3af86eeb5a9e3f60ce6f1fb9e3e5124128c56543d250e4774b08e1ca1e41",
+      "source": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_33_model_judgment\\state\\ten_output\\prepared\\negative\\prepared.bin"
+    },
+    {
+      "path": "test_support/prepared/negative/response.wire",
+      "bytes": 581,
+      "sha256": "3d65375fc1d04b77500acc163ba3bcfe49c16e9b10ce5585100bfc8fee7c8cc1",
+      "source": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_33_model_judgment\\state\\ten_output\\prepared\\negative\\response.wire"
+    },
+    {
+      "path": "test_support/prepared/negative/continuation.bin",
+      "bytes": 631,
+      "sha256": "6ea50a51a7fbaf01be260d801cd3fd762cc822f4572b71d53f9c1c5dca0ea466",
+      "source": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_33_model_judgment\\state\\ten_output\\prepared\\negative\\continuation.bin"
+    },
+    {
+      "path": "test_support/prepared/followup-positive/prepared.bin",
+      "bytes": 2484,
+      "sha256": "d4270c0733f63e099ada2858b2a41d80cd710e5eafe09f065830504f8a38bfb9",
+      "source": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_33_model_judgment\\state\\ten_output\\prepared\\followup-positive\\prepared.bin"
+    },
+    {
+      "path": "test_support/prepared/followup-positive/response.wire",
+      "bytes": 595,
+      "sha256": "726177261f0bff94b44e37231849d66ec622f373e46bace680803bb810225a4e",
+      "source": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_33_model_judgment\\state\\ten_output\\prepared\\followup-positive\\response.wire"
+    },
+    {
+      "path": "test_support/prepared/followup-positive/continuation.bin",
+      "bytes": 579,
+      "sha256": "7ab15b146cf6947e4ea61df4a179210eda5bca1abd603e08e71dbf7affab1ee2",
+      "source": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_33_model_judgment\\state\\ten_output\\prepared\\followup-positive\\continuation.bin"
+    },
+    {
+      "path": "test_support/prepared/followup-negative/prepared.bin",
+      "bytes": 2484,
+      "sha256": "d4270c0733f63e099ada2858b2a41d80cd710e5eafe09f065830504f8a38bfb9",
+      "source": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_33_model_judgment\\state\\ten_output\\prepared\\followup-negative\\prepared.bin"
+    },
+    {
+      "path": "test_support/prepared/followup-negative/response.wire",
+      "bytes": 595,
+      "sha256": "0f45cdf17b1520d5b108d0437f81b3e9022eacce9918d34408c991cd727bb91d",
+      "source": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_33_model_judgment\\state\\ten_output\\prepared\\followup-negative\\response.wire"
+    },
+    {
+      "path": "test_support/prepared/followup-negative/continuation.bin",
+      "bytes": 644,
+      "sha256": "a0348dd57872141a6767cfd27785a782a9233c1b394c30db03f2b46fcfee2fc2",
+      "source": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_33_model_judgment\\state\\ten_output\\prepared\\followup-negative\\continuation.bin"
+    },
+    {
+      "path": "test_support/prepared/stale-positive/prepared.bin",
+      "bytes": 2484,
+      "sha256": "fe1413f730a04a65110c4b1877b6d63eda4d98de1ca0d9df4b346d64283bf21e",
+      "source": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_33_model_judgment\\state\\ten_output\\prepared\\stale-positive\\prepared.bin"
+    },
+    {
+      "path": "test_support/prepared/stale-positive/response.wire",
+      "bytes": 595,
+      "sha256": "00f14e2baaacb1e805c5261a28aa779da5b467a8b3877c2161c7282d64d24120",
+      "source": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_33_model_judgment\\state\\ten_output\\prepared\\stale-positive\\response.wire"
+    },
+    {
+      "path": "test_support/prepared/stale-positive/continuation.bin",
+      "bytes": 579,
+      "sha256": "796a057b714ca4a5989682c745f9f9085de017ba28cbd1828722d55be04bbafa",
+      "source": "C:\\Users\\AG\\Desktop\\poc 007\\obligation_promise_law_2_success\\codex_zvn\\round_33_model_judgment\\state\\ten_output\\prepared\\stale-positive\\continuation.bin"
+    }
+  ]
+}

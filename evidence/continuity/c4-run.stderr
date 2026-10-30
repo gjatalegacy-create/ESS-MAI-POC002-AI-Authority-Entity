@@ -1,0 +1,400 @@
+[0-NOI] site=LIGHT_NATIVE_INQUIRY_READ scope=2c430cf93262fc8fcbb564c89a8d8bd598b78cd041815def557365cd05bbd146 pid=40700 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_NATIVE_INQUIRY_READ occurrence=1 callback=ENTER authority=0 pid=40700
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=6ba2b51693eb9eb3b9dbe24e3d18867ac18def947a79462741b8910babdfe977 pid=40700 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=2 callback=ENTER authority=0 pid=40700
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=2 callback=RETURNED_OK authority=0 pid=40700
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=22264 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=22264
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=22264
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=22264 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=22264
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=22264
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=22264 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=22264
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=22264
+[0-NOI] site=SHADOW_NATIVE_RECOVERY scope=bf3485d403a475e92208c6a92cc2a1968e8f4dd386869d24d1650183473cbaef pid=22264 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_NATIVE_RECOVERY occurrence=4 callback=ENTER authority=0 pid=22264
+[0-NOI] site=SHADOW_FORM_T2 scope=bf3485d403a475e92208c6a92cc2a1968e8f4dd386869d24d1650183473cbaef pid=22264 occurrence=5 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_FORM_T2 occurrence=5 callback=ENTER authority=0 pid=22264
+[NOI_DELIVERY] site=SHADOW_FORM_T2 occurrence=5 callback=RETURNED_OK authority=0 pid=22264
+[NOI_DELIVERY] site=SHADOW_NATIVE_RECOVERY occurrence=4 callback=RETURNED_OK authority=0 pid=22264
+[NOI_DELIVERY] site=LIGHT_NATIVE_INQUIRY_READ occurrence=1 callback=RETURNED_OK authority=0 pid=40700
+[0-NOI] site=LIGHT_NATIVE_INQUIRY_READ scope=7e6c22529f50093090c67002783bb0f663a89871ded216bfc6b76ab252c72a84 pid=40700 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_NATIVE_INQUIRY_READ occurrence=3 callback=ENTER authority=0 pid=40700
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=c5de3f38a0f0c86137dc5b7104afa1ba409f81e0d4072766da4ae04105d0d566 pid=40700 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=4 callback=ENTER authority=0 pid=40700
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=4 callback=RETURNED_OK authority=0 pid=40700
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=35948 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=35948
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=35948
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=35948 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=35948
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=35948
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=35948 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=35948
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=35948
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=35948 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=ENTER authority=0 pid=35948
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=RETURNED_OK authority=0 pid=35948
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[NOI_DELIVERY] site=LIGHT_NATIVE_INQUIRY_READ occurrence=3 callback=RETURNED_OK authority=0 pid=40700
+[0-NOI] site=LIGHT_NATIVE_INQUIRY_READ scope=5adf2ec2292204eb65d511285f90839a3adde852aac1d01a387db0f429e69ea1 pid=40700 occurrence=5 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_NATIVE_INQUIRY_READ occurrence=5 callback=ENTER authority=0 pid=40700
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=7a9396be1fc1226fa3ea11655b38301c7a435b2efb2377278d26d5be8369ffa1 pid=40700 occurrence=6 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=6 callback=ENTER authority=0 pid=40700
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=6 callback=RETURNED_OK authority=0 pid=40700
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=15268 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=15268
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=15268
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=15268 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=15268
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=15268
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=15268 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=15268
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=15268
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=15268 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=ENTER authority=0 pid=15268
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=RETURNED_OK authority=0 pid=15268
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[NOI_DELIVERY] site=LIGHT_NATIVE_INQUIRY_READ occurrence=5 callback=RETURNED_OK authority=0 pid=40700
+[0-NOI] site=LIGHT_NATIVE_INQUIRY_READ scope=a2462eb3f3c454536c33b8321718a2732fa526033fee090e60f01fc75956edb4 pid=40700 occurrence=7 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_NATIVE_INQUIRY_READ occurrence=7 callback=ENTER authority=0 pid=40700
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=84e5bdcc60c0d3274e96ae0be1ed6690800d573483364a3eac6d65fa495978ee pid=40700 occurrence=8 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=8 callback=ENTER authority=0 pid=40700
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=8 callback=RETURNED_OK authority=0 pid=40700
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=36104 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=36104
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=36104
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=36104 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=36104
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=36104
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=36104 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=36104
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=36104
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=36104 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=4 callback=ENTER authority=0 pid=36104
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=4 callback=RETURNED_OK authority=0 pid=36104
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[NOI_DELIVERY] site=LIGHT_NATIVE_INQUIRY_READ occurrence=7 callback=RETURNED_OK authority=0 pid=40700
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=7a9396be1fc1226fa3ea11655b38301c7a435b2efb2377278d26d5be8369ffa1 pid=40700 occurrence=9 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=9 callback=ENTER authority=0 pid=40700
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=9 callback=RETURNED_OK authority=0 pid=40700
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=33588 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=33588
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=33588
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=33588 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=33588
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=33588
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=33588 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=33588
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=33588
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=33588 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=ENTER authority=0 pid=33588
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=RETURNED_OK authority=0 pid=33588
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=6465f330371c11b1730f7c866eb6d7071bab89717d57c6ef229bb2884a22e9df pid=40700 occurrence=10 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=10 callback=ENTER authority=0 pid=40700
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=10 callback=RETURNED_OK authority=0 pid=40700
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=38132 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=38132
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=38132
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=38132 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=38132
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=38132
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=38132 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=38132
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=38132
+[0-NOI] site=SHADOW_NATIVE_LOOKUP scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=38132 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_NATIVE_LOOKUP occurrence=4 callback=ENTER authority=0 pid=38132
+[NOI_DELIVERY] site=SHADOW_NATIVE_LOOKUP occurrence=4 callback=RETURNED_OK authority=0 pid=38132
+[SHADOW/PD] kind=iz-native-lookup result=OperationalOnly verdict=None knowledge_write=0
+[BESA/0-NOI] native_map_begin identity=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 authority=0
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=6465f330371c11b1730f7c866eb6d7071bab89717d57c6ef229bb2884a22e9df pid=40700 occurrence=11 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=11 callback=ENTER authority=0 pid=40700
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=11 callback=RETURNED_OK authority=0 pid=40700
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=39600 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=39600
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=39600
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=39600 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=39600
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=39600
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=39600 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=39600
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=39600
+[0-NOI] site=SHADOW_NATIVE_MAP scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=39600 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_NATIVE_MAP occurrence=4 callback=ENTER authority=0 pid=39600
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=39600 occurrence=5 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=5 callback=ENTER authority=0 pid=39600
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=5 callback=RETURNED_OK authority=0 pid=39600
+[NOI_DELIVERY] site=SHADOW_NATIVE_MAP occurrence=4 callback=RETURNED_OK authority=0 pid=39600
+[SHADOW/PD] kind=iz-native-map result=OperationalOnly verdict=None knowledge_write=0
+[BESA/0-NOI] native_exact_read_begin identity=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 authority=0
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=51b70e7f34e754b07970f6c960f93d88f43baf2380e5480150853eaa32e05ff1 pid=40700 occurrence=12 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=12 callback=ENTER authority=0 pid=40700
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=12 callback=RETURNED_OK authority=0 pid=40700
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=33100 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=33100
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=33100
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=33100 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=33100
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=33100
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=33100 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=33100
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=33100
+[0-NOI] site=SHADOW_NATIVE_READ scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=33100 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_NATIVE_READ occurrence=4 callback=ENTER authority=0 pid=33100
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=33100 occurrence=5 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=5 callback=ENTER authority=0 pid=33100
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=5 callback=RETURNED_OK authority=0 pid=33100
+[NOI_DELIVERY] site=SHADOW_NATIVE_READ occurrence=4 callback=RETURNED_OK authority=0 pid=33100
+[SHADOW/PD] kind=iz-native-read result=OperationalOnly verdict=None knowledge_write=0
+[BESA/0-NOI] exact_vault_read_begin identity=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 authority=0
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=51b70e7f34e754b07970f6c960f93d88f43baf2380e5480150853eaa32e05ff1 pid=40700 occurrence=13 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=13 callback=ENTER authority=0 pid=40700
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=13 callback=RETURNED_OK authority=0 pid=40700
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=4964 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=4964
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=4964
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=4964 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=4964
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=4964
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=4964 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=4964
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=4964
+[0-NOI] site=SHADOW_NATIVE_OPERATIONAL_READ scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=4964 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_NATIVE_OPERATIONAL_READ occurrence=4 callback=ENTER authority=0 pid=4964
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=4964 occurrence=5 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=5 callback=ENTER authority=0 pid=4964
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=5 callback=RETURNED_OK authority=0 pid=4964
+[NOI_DELIVERY] site=SHADOW_NATIVE_OPERATIONAL_READ occurrence=4 callback=RETURNED_OK authority=0 pid=4964
+[SHADOW/PD] kind=iz-read result=OperationalOnly verdict=None knowledge_write=0
+[BESA/Vault] native_and_operational_references_bound identity=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 authority=0
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=36232 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=36232
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=36232
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=36232 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=36232
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=36232
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=36232 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=36232
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=36232
+[0-NOI] site=SHADOW_CANDIDATE_SELECTION scope=fdb8d57ddbe81911790f6a7013c23b763fb07dae19212785d77055e02730f537 pid=36232 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_CANDIDATE_SELECTION occurrence=4 callback=ENTER authority=0 pid=36232
+[NOI_DELIVERY] site=SHADOW_CANDIDATE_SELECTION occurrence=4 callback=RETURNED_OK authority=0 pid=36232
+[QUANTUM_NATIVE_FAILURE_STDOUT]
+╔══ [LIGJI I LEXUAR] platforma=QUANTUM vula=90b17ec6bdaa58f1 ══╗
+║ GJATA_COLLAPSE_LAW — ligji ekzekutiv i identitetit të ESS-MAI:
+║ çdo Primitive Anchor DETYROHET të kalojë nëpër koordinim, eliminim,
+║ arsyetim dhe verifikim deri në një gjendje të vetme të qëndrueshme
+║ (D ∈ {0,1} ose XY).
+║ Zinxhiri: i0→Trace→PA→Xi‖Yi→CoordinateCollapse→LIM→(-Xi)+(-Yi)→PRO→
+║ i≈XY→APRO→MPRO→XY→PIM/NPIM→Shadow→VerificationCollapse→D∈{0,1}.
+║ LAW 0: çdo gjendje ul pasigurinë (kurrë zgjerim; shkelje = fail-closed).
+║ Muskujt: alnur_karina_athar (Light) · ultimatum_collapse_law (Quantum) ·
+║ verefied_diary_supremelaw (Shadow). ESS-MAI == gjata_collapse_law.
+║ Probabilitet FAKTIK (matje×evidencë) — kurrë probabilitet LLM.
+║ NDARJE: 'Primitive Anchor' (PA) = HYRJA (Light, vulë 500); ndryshe nga
+║ 'UNANIM_PRIMITIVE' (Shadow, ∏ᵢXᵢ=1) = dija E VERIFIKUAR. PA hyn, 
+║ UNANIM_PRIMITIVE del i verifikuar — role të ndryshme, pa përplasje.
+╠══ REGJISTRI: 10 LIGJE AKTIVE · vula 7c73fa4c86c35a6f ══╣
+╠══ 3 ROLE EKZEKUTIVE (JO AGJENTË) ══╣
+╚══ ESS-MAI == gjata_collapse_law — ligji është gjallë ══╝
+  [GCL_PRESUME] QUANTUM — KOLAPS_KOORDINIMI : sweep i gatishmërisë (16 module)
+  [GCL_PRESUME]    hpro(layer3) (SUPPORT) → DEGRADED
+  [GCL_PRESUME]    pro(pro.rs) (PRO_SELECT) → DEGRADED
+  [GCL_PRESUME]    npro(npro_lim_bridge) (NPRO_ELIMINATE) → DEGRADED
+  [GCL_PRESUME]    mpro(lim_measurer) (MPRO_MEASURE) → DEGRADED
+  [GCL_PRESUME]    apro(apro.rs) (APRO_ARGUE) → DEGRADED
+  [GCL_PRESUME]    pim(pim.rs) (PIM_PACKAGE) → DEGRADED
+  [GCL_PRESUME]    npim(npim.rs) (NPIM_PACKAGE) → DEGRADED
+  [GCL_PRESUME]    hcp_pro (SUPPORT) → DEGRADED
+  [GCL_PRESUME]    primitive_split_reader (SUPPORT) → DEGRADED
+  [GCL_PRESUME]    token_forge(burimi 2) (SUPPORT) → DEGRADED
+  [GCL_PRESUME]    srk (SUPPORT) → DEGRADED
+  [GCL_PRESUME]    ultimatum_collapse_law (SUPPORT) → READY
+  [GCL_PRESUME]    progressive_debatic (PD_I0_TO_IZ) → DEGRADED
+  [GCL_PRESUME]    hw_pre_gate(10% floor) (SUPPORT) → READY
+  [GCL_PRESUME]    thermal_guard (SUPPORT) → DEGRADED
+  [GCL_PRESUME]    nk_sync(shadow_nk) (SUPPORT) → DEGRADED
+  [GCL_PRESUME] QUANTUM — përfundim: 2/16 READY, 14 DEGRADED, 0 të domosdoshëm JO gati
+  [FIRST_GUARDIAN] QUANTUM — riti i frymës së parë (5 organe)…
+  [FIRST_GUARDIAN]   ✓ fnv_known_vector
+  [FIRST_GUARDIAN]   ✓ pa_wire_roundtrip
+  [FIRST_GUARDIAN]   ✓ token_forge_derdh
+  [FIRST_GUARDIAN]   ✓ termik_unknown_ligj
+  [FIRST_GUARDIAN]   ✓ nk_vula_dhe_celesi
+  [FIRST_GUARDIAN] QUANTUM — FRYMA E PARË ✓ (5/5) — dëshmia u vulos
+
+  ESS-MAI QUANTUM PLATFORM 
+  Rrjedha: Light → Quantum → Shadow → Light
+  Sovereign 0-copy | LIM | HW_REAL | PRO | NPRO/NPIM | SRK | PIM
+  Gjata Legacy™
+  [HW]       SENSORË REALË: hw_kernel AKTIV — matjet vijnë nga makina
+
+════════════════════════════════════════════════════════════════════════════
+  INPUT REAL (nga Light, stdin)
+════════════════════════════════════════════════════════════════════════════
+  [LIGHT→Q]  trace=T3_df9c6cd079809f43_P00009efc_18e35caccb473b0c domain=WORK→NURA text="For the same Earth rotation angle investigation, evaluate a new opposing numerical claim; I have not supplied that claim yet."
+             input_sha256=d2e480372d0cb2da6b680f42dc8231e6321fae3f3fe48bec4e09261a1cac7fa0 (Light→Quantum ✓)
+             carries_seal=true
+             evolve[typed]: gen=0 state=EVOLVING primitive=false
+  [SOVEREIGN] ring 0-copy → Ev.mass=0.539 (sinjal hyrës i derivuar, transport LIGJI 0)
+  [KOLAPS/2] ARSYETIMI nis: i₀=i0-df9c6cd079809f43 Xi=1 Yi=11 (nga Light)
+[PD_IZ] record=bfc6a69f52847bae942e84a64104a6c6a35828ef2f9466c16569c03af4c991d0 question=Operational_iZ — Rasti lgc-824d5388a12f26103c78cac6f16283ad64f17609d489d1415f51d86648676c33 ruan pyetjen fillestare «Evaluate Earth rotation angle under the declared mathematical model only.» dhe detyrimin ASHT exact positive-negative distinction. Në hyrjen reale të tanishme «For the same Earth rotation angle investigation, evaluate a new opposing numerical claim; I have not supplied that claim yet.», tentativa T3_df9c6cd079809f43_P00009efc_18e35caccb473b0c nuk gjeti të dy kandidatët pozitiv dhe negativ të pranuar saktësisht për Xi/Yi e saj. Për të ngushtuar detyrimin e provës, jep materialin pozitiv mbështetës; materialin negativ kundërshtues; dallimin konkret midis Xi dhe Yi; burimin e kontrollueshëm; kushtin ose provën që do ta rrëzonte dallimin. Nëse nuk e ke këtë material, thuaje; mungesa nuk plotësohet automatikisht. Referencat e mbledhura ruajnë vetëm material USER_REPORTED për të njëjtin detyrim; prania e tekstit nuk provon relevancë ose vërtetësi dhe nuk plotëson vetë Xi/Yi. Kjo pyetje kërkon provën që mungon; nuk parashikon përgjigjen e ardhshme dhe nuk është i₀ i përdoruesit. HOLD vijon; NoVerdict.
+
+[QUANTUM_NATIVE_FAILURE_STDERR]
+[LGC/NATIVE] process=3872 sequence=0 predecessor=c73081399a702b051be714d9df6abe209eaed6a67a22411ee9abfc281c9f1984 site="SHADOW_EXACT_STORED_RECOVERY" action="ENTER_PREDECESSOR_REQUESTED_ACTION" payload_sha256=c73081399a702b051be714d9df6abe209eaed6a67a22411ee9abfc281c9f1984 step_sha256=ec340a748c95e568c870d593dba5c17613bd4f92123012294e275c5ad3cb6178 authority=0 new_attestation=false
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=25656 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=25656
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=25656
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=25656 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=25656
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=25656
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=25656 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=25656
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=25656
+[0-NOI] site=SHADOW_NATIVE_RECOVERY scope=bf3485d403a475e92208c6a92cc2a1968e8f4dd386869d24d1650183473cbaef pid=25656 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_NATIVE_RECOVERY occurrence=4 callback=ENTER authority=0 pid=25656
+[0-NOI] site=SHADOW_FORM_T2 scope=bf3485d403a475e92208c6a92cc2a1968e8f4dd386869d24d1650183473cbaef pid=25656 occurrence=5 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_FORM_T2 occurrence=5 callback=ENTER authority=0 pid=25656
+[NOI_DELIVERY] site=SHADOW_FORM_T2 occurrence=5 callback=RETURNED_OK authority=0 pid=25656
+[NOI_DELIVERY] site=SHADOW_NATIVE_RECOVERY occurrence=4 callback=RETURNED_OK authority=0 pid=25656
+[LGC/NATIVE] process=3872 sequence=1 predecessor=ec340a748c95e568c870d593dba5c17613bd4f92123012294e275c5ad3cb6178 site="SHADOW_EXACT_STORED_RECOVERY" action="RETURNED_OK" payload_sha256=a2a92be0f2b6b88e29e00bb685a358c7450769b1b0b793bc75bcbdab8c339918 step_sha256=4b32ef69f14f6908f22bddc7f4e025c144a4fbd5ffa535799aaae11b120d999a authority=0 new_attestation=false
+[LGC/NATIVE] process=3872 sequence=2 predecessor=4b32ef69f14f6908f22bddc7f4e025c144a4fbd5ffa535799aaae11b120d999a site="BIND_RETURNED_HISTORICAL_BUNDLE" action="ENTER_PREDECESSOR_REQUESTED_ACTION" payload_sha256=a2a92be0f2b6b88e29e00bb685a358c7450769b1b0b793bc75bcbdab8c339918 step_sha256=60637740290577fc76a93eb5001e617d88f37b191ebc7793e059035238ecf148 authority=0 new_attestation=false
+[LGC/NATIVE] process=3872 sequence=3 predecessor=60637740290577fc76a93eb5001e617d88f37b191ebc7793e059035238ecf148 site="BIND_RETURNED_HISTORICAL_BUNDLE" action="RETURNED_OK" payload_sha256=a2a92be0f2b6b88e29e00bb685a358c7450769b1b0b793bc75bcbdab8c339918 step_sha256=96870a106fc43264f47da3558f024d243ad5a799b39e4d882e1573112142bee3 authority=0 new_attestation=false
+[LGC/NATIVE] process=3872 sequence=4 predecessor=96870a106fc43264f47da3558f024d243ad5a799b39e4d882e1573112142bee3 site="PD_ORIGINAL_FINALIZER_ON_STORED_T1_T2" action="ENTER_PREDECESSOR_REQUESTED_ACTION" payload_sha256=a2a92be0f2b6b88e29e00bb685a358c7450769b1b0b793bc75bcbdab8c339918 step_sha256=730d39a9673bf1324ebbfd27a507fd32a0de2d192d381fa69c8903be460731f2 authority=0 new_attestation=false
+[LGC/NATIVE] process=3872 sequence=5 predecessor=730d39a9673bf1324ebbfd27a507fd32a0de2d192d381fa69c8903be460731f2 site="PD_ORIGINAL_FINALIZER_ON_STORED_T1_T2" action="RETURNED_OK" payload_sha256=d45e8e6fe852575c0f074ace8d5c04d6a340c98b53bdd6f075e9e25156cea427 step_sha256=2826a828534c1bef3fa2a8e25a462bfe475df0ee1b5507349efe93ab25fda766 authority=0 new_attestation=false
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=8080 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=8080
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=8080
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=8080 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=8080
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=8080
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=8080 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=8080
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=8080
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=8080 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=ENTER authority=0 pid=8080
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=RETURNED_OK authority=0 pid=8080
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=26208 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=26208
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=26208
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=26208 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=26208
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=26208
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=26208 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=26208
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=26208
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=26208 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=4 callback=ENTER authority=0 pid=26208
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=4 callback=RETURNED_OK authority=0 pid=26208
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=36244 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=36244
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=36244
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=36244 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=36244
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=36244
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=36244 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=36244
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=36244
+[0-NOI] site=SHADOW_NATIVE_READ scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=36244 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_NATIVE_READ occurrence=4 callback=ENTER authority=0 pid=36244
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=36244 occurrence=5 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=5 callback=ENTER authority=0 pid=36244
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=5 callback=RETURNED_OK authority=0 pid=36244
+[NOI_DELIVERY] site=SHADOW_NATIVE_READ occurrence=4 callback=RETURNED_OK authority=0 pid=36244
+[SHADOW/PD] kind=iz-native-read result=OperationalOnly verdict=None knowledge_write=0
+[D-BAB/CONDITIONS] phase=before required=3 available=unknown missing=unknown negative_condition=false authority=0
+[IZ/LGC] event=precondition attempt=T3_df9c6cd079809f43_P00009efc_18e35caccb473b0c digest=0a4e5149112d8e431798d44de197755d2c9252c891a46122c48bd3f62d9f3484
+[IZ/LGC] event=action_activation digest=aaaaa2907e10ae194e85e15592cdb3c3b69375baefaac69cdf3571e87c623b3d
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=43720 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=43720
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=43720
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=43720 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=43720
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=43720
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=43720 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=43720
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=43720
+[0-NOI] site=SHADOW_CANDIDATE_SELECTION scope=eb9f0ff81425da7154b9885205b96b53a999ce14513758848c5503b6d963a7a4 pid=43720 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_CANDIDATE_SELECTION occurrence=4 callback=ENTER authority=0 pid=43720
+[NOI_DELIVERY] site=SHADOW_CANDIDATE_SELECTION occurrence=4 callback=RETURNED_OK authority=0 pid=43720
+[D-BAB/CONDITIONS] phase=after status=FailedMissing required=3 available=Some(0) missing=Some(3) gap_count=Some(2) condition_mass_fixed=Some(10000) negative_condition=true semantic_counterproof=false authority=0 lgc=99438840a28be9a7f453d8118ac0c9649ed45ed4f601e96c45c1346da36ffa19
+[IZ/LGC] event=outcome digest=99438840a28be9a7f453d8118ac0c9649ed45ed4f601e96c45c1346da36ffa19
+[IZ/LGC] event=pd_checkpoint turns=5 sha256=03840c5fd594192ff3a6152c82daea25233769eabe554bfe3e9de1ecf329b589
+[IZ/LGC] event=assembly_activation digest=6060740e65f406434fcc20b0161b6a55f57fdc4746163f5232166e0297da036a
+[IZ/LGC] sequence=0 site=origin digest=423a15de876247dfcf2170f6a8907e0fe463eb9e7c33131dec08f06db14fc74d
+[IZ/LGC] sequence=1 site=D-BAB/pre digest=10739b83cbe5b5d8ab99d059cf3e21238552fb9ebfee47abc9063d39d8b69814
+[IZ/LGC] sequence=2 site=0-NOI/action digest=681cd34f335213c8681b10b12bac002963813194feecffb4d5411d688beb26c6
+[IZ/LGC] sequence=3 site=D-BAB/outcome digest=297cc98183edb266132383b0da99f850c7ef56849005eac2cef8ebe8b473048e
+[IZ/LGC] sequence=4 site=0-NOI/assembly digest=eb73fb5960e53d9ded6f4f97bee6dac73a5ed334c799c46fb91d93bce8f444a9
+[IZ/LGC] sequence=5 site=PD/Operational_iZ digest=acc2234b2c9293ce4b41fa45f86702b1ceb01f9fff0f9efddd725c2cec8c678b
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=39340 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=39340
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=39340
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=39340 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=39340
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=39340
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=39340 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=39340
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=39340
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=39340 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=ENTER authority=0 pid=39340
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=RETURNED_OK authority=0 pid=39340
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=39340 occurrence=5 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=5 callback=ENTER authority=0 pid=39340
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=5 callback=RETURNED_OK authority=0 pid=39340
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=39340 occurrence=6 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=6 callback=ENTER authority=0 pid=39340
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=6 callback=RETURNED_OK authority=0 pid=39340
+[0-NOI] site=SHADOW_PERSIST_PD scope=bfc6a69f52847bae942e84a64104a6c6a35828ef2f9466c16569c03af4c991d0 pid=39340 occurrence=7 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PERSIST_PD occurrence=7 callback=ENTER authority=0 pid=39340
+[NOI_DELIVERY] site=SHADOW_PERSIST_PD occurrence=7 callback=RETURNED_OK authority=0 pid=39340
+[SHADOW/PD] kind=commit result=OperationalOnly verdict=None knowledge_write=0
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=29476 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=29476
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=29476
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=29476 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=29476
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=29476
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=29476 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=29476
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=29476
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=29476 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=ENTER authority=0 pid=29476
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=RETURNED_OK authority=0 pid=29476
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+
+[QUANTUM] FAIL-CLOSED: 1/1 cikle dështuan.
+
+[Operational_iZ] native terminal unavailable: BridgeError("QBRIDGE:PROCESS_EXIT:status=exit code: 1; stderr=[LGC/NATIVE] process=3872 sequence=0 predecessor=c73081399a702b051be714d9df6abe209eaed6a67a22411ee9abfc281c9f1984 site=\"SHADOW_EXACT_STORED_RECOVERY\" action=\"ENTER_PREDECESSOR_REQUESTED_ACTION\" payload_sha256=c73081399a702b051be714d9df6abe209eaed6a67a22411ee9abfc281c9f1984 step_sha256=ec340a748c95e568c870d593dba5c17613bd4f92123012294e275c5ad3cb6178 authority=0 new_attestation=false [0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=25656 occurrence=1 "); resolving exact Vault operation
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=7a9396be1fc1226fa3ea11655b38301c7a435b2efb2377278d26d5be8369ffa1 pid=40700 occurrence=14 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=14 callback=ENTER authority=0 pid=40700
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=14 callback=RETURNED_OK authority=0 pid=40700
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=42320 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=42320
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=42320
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=42320 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=42320
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=42320
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=42320 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=42320
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=42320
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=42320 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=ENTER authority=0 pid=42320
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=RETURNED_OK authority=0 pid=42320
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[0-NOI] site=LIGHT_IZ_DELIVERY scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=40700 occurrence=15 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_IZ_DELIVERY occurrence=15 callback=ENTER authority=0 pid=40700
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=0db5163f9dbca5c8250261e65eb53a380e3d6bc7ed8795f8167d20cbd9901e7a pid=40700 occurrence=16 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=16 callback=ENTER authority=0 pid=40700
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=16 callback=RETURNED_OK authority=0 pid=40700
+[0-NOI] site=LIGHT_OPERATIONAL_OUTPUT scope=bfc6a69f52847bae942e84a64104a6c6a35828ef2f9466c16569c03af4c991d0 pid=40700 occurrence=17 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_OPERATIONAL_OUTPUT occurrence=17 callback=ENTER authority=0 pid=40700
+[NOI_DELIVERY] site=LIGHT_OPERATIONAL_OUTPUT occurrence=17 callback=RETURNED_OK authority=0 pid=40700
+[NOI_DELIVERY] site=LIGHT_IZ_DELIVERY occurrence=15 callback=RETURNED_OK authority=0 pid=40700
+[0-NOI] site=LIGHT_RELEASE_PROCESS scope=light-runtime pid=40700 occurrence=18 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_RELEASE_PROCESS occurrence=18 callback=ENTER authority=0 pid=40700
+[NOI_DELIVERY] site=LIGHT_RELEASE_PROCESS occurrence=18 callback=RETURNED_OK authority=0 pid=40700

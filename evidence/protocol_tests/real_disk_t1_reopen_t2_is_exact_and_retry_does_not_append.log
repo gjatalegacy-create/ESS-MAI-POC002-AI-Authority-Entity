@@ -1,0 +1,8 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.14s
+     Running unittests src\main.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\poc002_native_hierarchy\debug\deps\shadow_platform-7d2e88aef296e489.exe)
+
+running 1 test
+test native_continuation::tests::real_disk_t1_reopen_t2_is_exact_and_retry_does_not_append ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 596 filtered out; finished in 0.43s
+

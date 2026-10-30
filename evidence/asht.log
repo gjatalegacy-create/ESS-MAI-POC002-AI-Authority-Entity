@@ -1,0 +1,14 @@
+   Compiling quantum-platform v1.7.8 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\quantum)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 24.48s
+     Running unittests src\main.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\poc002_native_hierarchy\debug\deps\quantum_platform-031b89645d6957e0.exe)
+
+running 6 tests
+test asht_quantum::r26_kie_history_input_tests::r26_kie_attest_deduplicates_scoped_history_and_keeps_conditions_out_of_candidates ... ok
+test asht_quantum::r26_kie_history_input_tests::r26_kie_attest_missing_history_keeps_model_predicates_without_fake_candidates ... ok
+test asht_quantum::r26_kie_history_input_tests::r26_kie_attest_retains_both_scoped_polarities_before_lim ... ok
+test asht_quantum::r26_kie_history_input_tests::r26_kie_attest_retains_whole_proposition_history_without_forged_axis ... ok
+test asht_quantum::r26_kie_history_input_tests::r26_kie_attest_same_source_in_lexical_and_proposition_indexes_is_one_candidate ... ok
+test asht_quantum::r26_kie_history_input_tests::r28_asht_retained_measurement_can_explain_hold_without_endpoint_candidates ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 15 filtered out; finished in 0.33s
+

@@ -1,0 +1,18 @@
+{
+  "full_suite": {
+    "passed": 1821,
+    "failed": 1,
+    "ignored": 0
+  },
+  "exit_code": 101,
+  "doctests_included": 4,
+  "native_warnings": 0,
+  "selected_checks_passed": 20,
+  "selected_are_subsets": true,
+  "native_source_changes": 0,
+  "source_files": 719,
+  "native_final_cycles": 2,
+  "user_turns": 5,
+  "release_build_exit_code": 0,
+  "scope": "research release with disclosed failing regression"
+}

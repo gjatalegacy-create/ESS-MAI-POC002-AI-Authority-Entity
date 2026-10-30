@@ -1,0 +1,46 @@
+{
+  "cwd": "C:\\Users\\AG\\Desktop\\ess-mai-project\\poc\\poc-002-ai-authority-entity\\native\\runtime",
+  "results": [
+    {
+      "step": "release",
+      "command": [
+        "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\cargo.exe",
+        "build",
+        "--offline",
+        "--locked",
+        "--release",
+        "--workspace"
+      ],
+      "exit_code": 0,
+      "seconds": 0.23,
+      "log_sha256": "a70da5408e7a6da7efe97b23011504833b16a7875bda14543f2504b5b8c7d97a"
+    },
+    {
+      "step": "examples",
+      "command": [
+        "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\cargo.exe",
+        "build",
+        "--offline",
+        "--locked",
+        "--release",
+        "-p",
+        "quantum-platform",
+        "--example",
+        "pd_iz_input",
+        "--example",
+        "pd_recovery_inspect"
+      ],
+      "exit_code": 0,
+      "seconds": 46.14,
+      "log_sha256": "b59dde644fa76bf93e47deb9eb50f9e5248e7cb0a9f0f5b6dea9bf9f9645ecc1"
+    }
+  ],
+  "environment": {
+    "CC": "C:/msys64/mingw64/bin/gcc.exe",
+    "AR": "C:/msys64/mingw64/bin/ar.exe",
+    "RUSTC": "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\rustc.exe",
+    "CARGO_TARGET_DIR": "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy",
+    "CARGO_BUILD_JOBS": "2",
+    "TEMP": "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\complete_build\\tmp"
+  }
+}

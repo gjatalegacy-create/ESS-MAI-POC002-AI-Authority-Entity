@@ -1,0 +1,31 @@
+   Compiling proc-macro2 v1.0.106
+   Compiling quote v1.0.46
+   Compiling subtle v2.6.1
+   Compiling digest v0.10.7
+   Compiling serde_json v1.0.150
+   Compiling sha2 v0.10.9
+   Compiling syn v2.0.119
+   Compiling once_cell v1.21.4
+   Compiling science-domains v0.1.0 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\science-domains)
+   Compiling tracing-core v0.1.36
+   Compiling windows-link v0.2.1
+   Compiling windows-sys v0.61.2
+   Compiling serde_derive v1.0.228
+   Compiling serde v1.0.228
+   Compiling shadow_contracts v1.7.8 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\shadow-contracts)
+   Compiling log v0.4.33
+   Compiling lazy_static v1.5.0
+   Compiling sharded-slab v0.1.7
+   Compiling tracing-log v0.2.0
+   Compiling nu-ansi-term v0.50.3
+   Compiling tracing-attributes v0.1.31
+   Compiling thread_local v1.1.10
+   Compiling shadow_platform v1.7.8 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\shadow)
+   Compiling light-platform v1.7.8 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\light)
+   Compiling pin-project-lite v0.2.17
+   Compiling smallvec v1.15.2
+   Compiling tracing-subscriber v0.3.23
+   Compiling tracing v0.1.44
+   Compiling quantum-platform v1.7.8 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\quantum)
+   Compiling hmac v0.12.1
+    Finished `release` profile [optimized] target(s) in 4m 33s

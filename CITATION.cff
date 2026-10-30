@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Please cite this software when using its source or reproducing its bounded experiment."
+type: software
+version: 0.1.0
+date-released: 2026-10-30
+title: "ESS-MAI POC002 — AI Authority Entity"
+authors:
+  - family-names: Gjata
+    given-names: Bledar
+    orcid: "https://orcid.org/0009-0003-7854-266X"
+repository-code: "https://github.com/gjatalegacy-create/ESS-MAI-POC002-AI-Authority-Entity"
+url: "https://huggingface.co/datasets/gjata-legacy/ess-mai-poc-002-ai-authority-entity"
+doi: 10.5281/zenodo.23813496
+license: Apache-2.0
+abstract: >-
+  A source-preserving native ESS-MAI/AIGovern-Cyber hierarchy experiment
+  with LIGHT coordination, QUANTUM reasoning and SHADOW verification and
+  durable Vault writes. Five user turns produce three operational HOLDs
+  and two native paired verdicts in one declared era00 model, with exact
+  request replay and conflict evidence. AI Authority Entity is presented
+  as an architectural paradigm proposal, not a universal security,
+  exactly-once execution or external-agent interoperability guarantee.
+keywords:
+  - ESS-MAI
+  - AI authority
+  - governance-first
+  - constitutional self-governance
+  - hierarchy
+  - evidence
+  - Rust
+  - reproducibility

@@ -1,0 +1,32 @@
+{
+  "complete": true,
+  "user_turns": 5,
+  "native_terminal_cycles": 2,
+  "checks": [
+    {
+      "check": "same_case_native_predecessor",
+      "pass": true
+    },
+    {
+      "check": "c3_exact_t1_t2_retry",
+      "pass": true,
+      "memory_unchanged": true
+    },
+    {
+      "check": "c3_same_identity_changed_request_sha",
+      "pass": true,
+      "memory_unchanged": true
+    },
+    {
+      "check": "c5_exact_t1_t2_retry",
+      "pass": true,
+      "memory_unchanged": true
+    },
+    {
+      "check": "c5_same_identity_changed_request_sha",
+      "pass": true,
+      "memory_unchanged": true
+    }
+  ],
+  "scope": "One case, live hardware, native default kernels, fresh isolated Vault. Numerical model input is not physical observation. No forced verdict or native-code edits."
+}

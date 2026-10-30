@@ -1,0 +1,290 @@
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=658512d99576b39a880e43e9ef4d6a9e790b590c5b8d137ed09501bab82f901e pid=14444 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=1 callback=ENTER authority=0 pid=14444
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=1 callback=RETURNED_OK authority=0 pid=14444
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=14784 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=14784
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=14784
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=14784 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=14784
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=14784
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=14784 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=14784
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=14784
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=14784 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=ENTER authority=0 pid=14784
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=RETURNED_OK authority=0 pid=14784
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[0-NOI] site=LIGHT_NATIVE_RECOVERY scope=bf3485d403a475e92208c6a92cc2a1968e8f4dd386869d24d1650183473cbaef pid=14444 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_NATIVE_RECOVERY occurrence=2 callback=ENTER authority=0 pid=14444
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=6ba2b51693eb9eb3b9dbe24e3d18867ac18def947a79462741b8910babdfe977 pid=14444 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=3 callback=ENTER authority=0 pid=14444
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=3 callback=RETURNED_OK authority=0 pid=14444
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=35500 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=35500
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=35500
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=35500 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=35500
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=35500
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=35500 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=35500
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=35500
+[0-NOI] site=SHADOW_NATIVE_RECOVERY scope=bf3485d403a475e92208c6a92cc2a1968e8f4dd386869d24d1650183473cbaef pid=35500 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_NATIVE_RECOVERY occurrence=4 callback=ENTER authority=0 pid=35500
+[0-NOI] site=SHADOW_FORM_T2 scope=bf3485d403a475e92208c6a92cc2a1968e8f4dd386869d24d1650183473cbaef pid=35500 occurrence=5 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_FORM_T2 occurrence=5 callback=ENTER authority=0 pid=35500
+[NOI_DELIVERY] site=SHADOW_FORM_T2 occurrence=5 callback=RETURNED_OK authority=0 pid=35500
+[NOI_DELIVERY] site=SHADOW_NATIVE_RECOVERY occurrence=4 callback=RETURNED_OK authority=0 pid=35500
+[NOI_DELIVERY] site=LIGHT_NATIVE_RECOVERY occurrence=2 callback=RETURNED_OK authority=0 pid=14444
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=34832 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=34832
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=34832
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=34832 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=34832
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=34832
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=34832 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=34832
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=34832
+[0-NOI] site=SHADOW_CANDIDATE_SELECTION scope=a4b38e172844728a1a98d029c4319c7ac48b6215e76a34155a811064cb798120 pid=34832 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_CANDIDATE_SELECTION occurrence=4 callback=ENTER authority=0 pid=34832
+[NOI_DELIVERY] site=SHADOW_CANDIDATE_SELECTION occurrence=4 callback=RETURNED_OK authority=0 pid=34832
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=26880 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=26880
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=26880
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=26880 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=26880
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=26880
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=26880 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=26880
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=26880
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=26880 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=ENTER authority=0 pid=26880
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=RETURNED_OK authority=0 pid=26880
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[LGC/NATIVE] process=2272 sequence=0 predecessor=c73081399a702b051be714d9df6abe209eaed6a67a22411ee9abfc281c9f1984 site="SHADOW_EXACT_STORED_RECOVERY" action="ENTER_PREDECESSOR_REQUESTED_ACTION" payload_sha256=c73081399a702b051be714d9df6abe209eaed6a67a22411ee9abfc281c9f1984 step_sha256=ec340a748c95e568c870d593dba5c17613bd4f92123012294e275c5ad3cb6178 authority=0 new_attestation=false
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=7876 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=7876
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=7876
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=7876 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=7876
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=7876
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=7876 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=7876
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=7876
+[0-NOI] site=SHADOW_NATIVE_RECOVERY scope=bf3485d403a475e92208c6a92cc2a1968e8f4dd386869d24d1650183473cbaef pid=7876 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_NATIVE_RECOVERY occurrence=4 callback=ENTER authority=0 pid=7876
+[0-NOI] site=SHADOW_FORM_T2 scope=bf3485d403a475e92208c6a92cc2a1968e8f4dd386869d24d1650183473cbaef pid=7876 occurrence=5 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_FORM_T2 occurrence=5 callback=ENTER authority=0 pid=7876
+[NOI_DELIVERY] site=SHADOW_FORM_T2 occurrence=5 callback=RETURNED_OK authority=0 pid=7876
+[NOI_DELIVERY] site=SHADOW_NATIVE_RECOVERY occurrence=4 callback=RETURNED_OK authority=0 pid=7876
+[LGC/NATIVE] process=2272 sequence=1 predecessor=ec340a748c95e568c870d593dba5c17613bd4f92123012294e275c5ad3cb6178 site="SHADOW_EXACT_STORED_RECOVERY" action="RETURNED_OK" payload_sha256=a2a92be0f2b6b88e29e00bb685a358c7450769b1b0b793bc75bcbdab8c339918 step_sha256=4b32ef69f14f6908f22bddc7f4e025c144a4fbd5ffa535799aaae11b120d999a authority=0 new_attestation=false
+[LGC/NATIVE] process=2272 sequence=2 predecessor=4b32ef69f14f6908f22bddc7f4e025c144a4fbd5ffa535799aaae11b120d999a site="BIND_RETURNED_HISTORICAL_BUNDLE" action="ENTER_PREDECESSOR_REQUESTED_ACTION" payload_sha256=a2a92be0f2b6b88e29e00bb685a358c7450769b1b0b793bc75bcbdab8c339918 step_sha256=60637740290577fc76a93eb5001e617d88f37b191ebc7793e059035238ecf148 authority=0 new_attestation=false
+[LGC/NATIVE] process=2272 sequence=3 predecessor=60637740290577fc76a93eb5001e617d88f37b191ebc7793e059035238ecf148 site="BIND_RETURNED_HISTORICAL_BUNDLE" action="RETURNED_OK" payload_sha256=a2a92be0f2b6b88e29e00bb685a358c7450769b1b0b793bc75bcbdab8c339918 step_sha256=96870a106fc43264f47da3558f024d243ad5a799b39e4d882e1573112142bee3 authority=0 new_attestation=false
+[LGC/NATIVE] process=2272 sequence=4 predecessor=96870a106fc43264f47da3558f024d243ad5a799b39e4d882e1573112142bee3 site="PD_ORIGINAL_FINALIZER_ON_STORED_T1_T2" action="ENTER_PREDECESSOR_REQUESTED_ACTION" payload_sha256=a2a92be0f2b6b88e29e00bb685a358c7450769b1b0b793bc75bcbdab8c339918 step_sha256=730d39a9673bf1324ebbfd27a507fd32a0de2d192d381fa69c8903be460731f2 authority=0 new_attestation=false
+[LGC/NATIVE] process=2272 sequence=5 predecessor=730d39a9673bf1324ebbfd27a507fd32a0de2d192d381fa69c8903be460731f2 site="PD_ORIGINAL_FINALIZER_ON_STORED_T1_T2" action="RETURNED_OK" payload_sha256=d45e8e6fe852575c0f074ace8d5c04d6a340c98b53bdd6f075e9e25156cea427 step_sha256=2826a828534c1bef3fa2a8e25a462bfe475df0ee1b5507349efe93ab25fda766 authority=0 new_attestation=false
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=32832 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=32832
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=32832
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=32832 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=32832
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=32832
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=32832 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=32832
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=32832
+[0-NOI] site=SHADOW_CANDIDATE_SELECTION scope=e93c26e6eaf10384e529a0bbfa3d8dc7df90afba1642ede1fd3a33268a258823 pid=32832 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_CANDIDATE_SELECTION occurrence=4 callback=ENTER authority=0 pid=32832
+[NOI_DELIVERY] site=SHADOW_CANDIDATE_SELECTION occurrence=4 callback=RETURNED_OK authority=0 pid=32832
+[0-NOI] site=QUANTUM_KIE_SELECTION scope=T3_0c93ece9bd12ff97_P0000386c_18e35caf112104f8 pid=2272 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=QUANTUM_KIE_SELECTION occurrence=1 callback=ENTER authority=0 pid=2272
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=41384 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=41384
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=41384
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=41384 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=41384
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=41384
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=41384 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=41384
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=41384
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=41384 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=ENTER authority=0 pid=41384
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=RETURNED_OK authority=0 pid=41384
+[NOI_DELIVERY] site=QUANTUM_KIE_SELECTION occurrence=1 callback=RETURNED_OK authority=0 pid=2272
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=39508 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=39508
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=39508
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=39508 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=39508
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=39508
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=39508 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=39508
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=39508
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=39508 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=ENTER authority=0 pid=39508
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=RETURNED_OK authority=0 pid=39508
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[HW_ENERGY] ts_ns=3956796081698100 source=WINDOWS_BATTERY cause=battery_percent physical_observation=1 cpu_bits=41e49249 energy_bits=3f07ae14 on_battery=1 effect=UNPROVEN
+[HCP_GATE] phase=applied cycle=c924308cf67ad9da input_sha256=554802ef03a0c4f0a59d7047bae6162ad775a181b9709c1e2cdf234c79ab47e3 trace_sha256=5f140c1fac7389551bbedad1015ad2f5fbf81a22364a545c9e69a2d5f5dcd521 state=DEGRADED source=KERNEL_MATHEMATICAL_THERMAL error=None numeric_domain_valid=true ts_ns=3956796081698100 raw_cpu_bits=41e49249 raw_energy_bits=3f07ae14 cpu_bits=3e924924 energy_bits=3f07ae14 temp_bits=428dd65c limit_bits=42aa0000 headroom_bits=3e29a37c energy_floor_bits=3e4ccccd thermal_floor_bits=3e19999a energy_pass=true thermal_pass=true thermal_known=true on_battery=true free_bytes=7858892800 total_bytes=34081783808 reserve_bytes=3408178380 usable_bytes=4450714420 requested_bytes=6287114240 expected_initial_bytes=4450714420 initial_present=true initial_bytes=4450714420 current_present=true current_bytes=3338035815 lease_id=637589adb7606000 parallel=3 active=true mask=0 sealed=true requested_directive=PULL_BACK
+[HCP_GATE] phase=final cycle=c924308cf67ad9da input_sha256=554802ef03a0c4f0a59d7047bae6162ad775a181b9709c1e2cdf234c79ab47e3 trace_sha256=5f140c1fac7389551bbedad1015ad2f5fbf81a22364a545c9e69a2d5f5dcd521 l2_allows=false state=DEGRADED source=KERNEL_MATHEMATICAL_THERMAL error=None numeric_domain_valid=true ts_ns=3956796081698100 raw_cpu_bits=41e49249 raw_energy_bits=3f07ae14 cpu_bits=3e924924 energy_bits=3f07ae14 temp_bits=428dd65c limit_bits=42aa0000 headroom_bits=3e29a37c energy_floor_bits=3e4ccccd thermal_floor_bits=3e19999a energy_pass=true thermal_pass=true thermal_known=true on_battery=true free_bytes=7858892800 total_bytes=34081783808 reserve_bytes=3408178380 usable_bytes=4450714420 requested_bytes=6287114240 expected_initial_bytes=4450714420 initial_present=true initial_bytes=4450714420 current_present=true current_bytes=3338035815 lease_id=637589adb7606000 parallel=3 active=true mask=0
+[0-NOI] site=QUANTUM_PRO_KIS scope=T3_0c93ece9bd12ff97_P0000386c_18e35caf112104f8 pid=2272 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=QUANTUM_PRO_KIS occurrence=2 callback=ENTER authority=0 pid=2272
+[NOI_DELIVERY] site=QUANTUM_PRO_KIS occurrence=2 callback=RETURNED_OK authority=0 pid=2272
+[0-NOI] site=QUANTUM_PRO scope=T3_0c93ece9bd12ff97_P0000386c_18e35caf112104f8 pid=2272 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=QUANTUM_PRO occurrence=3 callback=ENTER authority=0 pid=2272
+[NOI_DELIVERY] site=QUANTUM_PRO occurrence=3 callback=RETURNED_OK authority=0 pid=2272
+[0-NOI] site=QUANTUM_NPRO scope=T3_0c93ece9bd12ff97_P0000386c_18e35caf112104f8 pid=2272 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=QUANTUM_NPRO occurrence=4 callback=ENTER authority=0 pid=2272
+[NOI_DELIVERY] site=QUANTUM_NPRO occurrence=4 callback=RETURNED_OK authority=0 pid=2272
+[0-NOI] site=QUANTUM_NPRO_KIC scope=T3_0c93ece9bd12ff97_P0000386c_18e35caf112104f8 pid=2272 occurrence=5 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=QUANTUM_NPRO_KIC occurrence=5 callback=ENTER authority=0 pid=2272
+[NOI_DELIVERY] site=QUANTUM_NPRO_KIC occurrence=5 callback=RETURNED_OK authority=0 pid=2272
+[LGC/NATIVE] process=2272 sequence=0 predecessor=65d2295ec5b22f5c882f426e95dcc74a7d4f74ebae88877294e432042084d471 site="RETAIN_EXACT_PDT1_INTENT" action="ENTER_PREDECESSOR_REQUESTED_ACTION" payload_sha256=afffe106818fd9e6142af2062804c0e776275f70ed019d79b6289d2631efcfc7 step_sha256=b4ba8a1c731d7531cd23f9f81ccbe7f21d91dcf2207ce5e7e4b9777a02a3efe2 authority=0 new_attestation=false
+[LGC/NATIVE] process=2272 sequence=1 predecessor=b4ba8a1c731d7531cd23f9f81ccbe7f21d91dcf2207ce5e7e4b9777a02a3efe2 site="RETAIN_EXACT_PDT1_INTENT" action="RETURNED_OK" payload_sha256=afffe106818fd9e6142af2062804c0e776275f70ed019d79b6289d2631efcfc7 step_sha256=9de2f889f00a58f0402d838925df5d19c47fdd8344fafd578f457c624f8c0215 authority=0 new_attestation=false
+[LGC/NATIVE] process=2272 sequence=2 predecessor=9de2f889f00a58f0402d838925df5d19c47fdd8344fafd578f457c624f8c0215 site="RETAIN_EXPLICIT_RECOVERY_LOOKUP" action="ENTER_PREDECESSOR_REQUESTED_ACTION" payload_sha256=601fd6403dae2c518e77b564189d15a7e7082c1fd209ca5969e89a44867aa809 step_sha256=b3da624b7ab9be22a0a04f7ef7cc3da6821f6fa4015f063a84f640ef112a3c98 authority=0 new_attestation=false
+[LGC/NATIVE] process=2272 sequence=3 predecessor=b3da624b7ab9be22a0a04f7ef7cc3da6821f6fa4015f063a84f640ef112a3c98 site="RETAIN_EXPLICIT_RECOVERY_LOOKUP" action="RETURNED_OK" payload_sha256=601fd6403dae2c518e77b564189d15a7e7082c1fd209ca5969e89a44867aa809 step_sha256=47ef20ebac13a1203ccff32cc079a0d4772e274a9ba59ddc7ebc82e9b6483895 authority=0 new_attestation=false
+[PD/RECOVERY_REFERENCE] C:\Users\AG\Desktop\ess-mai-project\evidence\poc002_hierarchy_20261030\continuity_run1\handoff\native_pd_intents\d74bbb469c99654c8edd8c25d2d929c0b454c653351fbd1a52c62e4b26050303-65d2295ec5b22f5c882f426e95dcc74a7d4f74ebae88877294e432042084d471.lookup
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=19076 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=19076 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=19076 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=19076 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=19076 occurrence=5 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=5 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=5 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=19076 occurrence=6 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=6 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=6 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=19076 occurrence=7 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=7 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=7 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_NBES_VERIFY scope=b762f81143781b87e237f3f6abc8e25bcc94fa418d29871334cf21d3d3241ee2 pid=19076 occurrence=8 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_NBES_VERIFY occurrence=8 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_NBES_VERIFY occurrence=8 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_NBES_PROCESS scope=T3_0c93ece9bd12ff97_P0000386c_18e35caf112104f8 pid=19076 occurrence=9 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_NBES_PROCESS occurrence=9 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_NBES_PROCESS occurrence=9 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_KIE_MODEL scope=T3_0c93ece9bd12ff97_P0000386c_18e35caf112104f8 pid=19076 occurrence=10 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_KIE_MODEL occurrence=10 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_KIE_MODEL occurrence=10 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_KIE_PRESENTED_HISTORY scope=T3_0c93ece9bd12ff97_P0000386c_18e35caf112104f8 pid=19076 occurrence=11 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_KIE_PRESENTED_HISTORY occurrence=11 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_KIE_PRESENTED_HISTORY occurrence=11 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_MATRIX_EVIDENCE scope=T3_0c93ece9bd12ff97_P0000386c_18e35caf112104f8 pid=19076 occurrence=12 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_MATRIX_EVIDENCE occurrence=12 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_MATRIX_EVIDENCE occurrence=12 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_NBES_CASE scope=T3_0c93ece9bd12ff97_P0000386c_18e35caf112104f8 pid=19076 occurrence=13 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_NBES_CASE occurrence=13 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_NBES_CASE occurrence=13 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_SPINE_VERIFY scope=T3_0c93ece9bd12ff97_P0000386c_18e35caf112104f8 pid=19076 occurrence=14 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_SPINE_VERIFY occurrence=14 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_SPINE_VERIFY occurrence=14 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_ROUTER scope=input-c924308cf67ad9db pid=19076 occurrence=15 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_ROUTER occurrence=15 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_ROUTER occurrence=15 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_MATRIX scope=input-c924308cf67ad9db pid=19076 occurrence=16 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_MATRIX occurrence=16 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_MATRIX occurrence=16 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_GEN5 scope=input-c924308cf67ad9db pid=19076 occurrence=17 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_GEN5 occurrence=17 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_GEN5 occurrence=17 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_TYPE scope=input-c924308cf67ad9db pid=19076 occurrence=18 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_TYPE occurrence=18 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_TYPE occurrence=18 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_SOVEREIGN scope=input-c924308cf67ad9db pid=19076 occurrence=19 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_SOVEREIGN occurrence=19 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_SOVEREIGN occurrence=19 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_JUDICIARY scope=input-c924308cf67ad9db pid=19076 occurrence=20 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_JUDICIARY occurrence=20 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_JUDICIARY occurrence=20 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_SOVEREIGN_LAWS scope=input-c924308cf67ad9db pid=19076 occurrence=21 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_SOVEREIGN_LAWS occurrence=21 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_SOVEREIGN_LAWS occurrence=21 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_GJ_LEGACY scope=input-c924308cf67ad9db pid=19076 occurrence=22 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_GJ_LEGACY occurrence=22 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_GJ_LEGACY occurrence=22 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=19076 occurrence=23 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=23 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=23 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=19076 occurrence=24 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=24 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=24 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=19076 occurrence=25 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=25 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=25 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_PERSIST_T1 scope=d74bbb469c99654c8edd8c25d2d929c0b454c653351fbd1a52c62e4b26050303 pid=19076 occurrence=26 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PERSIST_T1 occurrence=26 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_PERSIST_T1 occurrence=26 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=19076 occurrence=27 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=27 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=27 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=19076 occurrence=28 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=28 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=28 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=19076 occurrence=29 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=29 callback=ENTER authority=0 pid=19076
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=29 callback=RETURNED_OK authority=0 pid=19076
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=34160 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=34160
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=34160
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=34160 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=34160
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=34160
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=34160 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=34160
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=34160
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=34160 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=ENTER authority=0 pid=34160
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=RETURNED_OK authority=0 pid=34160
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=34160 occurrence=5 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=5 callback=ENTER authority=0 pid=34160
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=5 callback=RETURNED_OK authority=0 pid=34160
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=34160 occurrence=6 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=6 callback=ENTER authority=0 pid=34160
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=6 callback=RETURNED_OK authority=0 pid=34160
+[0-NOI] site=SHADOW_FORM_T2 scope=d74bbb469c99654c8edd8c25d2d929c0b454c653351fbd1a52c62e4b26050303 pid=34160 occurrence=7 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_FORM_T2 occurrence=7 callback=ENTER authority=0 pid=34160
+[NOI_DELIVERY] site=SHADOW_FORM_T2 occurrence=7 callback=RETURNED_OK authority=0 pid=34160
+[0-NOI] site=SHADOW_PERSIST_T2 scope=d74bbb469c99654c8edd8c25d2d929c0b454c653351fbd1a52c62e4b26050303 pid=34160 occurrence=8 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PERSIST_T2 occurrence=8 callback=ENTER authority=0 pid=34160
+[NOI_DELIVERY] site=SHADOW_PERSIST_T2 occurrence=8 callback=RETURNED_OK authority=0 pid=34160
+[0-NOI] site=LIGHT_NATIVE_RECOVERY scope=d74bbb469c99654c8edd8c25d2d929c0b454c653351fbd1a52c62e4b26050303 pid=14444 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_NATIVE_RECOVERY occurrence=4 callback=ENTER authority=0 pid=14444
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=28b0b69eec1eef8773d217f1bc882df4cc3dfa47bd2e5683825c7697490d2e95 pid=14444 occurrence=5 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=5 callback=ENTER authority=0 pid=14444
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=5 callback=RETURNED_OK authority=0 pid=14444
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=35132 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=35132
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=35132
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=35132 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=35132
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=35132
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=35132 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=ENTER authority=0 pid=35132
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=3 callback=RETURNED_OK authority=0 pid=35132
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=35132 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=ENTER authority=0 pid=35132
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=4 callback=RETURNED_OK authority=0 pid=35132
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=35132 occurrence=5 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=5 callback=ENTER authority=0 pid=35132
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=5 callback=RETURNED_OK authority=0 pid=35132
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=35132 occurrence=6 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=6 callback=ENTER authority=0 pid=35132
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=6 callback=RETURNED_OK authority=0 pid=35132
+[0-NOI] site=SHADOW_NATIVE_RECOVERY scope=d74bbb469c99654c8edd8c25d2d929c0b454c653351fbd1a52c62e4b26050303 pid=35132 occurrence=7 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_NATIVE_RECOVERY occurrence=7 callback=ENTER authority=0 pid=35132
+[0-NOI] site=SHADOW_FORM_T2 scope=d74bbb469c99654c8edd8c25d2d929c0b454c653351fbd1a52c62e4b26050303 pid=35132 occurrence=8 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_FORM_T2 occurrence=8 callback=ENTER authority=0 pid=35132
+[NOI_DELIVERY] site=SHADOW_FORM_T2 occurrence=8 callback=RETURNED_OK authority=0 pid=35132
+[NOI_DELIVERY] site=SHADOW_NATIVE_RECOVERY occurrence=7 callback=RETURNED_OK authority=0 pid=35132
+[NOI_DELIVERY] site=LIGHT_NATIVE_RECOVERY occurrence=4 callback=RETURNED_OK authority=0 pid=14444
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=28b0b69eec1eef8773d217f1bc882df4cc3dfa47bd2e5683825c7697490d2e95 pid=14444 occurrence=6 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=6 callback=ENTER authority=0 pid=14444
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=6 callback=RETURNED_OK authority=0 pid=14444
+[0-NOI] site=LIGHT_RELEASE_PROCESS scope=light-runtime pid=14444 occurrence=7 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_RELEASE_PROCESS occurrence=7 callback=ENTER authority=0 pid=14444
+[NOI_DELIVERY] site=LIGHT_RELEASE_PROCESS occurrence=7 callback=RETURNED_OK authority=0 pid=14444

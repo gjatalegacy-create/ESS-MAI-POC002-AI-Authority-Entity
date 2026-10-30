@@ -1,0 +1,156 @@
+{
+  "recorded_at_utc": "2026-10-30T17:16:53.383844+00:00",
+  "method": "Exact native transport included by path; exact original fixture for first three runs; only external diagnostic fixture adds timestamps.",
+  "time_budget_ms_unchanged": 750,
+  "test_assertions_or_runtime_changed": false,
+  "native_before": {
+    "C:\\Users\\AG\\Desktop\\ess-mai-project\\poc\\poc-002-ai-authority-entity\\native\\runtime\\light\\src\\process_deadline.rs": "f0c218fa15d9c8b2af74258b77a61f5033314b324dd6ef2b014c6872d66c1531",
+    "C:\\Users\\AG\\Desktop\\ess-mai-project\\poc\\poc-002-ai-authority-entity\\native\\runtime\\light\\tests\\fixtures\\process_deadline_child.rs": "c2550e881914f6bd2c4d13480bfe5587d64096d41121ac1f9d5f6db238ebeec0"
+  },
+  "native_after": {
+    "C:\\Users\\AG\\Desktop\\ess-mai-project\\poc\\poc-002-ai-authority-entity\\native\\runtime\\light\\src\\process_deadline.rs": "f0c218fa15d9c8b2af74258b77a61f5033314b324dd6ef2b014c6872d66c1531",
+    "C:\\Users\\AG\\Desktop\\ess-mai-project\\poc\\poc-002-ai-authority-entity\\native\\runtime\\light\\tests\\fixtures\\process_deadline_child.rs": "c2550e881914f6bd2c4d13480bfe5587d64096d41121ac1f9d5f6db238ebeec0"
+  },
+  "commands": [
+    {
+      "name": "toolchain",
+      "started_at_utc": "2026-10-30T17:16:44.681950+00:00",
+      "seconds": 0.047,
+      "command": [
+        "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\rustc.exe",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout_file": "toolchain.stdout.log",
+      "stderr_file": "toolchain.stderr.log"
+    },
+    {
+      "name": "build-probe",
+      "started_at_utc": "2026-10-30T17:16:44.721991+00:00",
+      "seconds": 0.922,
+      "command": [
+        "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\rustc.exe",
+        "--edition=2021",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\probe.rs",
+        "-o",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\probe.exe"
+      ],
+      "exit_code": 0,
+      "stdout_file": "build-probe.stdout.log",
+      "stderr_file": "build-probe.stderr.log"
+    },
+    {
+      "name": "build-original-a",
+      "started_at_utc": "2026-10-30T17:16:45.669265+00:00",
+      "seconds": 0.625,
+      "command": [
+        "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\rustc.exe",
+        "--edition=2021",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\original_child.rs",
+        "-o",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\original_a.exe"
+      ],
+      "exit_code": 0,
+      "stdout_file": "build-original-a.stdout.log",
+      "stderr_file": "build-original-a.stderr.log"
+    },
+    {
+      "name": "original-a-first",
+      "started_at_utc": "2026-10-30T17:16:46.295415+00:00",
+      "seconds": 1.297,
+      "command": [
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\probe.exe",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\original_a.exe",
+        "original-a-first"
+      ],
+      "exit_code": 0,
+      "stdout_file": "original-a-first.stdout.log",
+      "stderr_file": "original-a-first.stderr.log"
+    },
+    {
+      "name": "original-a-second",
+      "started_at_utc": "2026-10-30T17:16:47.592105+00:00",
+      "seconds": 0.782,
+      "command": [
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\probe.exe",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\original_a.exe",
+        "original-a-second"
+      ],
+      "exit_code": 0,
+      "stdout_file": "original-a-second.stdout.log",
+      "stderr_file": "original-a-second.stderr.log"
+    },
+    {
+      "name": "build-original-b",
+      "started_at_utc": "2026-10-30T17:16:48.366023+00:00",
+      "seconds": 0.734,
+      "command": [
+        "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\rustc.exe",
+        "--edition=2021",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\original_child.rs",
+        "-o",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\original_b.exe"
+      ],
+      "exit_code": 0,
+      "stdout_file": "build-original-b.stdout.log",
+      "stderr_file": "build-original-b.stderr.log"
+    },
+    {
+      "name": "original-b-first",
+      "started_at_utc": "2026-10-30T17:16:49.097747+00:00",
+      "seconds": 1.203,
+      "command": [
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\probe.exe",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\original_b.exe",
+        "original-b-first"
+      ],
+      "exit_code": 0,
+      "stdout_file": "original-b-first.stdout.log",
+      "stderr_file": "original-b-first.stderr.log"
+    },
+    {
+      "name": "build-diagnostic",
+      "started_at_utc": "2026-10-30T17:16:50.298749+00:00",
+      "seconds": 0.781,
+      "command": [
+        "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\rustc.exe",
+        "--edition=2021",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\diagnostic_child.rs",
+        "-o",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\diagnostic.exe"
+      ],
+      "exit_code": 0,
+      "stdout_file": "build-diagnostic.stdout.log",
+      "stderr_file": "build-diagnostic.stderr.log"
+    },
+    {
+      "name": "diagnostic-first",
+      "started_at_utc": "2026-10-30T17:16:51.092779+00:00",
+      "seconds": 1.5,
+      "command": [
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\probe.exe",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\diagnostic.exe",
+        "diagnostic-first",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\diagnostic-first.markers"
+      ],
+      "exit_code": 0,
+      "stdout_file": "diagnostic-first.stdout.log",
+      "stderr_file": "diagnostic-first.stderr.log"
+    },
+    {
+      "name": "diagnostic-second",
+      "started_at_utc": "2026-10-30T17:16:52.589913+00:00",
+      "seconds": 0.797,
+      "command": [
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\probe.exe",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\diagnostic.exe",
+        "diagnostic-second",
+        "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_publication_20261030\\transport_probe\\diagnostic-second.markers"
+      ],
+      "exit_code": 0,
+      "stdout_file": "diagnostic-second.stdout.log",
+      "stderr_file": "diagnostic-second.stderr.log"
+    }
+  ],
+  "total_seconds": 8.703
+}

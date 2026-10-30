@@ -1,0 +1,11 @@
+[package]
+name = "ess-mai-zero-noi"
+version = "0.0.4"
+edition = "2021"
+publish = false
+[lib]
+path = "src/lib.rs"
+
+# future compiler warnings fail the build; no lint suppression.
+[lints]
+workspace = true

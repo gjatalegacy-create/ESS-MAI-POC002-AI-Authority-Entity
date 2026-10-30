@@ -1,0 +1,7 @@
+CASE=original-b-first START_EPOCH_NS=1793380609119384800 TIMEOUT_MS=750 INPUT_BYTES=65536 CAPTURE_LIMIT=1024
+WALL_ELAPSED_NS=1171473600
+STDOUT_LEN=0 STDERR_LEN=0
+STDOUT_BYTES=[]
+STDERR_BYTES=[]
+STDOUT_MARKER=false STDERR_MARKER=false
+FULL_FAILURE=ProcessFailure { spawn_failed: false, timed_out: true, elapsed: 1.1710686s, detail: "transport deadline exceeded; direct_child_kill=Ok(()); child_reaped=true; pending_io_workers=0; cleanup_complete=true; cleanup_error=None", stdout: [], stderr: [] }

@@ -1,0 +1,28 @@
+{
+  "command": [
+    "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\cargo.exe",
+    "test",
+    "--offline",
+    "--locked",
+    "-p",
+    "light-platform",
+    "--test",
+    "process_deadline_contracts",
+    "blocked_stdin_obeys_deadline_and_retains_output",
+    "--",
+    "--exact",
+    "--test-threads=1"
+  ],
+  "exit_code": 101,
+  "seconds": 1.91,
+  "summaries": [
+    {
+      "status": "FAILED",
+      "passed": 0,
+      "failed": 1,
+      "ignored": 0
+    }
+  ],
+  "log_sha256": "0832578af2c9a1fb39227f969ba42b32fb53051b952343a32038e4e9063cbf3d",
+  "runtime_source_changes": 0
+}

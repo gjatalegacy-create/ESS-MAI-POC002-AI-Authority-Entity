@@ -1,0 +1,19 @@
+{
+  "user_text": "Evaluate the exact claim 0.0 radian, using UT1 and tolerance 1e-12 radian. Model only.",
+  "answer": {
+    "positive": "exact claim 0.0 radian,",
+    "verification": "tolerance 1e-12 radian."
+  },
+  "scientific_query": {
+    "task": "earth_rotation_angle",
+    "time_scale": "UT1",
+    "angle_unit": "radian",
+    "jd_part1": 2400000.5,
+    "jd_part2": 54388.0,
+    "claim_radians": 0.0,
+    "tolerance_radians": 1e-12,
+    "input_source_id": "declared numerical experiment, no physical observation",
+    "query_id": "poc002-c5",
+    "relevance_statement": "Same Earth rotation investigation, restricted to the declared era00 model; user labels are unverified."
+  }
+}

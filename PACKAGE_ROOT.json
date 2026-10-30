@@ -1,0 +1,17 @@
+{
+  "release_version": "0.1.0",
+  "files": 947,
+  "manifest": "SHA256SUMS.txt",
+  "manifest_sha256": "694cfe25d22268868a5be51893d7af59671cc361ad13a9fb59df237a05b9c11f",
+  "runtime_source_changes": 0,
+  "native_source_files": 719,
+  "user_turns": 5,
+  "native_terminal_cycles": 2,
+  "full_suite_passed": 1821,
+  "full_suite_failed": 1,
+  "full_suite_ignored": 0,
+  "full_suite_exit": 101,
+  "native_warnings": 0,
+  "publication_scope": "author-approved full native runtime dependency closure; no private product state",
+  "release_class": "bounded research with disclosed failing regression"
+}

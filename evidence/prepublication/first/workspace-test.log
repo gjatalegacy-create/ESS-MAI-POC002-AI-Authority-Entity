@@ -1,0 +1,330 @@
+   Compiling proc-macro2 v1.0.106
+   Compiling quote v1.0.46
+   Compiling subtle v2.6.1
+   Compiling digest v0.10.7
+   Compiling sha2 v0.10.9
+   Compiling serde_json v1.0.150
+   Compiling syn v2.0.119
+   Compiling science-domains v0.1.0 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\science-domains)
+   Compiling once_cell v1.21.4
+   Compiling tracing-core v0.1.36
+   Compiling windows-link v0.2.1
+   Compiling windows-sys v0.61.2
+   Compiling serde_derive v1.0.228
+   Compiling serde v1.0.228
+   Compiling shadow_contracts v1.7.8 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\shadow-contracts)
+   Compiling lazy_static v1.5.0
+   Compiling log v0.4.33
+   Compiling tracing-log v0.2.0
+   Compiling sharded-slab v0.1.7
+   Compiling nu-ansi-term v0.50.3
+   Compiling tracing-attributes v0.1.31
+   Compiling light-platform v1.7.8 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\light)
+   Compiling thread_local v1.1.10
+   Compiling pin-project-lite v0.2.17
+   Compiling smallvec v1.15.2
+   Compiling tracing-subscriber v0.3.23
+   Compiling quantum-platform v1.7.8 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\quantum)
+   Compiling tracing v0.1.44
+   Compiling hmac v0.12.1
+   Compiling shadow_platform v1.7.8 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\shadow)
+   Compiling ess-mai-zero-noi v0.0.4 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\zero-noi)
+   Compiling gcl-constitution v1.7.8 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\gcl-constitution)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 3m 51s
+     Running unittests src\lib.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\poc002_native_hierarchy\debug\deps\ess_mai_zero_noi-7f7884d89f8feac6.exe)
+
+running 2 tests
+test tests::no_mutation_no_authority ... ok
+test tests::no_payload_interpretation ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\lib.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\poc002_native_hierarchy\debug\deps\gcl_constitution-a02a5309752ad893.exe)
+
+running 12 tests
+test constitution::tests::constitutional_invariants_bound_to_phases ... ok
+test constitution::tests::empty_ledger_uncollapsed_infinite_space ... ok
+test constitution::tests::factic_probability_is_measured_not_guessed ... ok
+test constitution::tests::law0_monotone_chain_collapses_to_zero ... ok
+test constitution::tests::law0_violation_is_fail_closed ... ok
+test constitution::tests::law_manifest_readable_and_sealed ... ok
+test constitution::tests::pair_space_real_counting ... ok
+test constitution::tests::platforms_are_roles_not_agents ... ok
+test constitution::tests::r15_law0_nan_is_rejected_but_not_reported_as_an_increase ... ok
+test constitution::tests::supreme_directive_issue_verify_roundtrip ... ok
+test constitution::tests::system_laws_registry_complete_and_sealed ... ok
+test constitution::tests::three_muscles_declared_globally ... ok
+
+test result: ok. 12 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\main.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\poc002_native_hierarchy\debug\deps\light_platform-cfe69b7bb6972c53.exe)
+
+running 237 tests
+test algorithm_continuum::tests::mini_algorithm_pd_is_one_declared_continuum ... ok
+test alnur_karina_athar::tests::evidence_bound_full_path_reaches_handoff ... ok
+test alnur_karina_athar::tests::false_durable_evidence_cannot_handoff ... ok
+test alnur_karina_athar::tests::second_trace_event_is_refused_without_state_change ... ok
+test alnur_karina_athar::tests::skipping_anchor_is_named_breach ... ok
+test alnur_karina_athar::tests::wrong_phase_directive_is_refused ... ok
+test besa_nlight::tests::negative_axis_addresses_are_deterministic_and_axis_bound ... ok
+test besa_nlight::tests::selection_binding_rejects_digest_expiry_and_truncation_drift ... ok
+test evolve_trace::law_hash_tests::input_sha256_born_in_light_immediately ... ok
+test evolve_trace::law_hash_tests::legacy_from_trace_declares_no_hash_honestly ... ok
+test evolve_trace::law_hash_tests::runtime_integrity_rejects_a_drifted_terminal_seal ... ok
+test evolve_trace::law_hash_tests::same_input_same_hash_deterministic ... ok
+test kie_frontend::tests::cli_requires_exact_explicit_files_and_does_not_capture_default_mode ... ok
+test kie_frontend::tests::explicit_provider_does_not_relabel_parent_and_foreign_scope_or_key_refused ... ok
+test kie_frontend::tests::native_science_uses_source_anchor_and_rejects_other_predecessor ... ok
+test lab_contracts::collapse::tests::phases_cover_three_platforms ... ok
+test lab_contracts::domains::tests::count_is_nine_confirmed ... ok
+test lab_contracts::domains::tests::crystallization_precondition_five_unique_possible ... ok
+test lab_contracts::domains::tests::keys_are_canonical_ascii ... ok
+test lab_contracts::domains::tests::keys_unique_and_roundtrip ... ok
+test lab_contracts::domains::tests::normalize_rejects_unknown ... ok
+test lab_contracts::domains::tests::normalize_variants_to_canonical ... ok
+test lab_contracts::first_guardian::first_guardian_tests::attestation_line_is_self_sealed ... ok
+test lab_contracts::first_guardian::first_guardian_tests::critical_failure_grades_hard_and_status_notready ... ok
+test lab_contracts::first_guardian::first_guardian_tests::degraded_breath_names_the_dead_organ ... ok
+test lab_contracts::first_guardian::first_guardian_tests::full_breath_when_all_organs_beat ... ok
+test lab_contracts::first_guardian::first_guardian_tests::live_locks_hold_on_this_machine ... ok
+test lab_contracts::gcl_presume::gcl_presume_tests::register_is_idempotent_by_name ... ok
+test lab_contracts::gcl_presume::gcl_presume_tests::required_matrix_follows_the_law ... ok
+test lab_contracts::gcl_presume::gcl_presume_tests::required_not_ready_is_flagged_and_noted ... ok
+test lab_contracts::gcl_presume::gcl_presume_tests::role_codes_are_stable_and_greppable ... ok
+test lab_contracts::gcl_presume::gcl_presume_tests::support_is_never_required_but_always_pingable ... ok
+test lab_contracts::rrjedha::rrjedha_tests::counters_saturate_and_never_wrap ... ok
+test lab_contracts::rrjedha::rrjedha_tests::entry_line_is_self_sealed_and_verifiable ... ok
+test lab_contracts::rrjedha::rrjedha_tests::sanitize_blocks_ledger_injection ... ok
+test lab_contracts::rrjedha::rrjedha_tests::zero_tolerance_classes_hit_limit_immediately ... ok
+test lab_contracts::tests::trust_context_combined_strength ... ok
+test lab_contracts::tests::trust_context_empty_unknown ... ok
+test lab_contracts::trl::trl_vector_tests::trl_from_confidence_follows_thresholds ... ok
+test lab_contracts_v11::tests::layer3_context_no_wisdom ... ok
+test layer2::active_trust::tests::empty_signals_unknown_guidance ... ok
+test layer2::active_trust::tests::neutral_when_mid_success ... ok
+test layer2::active_trust::tests::risky_when_low_success_with_history ... ok
+test layer2::active_trust::tests::runtime_signals_are_empty_only_without_both_histories ... ok
+test layer2::active_trust::tests::runtime_signals_require_byte_aligned_terminal_history ... ok
+test layer2::active_trust::tests::soft_priority_reflects_strength ... ok
+test layer2::active_trust::tests::strong_signals_recommended ... ok
+test layer2::active_trust::tests::two_layers_distinct ... ok
+test layer2::verification_trace::tests::bound_trace_refuses_partial_evidence_and_handle_drift ... ok
+test layer2::verification_trace::tests::bound_trace_retains_full_route_and_evidence_identity ... ok
+test layer2::verification_trace::tests::checked_evidence_refuses_replay_and_exports_history_refs ... ok
+test layer2::verification_trace::tests::empty_trace_safe ... ok
+test layer2::verification_trace::tests::failed_history_does_not_gain_positive_hardening ... ok
+test layer2::verification_trace::tests::stability_reflects_breadth ... ok
+test layer2::verification_trace::tests::survival_rate_correct ... ok
+test layer2::verification_trace::tests::trace_counts ... ok
+test layer3::layer3_flow::tests::ingests_ui_input_with_trace ... ok
+test layer3::layer3_flow::tests::light_only_interprets_not_decides ... ok
+test layer3::layer3_flow::tests::trace_born_at_input ... ok
+test layer3::neural_law::tests::clarity_reflects_context ... ok
+test layer3::neural_law::tests::interpretation_never_decides ... ok
+test layer3::neural_law::tests::interprets_inbound ... ok
+test layer3::ui_channel::tests::channel_only_transports_interprets ... ok
+test layer3::ui_channel::tests::deep_research_carried ... ok
+test layer3::ui_channel::tests::empty_input_detected ... ok
+test layer3::ui_channel::tests::input_receives_trace_immediately ... ok
+test layer3::ui_channel::tests::session_to_num_stable ... ok
+test layer3::ui_channel::tests::traced_input_fail_closed_requires_trace_and_text ... ok
+test legalgocrypt::tests::test_contract_auto_permutes ... ok
+test legalgocrypt::tests::test_generate_encode ... ok
+test legalgocrypt::tests::test_hardware_serial ... ok
+test legalgocrypt::tests::test_parse ... ok
+test legalgocrypt::tests::test_shadow ... ok
+test legalgocrypt::tests::test_tamper_fails ... ok
+test legalgocrypt::tests::test_validate ... ok
+test legalgocrypt::tests::v2_diagnostics_retain_all_failed_legacy_guards ... ok
+test legalgocrypt::tests::v2_diagnostics_retain_exact_legacy_parse_causes ... ok
+test lgc_algorithm::tests::coordinate_under_gcl_binds_single_trace_split_and_envelope ... ok
+test lgc_algorithm::tests::coordination_fragment_refuses_directive_split_and_evolve_drift ... ok
+test lgc_algorithm::tests::r15_real_coordination_preserves_punctuation_and_raw_input_without_fulfillment ... ok
+test lgc_algorithm::tests::r15_recomputed_public_transport_crc_cannot_authorize_changed_punctuation ... ok
+test lgc_algorithm::tests::receipt_raw_length_is_cryptographically_bound ... ok
+test lgc_algorithm::tests::receipt_rejects_gcl_and_system_law_seal_drift ... ok
+test lgc_algorithm::tests::verify_kodunik_requires_registry_and_hmac ... ok
+test lgc_algorithm::tests::wrong_gcl_phase_cannot_run_legacy_coordination ... ok
+test lgc_bridge::phase1_boot_contract_tests::common_preflight_is_fail_closed_for_both_backends ... ok
+test lgc_bridge::phase1_boot_contract_tests::ffi_layout_matches_the_c_contract ... ok
+test lgc_bridge::phase1_boot_contract_tests::ffi_return_code_and_raw_result_are_validated_before_acceptance ... ok
+test lgc_bridge::phase1_boot_contract_tests::rust_mirror_has_the_same_pass_block_and_freeze_vectors ... ok
+test light_coordinator::tests::durable_evidence_is_required_before_dispatch ... ok
+test light_coordinator::tests::formula_anchor_refuses_negative_axis_index_tampering ... ok
+test light_coordinator::tests::handoff_commit_rechecks_the_complete_gcl_fragment ... ok
+test light_coordinator::tests::handoff_refuses_contract_or_gcl_anchor_tampering ... ok
+test light_coordinator::tests::input_without_primitive_material_fails_closed ... ok
+test light_coordinator::tests::receive_uses_one_legacy_authority_and_one_kodunik ... ok
+test light_coordinator::tests::request_contract_is_bounded_before_copy_and_rejects_frame_breaks ... ok
+test light_hardening::tests::audit_all_valid_seals ... ok
+test light_hardening::tests::audit_detects_invalid ... ok
+test light_hardening::tests::capability_budget_limits ... ok
+test light_hardening::tests::hardening_detects_unsealed ... ok
+test light_hardening::tests::hardening_full_healthy ... ok
+test light_hardening::tests::health_all_ready ... ok
+test light_hardening::tests::health_partial ... ok
+test light_hardening::tests::integration_guard_allows_prepare ... ok
+test light_hardening::tests::integration_guard_blocks_decision ... ok
+test light_spine::tests::empty_history_unknown_guidance ... ok
+test light_spine::tests::full_flow_connects_ui_and_trust ... ok
+test light_spine::tests::light_interprets_not_decides ... ok
+test light_spine::tests::verified_trace_hardens_only_the_same_runtime_history ... ok
+test lingua::tests::detect_albanian_full ... ok
+test lingua::tests::detect_empty_is_unknown ... ok
+test lingua::tests::detect_english_full ... ok
+test lingua::tests::intent_command_both_languages ... ok
+test lingua::tests::intent_query_both_languages ... ok
+test lingua::tests::normalize_unchanged_semantics ... ok
+test lingua::tests::r15_content_words_cross_the_split_wire_byte_for_byte ... ok
+test lingua::tests::single_executive_tier ... ok
+test lingua::tests::templates_full_coverage_sq_en ... ok
+test lingua::tests::tokenizer_albanian_stopwords ... ok
+test lingua::tests::tokenizer_preserved_content_words ... ok
+test mini_evolver::light_mini_evolver::tests::bound_runtime_evidence_keeps_full_sha256_behind_u64_handles ... ok
+test mini_evolver::light_mini_evolver::tests::full_sha256_collisions_and_unbound_history_fail_closed ... ok
+test mini_evolver::light_mini_evolver::tests::runtime_evidence_rejects_replay_and_invalid_mass ... ok
+test mini_evolver::light_mini_evolver::tests::runtime_evidence_retains_the_bounded_recent_window ... ok
+test noi_caller::delivery::tests::callback_failure_stays_failure ... ok
+test noi_caller::delivery::tests::completion_is_not_claimed_on_error_or_panic ... ok
+test noi_caller::delivery::tests::exhausted_sequence_never_wraps ... ok
+test noi_caller::delivery::tests::invalid_scope_never_runs_callback ... ok
+test noi_caller::delivery::tests::last_sequence_delivered_once ... ok
+test noi_caller::delivery::tests::real_callback_is_consumed_once ... ok
+test noi_caller::delivery::tests::repeated_invocations_are_not_redeliveries ... ok
+test noi_caller::delivery::tests::wrong_scope_does_not_consume_occurrence ... ok
+test noi_caller::delivery::tests::zero_sequence_is_never_delivered ... ok
+test noi_caller::tests::successful_dispatch_is_observed_without_changing_result ... ok
+test pd_failure_frontend::tests::answer_preserves_original_selection_and_explicit_question_parent ... ok
+test pd_failure_frontend::tests::json_requires_all_explicit_fields_and_rejects_unknown_duplicate_oversize ... ok
+test pd_failure_frontend::tests::recover_requests_exact_initial_operation_and_checks_text_and_entire_scope ... ok
+test pd_failure_frontend::tests::science_json_requires_explicit_parameters_and_preserves_parent_identity ... ok
+test pd_failure_frontend::tests::transport_error_is_not_fabricated_missing_condition_or_question ... ok
+test pd_iz_frontend::literal_answer_codec_regression::literal_field_codec_has_no_implicit_labels_or_authority ... ok
+test pd_iz_frontend::tests::cli_is_explicit_and_origin_keeps_existing_light_bound ... ok
+test pd_iz_frontend::tests::empty_map_does_not_invent_a_vault_record_or_read_candidates ... ok
+test pd_iz_frontend::tests::foreign_or_stale_map_fails_before_vault_read_and_does_not_mutate_input ... ok
+test pd_iz_frontend::tests::malformed_map_transport_is_not_an_authority_refusal_or_commit ... ok
+test pd_iz_frontend::tests::native_map_is_exact_and_failure_never_partially_hydrates_context ... ok
+test pd_iz_frontend::tests::new_runtime_cycle_requires_actual_user_mode_but_unknown_reply_is_not_fabricated ... ok
+test pd_iz_science_frontend::interactive_science_tests::interactive_science_uses_the_same_computed_contract_as_explicit_cli ... ok
+test pd_iz_science_frontend::literal_science_entry_regression::literal_scientific_answer_reaches_existing_context_and_codec ... ok
+test pd_iz_science_frontend::tests::no_implicit_science_dispatch_or_missing_user_arguments ... ok
+test pd_iz_science_frontend::tests::science_json_preserves_the_declared_boundary_bits ... ok
+test pd_lgc_frontend::interactive_reference_tests::displayed_reference_is_existing_lgr1_and_never_the_legacy_dialogue_source ... ok
+test pd_lgc_frontend::interactive_reference_tests::envelope_rejects_other_cases_tampered_references_unknown_keys_and_excess_bytes ... ok
+test pd_lgc_frontend::interactive_reference_tests::explicit_reference_keeps_parent_and_exact_literal_bytes_without_a_map_or_authority ... ok
+test pd_lgc_frontend::interactive_reference_tests::interactive_annotation_cannot_invent_a_span_or_disambiguate_repeated_text ... ok
+test pd_lgc_frontend::literal_answer_entry_regression::literal_answer_option_is_explicit_and_preserves_positional_paths ... ok
+test pd_lgc_frontend::literal_file_input_regression::literal_file_fields_preserve_i0_bytes_and_leave_absence_unchanged ... ok
+test pd_lgc_frontend::r34_native_entry_regression::literal_native_retry_cannot_add_change_or_omit_answer_fields ... ok
+test pd_lgc_frontend::r34_native_entry_regression::r34_native_inquiry_rejects_foreign_lookup_and_incomplete_t2_before_other_reads ... ok
+test pd_lgc_frontend::r34_native_entry_regression::r34_native_lookup_reply_reaches_existing_inquiry_entry ... ok
+test pd_lgc_frontend::r34_native_entry_regression::r34_native_origin_owner_reads_preserve_checkpoint_and_actual_i0 ... ok
+test pd_lgc_frontend::r34_native_entry_regression::r34_native_reply_context_does_not_copy_previous_answers_or_maps ... ok
+test pd_lgc_frontend::r34_native_entry_regression::r34_native_retry_binds_exact_operation_user_origin_and_predecessor ... ok
+test pd_lgc_frontend::tests::cli_requires_explicit_new_or_exact_reference_mode ... ok
+test pd_lgc_frontend::tests::explicit_native_inquiry_cli_keeps_both_exact_predecessor_references ... ok
+test pd_lgc_frontend::tests::native_inquiry_adapter_preserves_identity_input_parent_and_requires_shadow_map ... ok
+test pd_lgc_frontend::tests::native_inquiry_adapter_refuses_clock_identity_and_scope_relabeling ... ok
+test pd_light::tests::candidate_or_iz_tamper_is_rejected ... ok
+test pd_light::tests::complete_continuum_reaches_nura_surface ... ok
+test pd_light::tests::continuum_basis_must_match_the_constitutional_shadow_pair ... ok
+test pd_light::tests::delivery_routes_same_verified_iz_to_nura_and_emotional_ui ... ok
+test pd_light::tests::living_trust_tamper_is_rejected ... ok
+test pd_light::tests::round_trip_45_body_fields ... ok
+test pd_light::tests::terminal_receipt_closes_only_the_same_light_gcl_cycle_and_verdict ... ok
+test pd_light::tests::verified_output_text_tamper_is_rejected ... ok
+test pd_operational_bridge::history_bridge_tests::history_binds_full_query_and_transports_no_knowledge_status ... ok
+test pd_operational_bridge::lgc_transport_tests::lgc_read_routes_are_available_only_on_shadow_and_never_arbitrary_commands ... ok
+test pd_operational_bridge::lgc_transport_tests::native_bundle_transport_accepts_its_contract_bound_without_widening_other_routes ... ok
+test pd_operational_bridge::r31_delivery_tests::r31_exact_publication_is_triggered_and_failed_retry_is_not_success ... ok
+test pd_operational_bridge::r34_native_resume_dispatch_tests::native_resume_reaches_its_owner_validated_handler_without_accepting_unknown_pd_commands ... ok
+test phase9_integration::tests::empty_history_still_interprets ... ok
+test phase9_integration::tests::light_law_requires_the_materialized_gcl_formula_anchor ... ok
+test phase9_integration::tests::output_never_verdict ... ok
+test phase9_integration::tests::runtime_evidence_closes_positive_and_negative_cycles_without_transport_noise ... ok
+test phase9_integration::tests::runtime_route_key_is_stable_and_requires_the_complete_gcl_atom ... ok
+test phase9_integration::tests::spine9_wired_produces_trust_not_verdict ... ok
+test phase9_integration::tests::spine_runs_light_interprets_only ... ok
+test phase9_integration::tests::terminal_binding_rejects_formula_lineage_drift_after_snapshot ... ok
+test phase9_integration::tests::terminal_binding_rejects_same_handle_with_different_route_sha256 ... ok
+test phase9_integration::tests::terminal_evidence_identity_covers_the_complete_return_envelope ... ok
+test primitive_split::tests::command_intent_last_term_becomes_target ... ok
+test primitive_split::tests::deterministic_same_input_same_split ... ok
+test primitive_split::tests::empty_terms_no_material_honest_refusal_path ... ok
+test primitive_split::tests::invariants_disjoint_and_complete ... ok
+test primitive_split::tests::mini_algorithm_guarantees_axis_when_all_attributes ... ok
+test primitive_split::tests::shqiponja_example_attributes_to_xi_axis_to_yi ... ok
+test project_process_bridge::tests::shadow_binary_name_exists_for_platform ... ok
+test project_process_bridge::tests::workspace_response_is_bound_without_authority_or_token ... ok
+test quantum_bridge::quantum_response_contract_tests::iz_context_is_delimiter_safe_exact_and_resource_bounded ... ok
+test quantum_bridge::quantum_response_contract_tests::native_clock_unit_is_explicit_and_failure_never_becomes_zero ... ok
+test quantum_bridge::quantum_response_contract_tests::native_context_wire_is_exact_lowerhex_and_default_is_unchanged ... ok
+test quantum_bridge::quantum_response_contract_tests::r25_late_marker_cannot_mix_native_authority_or_untyped_operational_data ... ok
+test quantum_bridge::quantum_response_contract_tests::r25_owner_resolution_requires_exact_operation_and_full_record ... ok
+test quantum_bridge::quantum_response_contract_tests::r38_diagnostic_failure_preserves_native_result_and_protocol_error ... ok
+test quantum_bridge::quantum_response_contract_tests::r38_success_diagnostics_handle_partial_writes_and_flush ... ok
+test quantum_bridge::quantum_response_contract_tests::r38_success_diagnostics_preserve_exact_bytes_and_native_result ... ok
+test quantum_bridge::quantum_response_contract_tests::response_is_bound_to_the_requested_i0 ... ok
+test quantum_bridge::quantum_response_contract_tests::response_rejects_a_seal_for_another_trace ... ok
+test quantum_bridge::quantum_response_contract_tests::response_rejects_state_or_timestamp_defaults ... ok
+test sovereign::laws::tests::fnv_deterministic ... ok
+test sovereign::laws::tests::module_seals_distinct ... ok
+test sovereign::laws::tests::vula_500_invariant ... ok
+test sovereign::lgc_gate::tests::cap_handle_layout_is_ffi_stable ... ok
+test sovereign::lgc_gate::tests::capability_single_use ... ok
+test sovereign::lgc_gate::tests::copied_handle_cannot_replay_after_consumption ... ok
+test sovereign::lgc_gate::tests::tampered_nonce_is_rejected_without_burning_capability ... ok
+test sovereign_bridges::tests::apupk_handle_single_use ... ok
+test sovereign_bridges::tests::apupk_sealed_transfer_valid ... ok
+test sovereign_bridges::tests::distinct_seals_per_bridge ... ok
+test sovereign_bridges::tests::invalid_seal_rejected ... ok
+test sovereign_bridges::tests::mini_evolver_summary_sealed ... ok
+test sovereign_bridges::tests::project_route_cannot_start_under_a_non_coordination_directive ... ok
+test sovereign_bridges::tests::snb_no_bug_no_transfer ... ok
+test sovereign_bridges::tests::snb_with_bug_sealed ... ok
+test trace_info::tests::authoritative_label_contains_full_i0_and_process_instance ... ok
+test trace_info::tests::clock_failure_is_typed_and_never_becomes_zero ... ok
+test trace_info::tests::separate_process_instances_cannot_share_a_session_label ... ok
+test v168_light_tests::boot_critical_steps_require_one_exact_verified_evidence ... ok
+test v168_light_tests::bounded_ingress_accepts_exact_limit_with_lf_or_crlf ... ok
+test v168_light_tests::bounded_ingress_refuses_empty_invalid_utf8_and_incomplete_frames ... ok
+test v168_light_tests::bounded_ingress_refuses_limit_plus_one_before_request_copy ... ok
+test v168_light_tests::coordination_gate_requires_one_ready_copy_of_each_constitutional_role ... ok
+test v168_light_tests::legacy_handoff_is_written_synced_and_gates_dispatch ... ok
+test v168_light_tests::lgc_block_or_missing_backend_can_never_be_reported_verified ... ok
+test v168_light_tests::mismatched_split_writes_nothing ... ok
+test v168_light_tests::pd_cursor_accepts_only_a_fresh_unique_sealed_session_line ... ok
+test v168_light_tests::pd_cursor_rejects_prefix_rewrite_before_the_fresh_receipt ... ok
+test v168_light_tests::runtime_boot_uses_real_c_kernel ... ok
+
+test result: ok. 237 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 10.59s
+
+     Running tests\process_deadline_contracts.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\poc002_native_hierarchy\debug\deps\process_deadline_contracts-0bd771f37c4bc4eb.exe)
+
+running 7 tests
+test blocked_stdin_obeys_deadline_and_retains_output ... FAILED
+test descendant_pipe_does_not_outlive_deadline_workers ... ok
+test missing_binary_is_spawn_failure ... ok
+test nonzero_status_and_its_evidence_are_preserved ... ok
+test output_is_bounded_while_pipes_keep_draining ... ok
+test project_without_input_obeys_deadline ... retained-before-wait
+stderr-before-wait
+ok
+test valid_payload_and_output_are_byte_exact ... ok
+
+failures:
+
+---- blocked_stdin_obeys_deadline_and_retains_output stdout ----
+
+thread 'blocked_stdin_obeys_deadline_and_retains_output' (14184) panicked at light\tests\process_deadline_contracts.rs:35:5:
+assertion failed: String::from_utf8_lossy(&e.stdout).contains("retained-before-wait")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    blocked_stdin_obeys_deadline_and_retains_output
+
+test result: FAILED. 6 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 3.38s
+
+error: test failed, to rerun pass `-p light-platform --test process_deadline_contracts`

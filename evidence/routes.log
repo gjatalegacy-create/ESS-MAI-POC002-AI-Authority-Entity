@@ -1,0 +1,10 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.11s
+     Running unittests src\lib.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\poc002_native_hierarchy\debug\deps\quantum_lim-e168322c48334f93.exe)
+
+running 3 tests
+test npro::kie_tests::r28_real_model_endpoints_hold_on_missing_capacity_without_claiming_tested_zero ... ok
+test npro::kie_tests::r28_real_model_endpoints_reject_resealed_foreign_scope_and_wrong_directive ... ok
+test npro::kie_tests::r28_real_model_endpoints_route_kis_and_kic_separately_and_preserve_original_stop ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 695 filtered out; finished in 0.12s
+

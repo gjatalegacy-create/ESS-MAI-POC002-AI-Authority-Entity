@@ -1,0 +1,56 @@
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=3e241ebbd4c92b3aa7f6fd58b125b6ec6371934470780003c0593435f539f938 pid=11312 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=1 callback=ENTER authority=0 pid=11312
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=1 callback=RETURNED_OK authority=0 pid=11312
+[0-NOI] site=SHADOW_PD_LGC_READ scope=f1ac1e61eeafddf83a198c8d14170662ca54645946c9e3167a7902b7b3cbcc78 pid=26088 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_LGC_READ occurrence=1 callback=ENTER authority=0 pid=26088
+[NOI_DELIVERY] site=SHADOW_PD_LGC_READ occurrence=1 callback=RETURNED_OK authority=0 pid=26088
+[SHADOW/PD] kind=lgc-read result=OperationalOnly verdict=None knowledge_write=0
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=c5de3f38a0f0c86137dc5b7104afa1ba409f81e0d4072766da4ae04105d0d566 pid=11312 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=2 callback=ENTER authority=0 pid=11312
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=2 callback=RETURNED_OK authority=0 pid=11312
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=17136 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=17136
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=17136
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=18e6c11c679414c5feb916c0fbbed9d14dcaf9260718bc8c9ac5ee551bef1cc5 pid=11312 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=3 callback=ENTER authority=0 pid=11312
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=3 callback=RETURNED_OK authority=0 pid=11312
+[PDS2/0-NOI] exact operation before clock or ingest
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=39344 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=39344
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=39344
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[PDS2/0-NOI] resolve current same-Vault scoped question
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=6044 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=1 callback=ENTER authority=0 pid=6044
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=1 callback=RETURNED_OK authority=0 pid=6044
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[PDS2/0-NOI] D-BAB retain exact actual missing ASHT observation
+[PDS2/0-NOI] restore actual scoped PD
+[PDS2/0-NOI] evaluate explicit offline scoped query
+[PDS2/0-NOI] assemble actual result and evidence question
+[PDS2/0-NOI] ingest actual user i0 once
+[PDS2/0-NOI] export same PD checkpoint
+[PDS2/0-NOI] request same-Vault operational append
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=34400 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=34400
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=34400
+[0-NOI] site=SHADOW_PD_HEAD scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=34400 occurrence=2 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=ENTER authority=0 pid=34400
+[NOI_DELIVERY] site=SHADOW_PD_HEAD occurrence=2 callback=RETURNED_OK authority=0 pid=34400
+[0-NOI] site=SHADOW_PERSIST_PD scope=23f17c0f065e6b27120235e901155045203b8c4f25dede27ec9e80a46080517a pid=34400 occurrence=3 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PERSIST_PD occurrence=3 callback=ENTER authority=0 pid=34400
+[NOI_DELIVERY] site=SHADOW_PERSIST_PD occurrence=3 callback=RETURNED_OK authority=0 pid=34400
+[SHADOW/PD] kind=commit result=OperationalOnly verdict=None knowledge_write=0
+[PDS2/0-NOI] read exact durable operation
+[0-NOI] site=SHADOW_PD_OPERATION scope=559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8 pid=4112 occurrence=1 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=ENTER authority=0 pid=4112
+[NOI_DELIVERY] site=SHADOW_PD_OPERATION occurrence=1 callback=RETURNED_OK authority=0 pid=4112
+[SHADOW/PD] kind=head result=OperationalOnly verdict=None knowledge_write=0
+[PDS2] record=23f17c0f065e6b27120235e901155045203b8c4f25dede27ec9e80a46080517a revision=3 OperationalNoVerdict knowledge_write=0
+[0-NOI] site=LIGHT_EXACT_BYTES_PUBLISH scope=b42100c79a95e6028b853145d3524c79bd82dcb77f89e4b6e7a01a5da54ef11f pid=11312 occurrence=4 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=4 callback=ENTER authority=0 pid=11312
+[NOI_DELIVERY] site=LIGHT_EXACT_BYTES_PUBLISH occurrence=4 callback=RETURNED_OK authority=0 pid=11312
+[0-NOI] site=LIGHT_OPERATIONAL_OUTPUT scope=23f17c0f065e6b27120235e901155045203b8c4f25dede27ec9e80a46080517a pid=11312 occurrence=5 trigger=1 authority=0 evidence=0 verdict=0 persistence=0
+[NOI_DELIVERY] site=LIGHT_OPERATIONAL_OUTPUT occurrence=5 callback=ENTER authority=0 pid=11312
+[NOI_DELIVERY] site=LIGHT_OPERATIONAL_OUTPUT occurrence=5 callback=RETURNED_OK authority=0 pid=11312

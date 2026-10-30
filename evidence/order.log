@@ -1,0 +1,8 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.12s
+     Running unittests src\lib.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\poc002_native_hierarchy\debug\deps\quantum_lim-e168322c48334f93.exe)
+
+running 1 test
+test runtime_pulse::runtime_pulse_tests::convergence_retains_canonical_order_uniqueness_and_replay_binding ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 697 filtered out; finished in 0.00s
+

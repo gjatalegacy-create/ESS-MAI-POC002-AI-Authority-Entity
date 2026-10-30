@@ -1,0 +1,8 @@
+CASE=diagnostic-first START_EPOCH_NS=1793380611102939500 TIMEOUT_MS=750 INPUT_BYTES=65536 CAPTURE_LIMIT=1024
+WALL_ELAPSED_NS=1482276800
+STDOUT_LEN=0 STDERR_LEN=0
+STDOUT_BYTES=[]
+STDERR_BYTES=[]
+STDOUT_MARKER=false STDERR_MARKER=false
+FULL_FAILURE=ProcessFailure { spawn_failed: false, timed_out: true, elapsed: 1.4818559s, detail: "transport deadline exceeded; direct_child_kill=Ok(()); child_reaped=true; pending_io_workers=0; cleanup_complete=true; cleanup_error=None", stdout: [], stderr: [] }
+CHILD_MARKERS=Err(Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." })

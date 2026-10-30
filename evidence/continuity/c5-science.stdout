@@ -1,0 +1,36 @@
+╔══ [LIGJI I LEXUAR] platforma=LIGHT vula=90b17ec6bdaa58f1 ══╗
+║ GJATA_COLLAPSE_LAW — ligji ekzekutiv i identitetit të ESS-MAI:
+║ çdo Primitive Anchor DETYROHET të kalojë nëpër koordinim, eliminim,
+║ arsyetim dhe verifikim deri në një gjendje të vetme të qëndrueshme
+║ (D ∈ {0,1} ose XY).
+║ Zinxhiri: i0→Trace→PA→Xi‖Yi→CoordinateCollapse→LIM→(-Xi)+(-Yi)→PRO→
+║ i≈XY→APRO→MPRO→XY→PIM/NPIM→Shadow→VerificationCollapse→D∈{0,1}.
+║ LAW 0: çdo gjendje ul pasigurinë (kurrë zgjerim; shkelje = fail-closed).
+║ Muskujt: alnur_karina_athar (Light) · ultimatum_collapse_law (Quantum) ·
+║ verefied_diary_supremelaw (Shadow). ESS-MAI == gjata_collapse_law.
+║ Probabilitet FAKTIK (matje×evidencë) — kurrë probabilitet LLM.
+║ NDARJE: 'Primitive Anchor' (PA) = HYRJA (Light, vulë 500); ndryshe nga
+║ 'UNANIM_PRIMITIVE' (Shadow, ∏ᵢXᵢ=1) = dija E VERIFIKUAR. PA hyn, 
+║ UNANIM_PRIMITIVE del i verifikuar — role të ndryshme, pa përplasje.
+╠══ REGJISTRI: 10 LIGJE AKTIVE · vula 7c73fa4c86c35a6f ══╣
+╠══ 3 ROLE EKZEKUTIVE (JO AGJENTË) ══╣
+╚══ ESS-MAI == gjata_collapse_law — ligji është gjallë ══╝
+╔══ [LIGJI I LEXUAR] platforma=QUANTUM vula=90b17ec6bdaa58f1 ══╗
+║ GJATA_COLLAPSE_LAW — ligji ekzekutiv i identitetit të ESS-MAI:
+║ çdo Primitive Anchor DETYROHET të kalojë nëpër koordinim, eliminim,
+║ arsyetim dhe verifikim deri në një gjendje të vetme të qëndrueshme
+║ (D ∈ {0,1} ose XY).
+║ Zinxhiri: i0→Trace→PA→Xi‖Yi→CoordinateCollapse→LIM→(-Xi)+(-Yi)→PRO→
+║ i≈XY→APRO→MPRO→XY→PIM/NPIM→Shadow→VerificationCollapse→D∈{0,1}.
+║ LAW 0: çdo gjendje ul pasigurinë (kurrë zgjerim; shkelje = fail-closed).
+║ Muskujt: alnur_karina_athar (Light) · ultimatum_collapse_law (Quantum) ·
+║ verefied_diary_supremelaw (Shadow). ESS-MAI == gjata_collapse_law.
+║ Probabilitet FAKTIK (matje×evidencë) — kurrë probabilitet LLM.
+║ NDARJE: 'Primitive Anchor' (PA) = HYRJA (Light, vulë 500); ndryshe nga
+║ 'UNANIM_PRIMITIVE' (Shadow, ∏ᵢXᵢ=1) = dija E VERIFIKUAR. PA hyn, 
+║ UNANIM_PRIMITIVE del i verifikuar — role të ndryshme, pa përplasje.
+╠══ REGJISTRI: 10 LIGJE AKTIVE · vula 7c73fa4c86c35a6f ══╣
+╠══ 3 ROLE EKZEKUTIVE (JO AGJENTË) ══╣
+╚══ ESS-MAI == gjata_collapse_law — ligji është gjallë ══╝
+Operational_iZ KiE-MATH-1 — Rasti lgc-824d5388a12f26103c78cac6f16283ad64f17609d489d1415f51d86648676c33; fusha WORK→NURA; detyrimi ASHT exact positive-negative distinction; operacioni poc002-c5. MODEL_RESULT MODEL_COMPUTED: ERA=4.02283724002813869e-1 rad; pretendimi=0.00000000000000000e0 rad; residual_rad=4.02283724002813869e-1; toleranca=9.99999999999999980e-13 rad. F64hex ERA=3fd9bf043b938800 pretendimi=0000000000000000 r=3fd9bf043b938800 toleranca=3d719799812dea11. KiS=0 KiC=1 U=0; r > toleranca: kundërshtim i pretendimit numerik nën modelin dhe hyrjet e deklaruara. KiS/KiC/U janë tregues logjikë të krahasimit, jo probabilitet ose masë historike. Relevanca e propozuar USER_REPORTED: Same Earth rotation investigation, restricted to the declared era00 model; user labels are unverified.. Cila evidencë e kontrollueshme sqaron mospërputhjen ndërmjet pretendimit dhe rezultatit? Jep burimin e hyrjeve UT1, pretendimit dhe tolerancës së deklaruar; ruaj mospërputhjen derisa kjo evidencë të verifikohet. Mungesa historike e dëshmuar në prind ruhet si referencë e veçantë; ky llogaritim nuk pretendon një përzgjedhje të re ASHT dhe nuk e shndërron mungesën në kundërprovë shkencore. model_sha256=dad01a7db2a1414d71162100c598dcd354739cc80f9f116fb4a4bf0144ea834e; query_sha256=411dda1204528e96b506815691b2678f76e88b6abc705238bdfefa888c33fea7; result_sha256=c1413de1874aa3428158bba07f1a4ed261ab8eadde268e172d49a5c4b3102b4d; prind_record=bfc6a69f52847bae942e84a64104a6c6a35828ef2f9466c16569c03af4c991d0; prind_pyetje_sha256=9e1e12961ed1ec365a324632d3751b4d080964642439af00629a440fbe2d81d8; lgc_prind=acc2234b2c9293ce4b41fa45f86702b1ceb01f9fff0f9efddd725c2cec8c678b. OperationalNoVerdict; pa autoritet të ri; pa pranim K+/K- ose 0:0/1:1. Pyetja kërkon evidencë nga përdoruesi; nuk parashikon i0 pasues.
+{"authority_transferred":false,"candidate_status":"unadmitted_model_material","identity_key":"559469c4e71ca1020da12bdc208ca01fcb0fa883066e24b04e74a550df667bf8","kind":"OperationalNoVerdict","knowledge_verdict":null,"light_role":"transmitter","next_user_i0":null,"operation_id":"poc002-c5","question":"Operational_iZ KiE-MATH-1 — Rasti lgc-824d5388a12f26103c78cac6f16283ad64f17609d489d1415f51d86648676c33; fusha WORK→NURA; detyrimi ASHT exact positive-negative distinction; operacioni poc002-c5. MODEL_RESULT MODEL_COMPUTED: ERA=4.02283724002813869e-1 rad; pretendimi=0.00000000000000000e0 rad; residual_rad=4.02283724002813869e-1; toleranca=9.99999999999999980e-13 rad. F64hex ERA=3fd9bf043b938800 pretendimi=0000000000000000 r=3fd9bf043b938800 toleranca=3d719799812dea11. KiS=0 KiC=1 U=0; r > toleranca: kundërshtim i pretendimit numerik nën modelin dhe hyrjet e deklaruara. KiS/KiC/U janë tregues logjikë të krahasimit, jo probabilitet ose masë historike. Relevanca e propozuar USER_REPORTED: Same Earth rotation investigation, restricted to the declared era00 model; user labels are unverified.. Cila evidencë e kontrollueshme sqaron mospërputhjen ndërmjet pretendimit dhe rezultatit? Jep burimin e hyrjeve UT1, pretendimit dhe tolerancës së deklaruar; ruaj mospërputhjen derisa kjo evidencë të verifikohet. Mungesa historike e dëshmuar në prind ruhet si referencë e veçantë; ky llogaritim nuk pretendon një përzgjedhje të re ASHT dhe nuk e shndërron mungesën në kundërprovë shkencore. model_sha256=dad01a7db2a1414d71162100c598dcd354739cc80f9f116fb4a4bf0144ea834e; query_sha256=411dda1204528e96b506815691b2678f76e88b6abc705238bdfefa888c33fea7; result_sha256=c1413de1874aa3428158bba07f1a4ed261ab8eadde268e172d49a5c4b3102b4d; prind_record=bfc6a69f52847bae942e84a64104a6c6a35828ef2f9466c16569c03af4c991d0; prind_pyetje_sha256=9e1e12961ed1ec365a324632d3751b4d080964642439af00629a440fbe2d81d8; lgc_prind=acc2234b2c9293ce4b41fa45f86702b1ceb01f9fff0f9efddd725c2cec8c678b. OperationalNoVerdict; pa autoritet të ri; pa pranim K+/K- ose 0:0/1:1. Pyetja kërkon evidencë nga përdoruesi; nuk parashikon i0 pasues.","question_binding":"038ff394939e63e2a42d79e91635c87d434c95d0e55dea162b774d4d9936e6bd","record_id":"c1a1c61399957ff22d4683d4f4fca3c8492732c2d2faaba9d9cdda4bf874e752","revision":5,"spine9_verified":false,"state_digest":"100f1fbaf66e2c83b8d6211ebbebaec0d2c2938942258329335a6b1e7bb7490b"}

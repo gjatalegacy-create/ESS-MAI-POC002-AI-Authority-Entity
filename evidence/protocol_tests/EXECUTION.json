@@ -1,0 +1,82 @@
+[
+  {
+    "test": "native_gateway_exact_replay_refuses_changed_request_and_legacy_snapshot",
+    "command": [
+      "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\cargo.exe",
+      "test",
+      "--offline",
+      "--locked",
+      "-p",
+      "shadow_platform",
+      "--bin",
+      "shadow_platform",
+      "native_gateway_exact_replay_refuses_changed_request_and_legacy_snapshot",
+      "--",
+      "--test-threads=1"
+    ],
+    "exit_code": 0,
+    "passed": 1,
+    "seconds": 58.47,
+    "log_sha256": "80c8166244547384e88ba3d6fd60185ffb568837e28b2e8049965420e2a6c742"
+  },
+  {
+    "test": "same_cycle_changed_snapshot_is_conflict_in_live_commit_and_replay",
+    "command": [
+      "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\cargo.exe",
+      "test",
+      "--offline",
+      "--locked",
+      "-p",
+      "shadow_platform",
+      "--bin",
+      "shadow_platform",
+      "same_cycle_changed_snapshot_is_conflict_in_live_commit_and_replay",
+      "--",
+      "--test-threads=1"
+    ],
+    "exit_code": 0,
+    "passed": 1,
+    "seconds": 0.25,
+    "log_sha256": "2ae3650e58ef3d2cd33f9a11bb87ea44709fa91ffb7307462af7b71ab4a914d3"
+  },
+  {
+    "test": "real_disk_t1_reopen_t2_is_exact_and_retry_does_not_append",
+    "command": [
+      "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\cargo.exe",
+      "test",
+      "--offline",
+      "--locked",
+      "-p",
+      "shadow_platform",
+      "--bin",
+      "shadow_platform",
+      "real_disk_t1_reopen_t2_is_exact_and_retry_does_not_append",
+      "--",
+      "--test-threads=1"
+    ],
+    "exit_code": 0,
+    "passed": 1,
+    "seconds": 0.66,
+    "log_sha256": "3f9cb3a4c52d0df6e3b47eaa0f4f802c235e226187bffc05337df9d472ee66e6"
+  },
+  {
+    "test": "native_pd_followup_requires_durable_t2_and_latest_head_across_reopen",
+    "command": [
+      "C:\\Users\\AG\\.rustup\\toolchains\\stable-x86_64-pc-windows-gnu\\bin\\cargo.exe",
+      "test",
+      "--offline",
+      "--locked",
+      "-p",
+      "shadow_platform",
+      "--bin",
+      "shadow_platform",
+      "native_pd_followup_requires_durable_t2_and_latest_head_across_reopen",
+      "--",
+      "--test-threads=1"
+    ],
+    "exit_code": 0,
+    "passed": 1,
+    "seconds": 1.44,
+    "log_sha256": "3663cdf39d341789960c969de82eda457ab988e1033b5ddc0a7ae1cc48573bd9"
+  }
+]

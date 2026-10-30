@@ -1,0 +1,38 @@
+POC002 process deadline / retained-output diagnostic
+2026-10-30. Diagnostic execution only; no runtime correction.
+
+Result
+The same missing-output symptom was reproduced using the unchanged native process_deadline.rs and an exact copy of its original child fixture. An additional external control measured a concrete cause that can produce it: a first Command::spawn for a newly compiled executable can take longer than the entire 750ms transport budget, before the child reaches its output statements.
+
+Exact native transport (all input=65536 bytes, timeout=750ms, capture limit=1024)
+- original_a, first execution: stdout 21 bytes, stderr 19; both markers retained; elapsed 760.1453ms.
+- original_a, second execution: same output; elapsed 757.8433ms.
+- freshly compiled original_b, first execution: both outputs empty; elapsed 1171.0686ms.
+- external instrumented fixture, first execution: both outputs empty; elapsed 1481.8559ms; MAIN_ENTERED marker file absent.
+- same instrumented executable, second execution: stdout 21/stderr 19 bytes; MAIN_ENTERED after 21.8582ms and STDOUT_FLUSHED after 24.2711ms; elapsed 760.3284ms.
+Every native-transport case returned timed_out=true, spawn_failed=false and cleanup_complete=true with pending_io_workers=0.
+
+Independent spawn-stage control
+This control measures Command::spawn separately, then kills at 750ms total or immediately when an already-overdue spawn returns. It does not replace the native transport test.
+- fresh diagnostic_c: spawn 1048.9839ms; no child main/flush markers; empty stdout/stderr.
+- same diagnostic_c, second start: spawn 11.4982ms; main entered after 25.6380ms; both output markers retained.
+- fresh diagnostic_d: spawn 1148.7895ms; no child main/flush markers; empty stdout/stderr.
+- same diagnostic_d, second start: spawn 9.4247ms; main entered after 16.4560ms; both output markers retained.
+
+Interpretation and limits
+The native function starts its clock before the synchronous spawn (process_deadline.rs:164-169), checks expiry after pipe-worker setup (:200), and then cancels/kills on expiry. The test requires output unconditionally at process_deadline_contracts.rs:35, but has no child-ready or flush acknowledgement. A spawn that has already exhausted the budget therefore explains why an otherwise completed timeout cleanup can return no marker.
+This control demonstrates that mechanism on this host. The original Cargo failure did not record spawn timing, so its exact internal chronology cannot be recovered retrospectively. The operating-system reason for the slow first start remains unproven; neither antivirus nor CPU pressure is asserted as the cause. The observation is not evidence of output being discarded after a demonstrated successful flush. A separate cancellation/drain race remains a code-level possibility, not a reproduced cause in these runs.
+The 750ms deadline is not a hard preemptive bound on synchronous process creation: observed total duration can exceed it before the timeout loop gets control. These experiments preserve that limitation rather than hiding it.
+No timeout, assertion, threshold, native file, Cargo configuration or published source was changed. This does not turn the failed workspace run green. A future test correction must distinguish process startup/readiness from retention of output already emitted, while preserving the original transport budget and recording the first failure.
+
+Native integrity
+process_deadline.rs SHA-256: f0c218fa15d9c8b2af74258b77a61f5033314b324dd6ef2b014c6872d66c1531
+process_deadline_child.rs SHA-256: c2550e881914f6bd2c4d13480bfe5587d64096d41121ac1f9d5f6db238ebeec0
+The original fixture copy matches exactly. Before/after hashes are in DIAGNOSTIC_RECEIPT.json. Rust toolchain: rustc 1.98.0 (88d9e12ae 2026-08-18), Windows GNU.
+
+Evidence
+DIAGNOSTIC_RECEIPT.json: exact commands, timestamps and before/after native hashes.
+original-a-first.stdout.log; original-a-second.stdout.log; original-b-first.stdout.log: full native ProcessFailure and raw bytes.
+diagnostic-first.stdout.log; diagnostic-second.stdout.log: exact native transport with external-only marker instrumentation.
+SPAWN_CONTROL_RECEIPT.json; spawn-c-first.stdout.log; spawn-c-second.stdout.log; spawn-d-first.stdout.log; spawn-d-second.stdout.log: isolated spawn measurements.
+All generated source, binaries, logs and marker files are confined to evidence/poc002_publication_20261030/transport_probe. No full Cargo run was performed by this subtask.

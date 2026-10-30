@@ -1,0 +1,41 @@
+   Compiling version_check v0.9.5
+   Compiling proc-macro2 v1.0.106
+   Compiling generic-array v0.14.7
+   Compiling typenum v1.20.1
+   Compiling unicode-ident v1.0.24
+   Compiling quote v1.0.46
+   Compiling serde_core v1.0.228
+   Compiling block-buffer v0.10.4
+   Compiling crypto-common v0.1.7
+   Compiling zmij v1.0.23
+   Compiling digest v0.10.7
+   Compiling syn v2.0.119
+   Compiling cpufeatures v0.2.17
+   Compiling serde_json v1.0.150
+   Compiling shlex v2.0.1
+   Compiling cfg-if v1.0.4
+   Compiling find-msvc-tools v0.1.9
+   Compiling serde v1.0.228
+   Compiling cc v1.3.0
+   Compiling sha2 v0.10.9
+   Compiling serde_derive v1.0.228
+   Compiling itoa v1.0.18
+   Compiling memchr v2.8.3
+   Compiling quantum-platform v1.7.8 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\quantum)
+   Compiling sofars v0.6.1 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\vendor\sofars-0.6.1)
+   Compiling shadow_contracts v1.7.8 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\shadow-contracts)
+   Compiling science-domains v0.1.0 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\science-domains)
+   Compiling gcl-constitution v1.7.8 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\gcl-constitution)
+   Compiling ess-mai-zero-noi v0.0.4 (C:\Users\AG\Desktop\ess-mai-project\poc\poc-002-ai-authority-entity\native\runtime\zero-noi)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 1m 16s
+     Running unittests src\lib.rs (C:\Users\AG\Desktop\ess-mai-project\_audit_build_cache\poc002_native_hierarchy\debug\deps\quantum_lim-e168322c48334f93.exe)
+
+running 5 tests
+test ultimatum_collapse_law::scoped_route_tests::batch_is_one_upper_transition_with_two_distinct_subordinate_scopes ... ok
+test ultimatum_collapse_law::tests::full_lawful_reasoning_chain ... ok
+test ultimatum_collapse_law::tests::lim_measurement_before_asht_is_breach ... ok
+test ultimatum_collapse_law::tests::ultimatum_before_mpro_is_breach ... ok
+test ultimatum_collapse_law::tests::wrong_phase_refused ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 693 filtered out; finished in 0.00s
+

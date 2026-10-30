@@ -1,0 +1,299 @@
+[
+  {
+    "step": "c1-run",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\light-platform.exe",
+      "--iz-lgc-new-once",
+      "poc002-c1",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c1.txt",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c1.lgc"
+    ],
+    "exit_code": 0,
+    "seconds": 2.031
+  },
+  {
+    "step": "c1-inspect",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\examples\\pd_iz_input.exe",
+      "inspect-lgc-result",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c1.lgc"
+    ],
+    "exit_code": 0,
+    "seconds": 0.281
+  },
+  {
+    "step": "c1-ref",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\examples\\pd_iz_input.exe",
+      "export-lgc-result",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c1.lgc",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c1.ref"
+    ],
+    "exit_code": 0,
+    "seconds": 0.031
+  },
+  {
+    "step": "c2-run",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\light-platform.exe",
+      "--iz-lgc-reply-once",
+      "poc002-c2",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c1.ref",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c2.txt",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c2.lgc"
+    ],
+    "exit_code": 0,
+    "seconds": 1.703
+  },
+  {
+    "step": "c2-inspect",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\examples\\pd_iz_input.exe",
+      "inspect-lgc-result",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c2.lgc"
+    ],
+    "exit_code": 0,
+    "seconds": 0.063
+  },
+  {
+    "step": "c2-ref",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\examples\\pd_iz_input.exe",
+      "export-lgc-result",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c2.lgc",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c2.ref"
+    ],
+    "exit_code": 0,
+    "seconds": 0.047
+  },
+  {
+    "step": "c3-science",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\light-platform.exe",
+      "--iz-science-answer-once",
+      "poc002-c3",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c2.ref",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c3.json",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c3.pds"
+    ],
+    "exit_code": 0,
+    "seconds": 1.438
+  },
+  {
+    "step": "c3-science-inspect",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\examples\\pd_iz_input.exe",
+      "inspect-science",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c3.pds"
+    ],
+    "exit_code": 0,
+    "seconds": 0.016
+  },
+  {
+    "step": "c3-native",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\light-platform.exe",
+      "--kie-cycle-once",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c3.pds",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c3.lookup"
+    ],
+    "exit_code": 0,
+    "seconds": 2.594
+  },
+  {
+    "step": "c3-recover",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\light-platform.exe",
+      "--pd-native-recover-once",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c3.lookup",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c3.bundle"
+    ],
+    "exit_code": 0,
+    "seconds": 0.547
+  },
+  {
+    "step": "c3-inspect",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\examples\\pd_recovery_inspect.exe",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c3.bundle"
+    ],
+    "exit_code": 0,
+    "seconds": 0.187
+  },
+  {
+    "step": "c4-run",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\light-platform.exe",
+      "--iz-native-reply-once",
+      "poc002-c4",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c3.lookup",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c4.txt",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c4.lgc"
+    ],
+    "exit_code": 0,
+    "seconds": 5.562
+  },
+  {
+    "step": "c4-inspect",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\examples\\pd_iz_input.exe",
+      "inspect-lgc-result",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c4.lgc"
+    ],
+    "exit_code": 0,
+    "seconds": 0.047
+  },
+  {
+    "step": "c4-ref",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\examples\\pd_iz_input.exe",
+      "export-lgc-result",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c4.lgc",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c4.ref"
+    ],
+    "exit_code": 0,
+    "seconds": 0.047
+  },
+  {
+    "step": "c5-science",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\light-platform.exe",
+      "--iz-science-answer-once",
+      "poc002-c5",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c4.ref",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c5.json",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c5.pds"
+    ],
+    "exit_code": 0,
+    "seconds": 4.0
+  },
+  {
+    "step": "c5-science-inspect",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\examples\\pd_iz_input.exe",
+      "inspect-science",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c5.pds"
+    ],
+    "exit_code": 0,
+    "seconds": 0.032
+  },
+  {
+    "step": "c5-native",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\light-platform.exe",
+      "--kie-cycle-once",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c5.pds",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c5.lookup"
+    ],
+    "exit_code": 0,
+    "seconds": 9.11
+  },
+  {
+    "step": "c5-recover",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\light-platform.exe",
+      "--pd-native-recover-once",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c5.lookup",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c5.bundle"
+    ],
+    "exit_code": 0,
+    "seconds": 1.172
+  },
+  {
+    "step": "c5-inspect",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\examples\\pd_recovery_inspect.exe",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c5.bundle"
+    ],
+    "exit_code": 0,
+    "seconds": 0.188
+  },
+  {
+    "step": "c3-replay-t1",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\shadow_platform.exe",
+      "--bridge-pd-once",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\handoff\\native_pd_intents\\bf3485d403a475e92208c6a92cc2a1968e8f4dd386869d24d1650183473cbaef-96aa9b7d6a295ca5642103ca13ea83167f15924f99324a7067453b19eebcf46a.pdt1",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c3-replayed-response.bin"
+    ],
+    "exit_code": 0,
+    "seconds": 0.875
+  },
+  {
+    "step": "c3-replay-t2-1",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\shadow_platform.exe",
+      "--pd-finalize-once",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c3.finalize.lookup",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c3-replayed-t2-1.bin"
+    ],
+    "exit_code": 0,
+    "seconds": 0.688
+  },
+  {
+    "step": "c3-replay-t2-2",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\shadow_platform.exe",
+      "--pd-finalize-once",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c3.finalize.lookup",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c3-replayed-t2-2.bin"
+    ],
+    "exit_code": 0,
+    "seconds": 0.703
+  },
+  {
+    "step": "c3-conflict",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\shadow_platform.exe",
+      "--pd-finalize-once",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c3-conflicting.lookup",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c3-conflict-output.bin"
+    ],
+    "exit_code": 70,
+    "seconds": 0.672
+  },
+  {
+    "step": "c5-replay-t1",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\shadow_platform.exe",
+      "--bridge-pd-once",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\handoff\\native_pd_intents\\d74bbb469c99654c8edd8c25d2d929c0b454c653351fbd1a52c62e4b26050303-65d2295ec5b22f5c882f426e95dcc74a7d4f74ebae88877294e432042084d471.pdt1",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c5-replayed-response.bin"
+    ],
+    "exit_code": 0,
+    "seconds": 0.859
+  },
+  {
+    "step": "c5-replay-t2-1",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\shadow_platform.exe",
+      "--pd-finalize-once",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c5.finalize.lookup",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c5-replayed-t2-1.bin"
+    ],
+    "exit_code": 0,
+    "seconds": 0.734
+  },
+  {
+    "step": "c5-replay-t2-2",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\shadow_platform.exe",
+      "--pd-finalize-once",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c5.finalize.lookup",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c5-replayed-t2-2.bin"
+    ],
+    "exit_code": 0,
+    "seconds": 0.969
+  },
+  {
+    "step": "c5-conflict",
+    "command": [
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\_audit_build_cache\\poc002_native_hierarchy\\release\\shadow_platform.exe",
+      "--pd-finalize-once",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c5-conflicting.lookup",
+      "C:\\Users\\AG\\Desktop\\ess-mai-project\\evidence\\poc002_hierarchy_20261030\\continuity_run1\\c5-conflict-output.bin"
+    ],
+    "exit_code": 70,
+    "seconds": 0.813
+  }
+]
